@@ -1,0 +1,3147 @@
+{
+  "metadata": {
+    "name": "Sulfur Complete Ingredient Database",
+    "description": "Comprehensive automated scraping of all ingredients from sulfur.wiki.gg",
+    "scrapedAt": "2025-08-14T00:03:56.136961",
+    "totalIngredients": 114,
+    "source": "automated_ingredient_scraper",
+    "baseUrl": "https://sulfur.wiki.gg",
+    "scrapingMethod": "WebFetch_systematic_extraction",
+    "completionStatus": "complete",
+    "batches": {
+      "pre_existing": 17,
+      "batch_1": 20,
+      "batch_2": 20,
+      "batch_3": 20,
+      "batch_4": 20,
+      "batch_5": 14
+    }
+  },
+  "ingredients": {
+    "Anti-Poison Gum": {
+      "name": "Anti-Poison Gum",
+      "description": "Doesn't taste great but can be an antidote to toxins.",
+      "type": "Consumable",
+      "gridSize": "1\u00d71",
+      "sellingValue": 40,
+      "buyingValue": 80,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/99/Anti-Poison_Gum.png?68510b",
+      "sellers": [
+        "Blond Magus",
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Jar of Poison"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "Poison Resistance +80 for 120 seconds"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Rubber",
+            "Green Glob"
+          ]
+        },
+        {
+          "ingredients": [
+            "Used Rubber",
+            "Green Glob"
+          ]
+        }
+      ]
+    },
+    "Banana": {
+      "name": "Banana",
+      "description": "An elongated, edible fruit. Botanically a berry. Produced by several kinds of large herbaceous flowering plants in the genus Musa.",
+      "type": "Consumable",
+      "gridSize": "2x1",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/6/69/Banana.png?c9ace2",
+      "sellers": [],
+      "usedIn": [
+        "Banana Bread",
+        "Banana Sulfs"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "Heal 20 Health over 10 seconds"
+      ]
+    },
+    "Bread": {
+      "name": "Bread",
+      "description": "A loaf of freshly baked bread made of yeast, flour and water.",
+      "type": "Consumable",
+      "gridSize": "2\u00d71",
+      "sellingValue": 45,
+      "buyingValue": 90,
+      "imageUrl": "https://sulfur.wiki.gg/images/e/e1/Bread.png?ffd5cb",
+      "sellers": [],
+      "usedIn": [
+        "Banana Bread",
+        "Biscuits and Gravy",
+        "Bread Sandwich",
+        "Buddy Sandwich",
+        "Butter Sandwich",
+        "Cheese Sandwich",
+        "Cheeseburger",
+        "Dopp I Grytan",
+        "Double Cheeseburger",
+        "French Hotdog",
+        "Holy Toast",
+        "Liver P\u00e2t\u00e9 Sandwich",
+        "Lussekatt",
+        "Peanutbutter Jelly Sandwich",
+        "Peanutbutter Sandwich",
+        "Pizza",
+        "Toast Skagen"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "Heal 15 health over 10 seconds"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Flour",
+            "Bottled Water"
+          ]
+        },
+        {
+          "ingredients": [
+            "Flour",
+            "2x Bottled Water"
+          ]
+        },
+        {
+          "ingredients": [
+            "2x Flour",
+            "Bottled Water"
+          ]
+        },
+        {
+          "ingredients": [
+            "2x Flour",
+            "2x Bottled Water"
+          ]
+        },
+        {
+          "ingredients": [
+            "Flour",
+            "Any Milk"
+          ]
+        },
+        {
+          "ingredients": [
+            "Flour",
+            "2x Any Milk"
+          ]
+        },
+        {
+          "ingredients": [
+            "2x Flour",
+            "Any Milk"
+          ]
+        },
+        {
+          "ingredients": [
+            "2x Flour",
+            "2x Any Milk"
+          ]
+        }
+      ]
+    },
+    "Butter": {
+      "name": "Butter",
+      "description": "Cow's milk that has been churned into thick butter.",
+      "type": "Consumable",
+      "gridSize": "2\u00d71",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Butter Sandwich",
+        "Buttermilk",
+        "Buttermilk Pancakes",
+        "Cheese Sandwich",
+        "Chocolate Ball",
+        "Chocolate Mudcake",
+        "Cuisses De Grenouille",
+        "Escargot",
+        "Fried Mushroom",
+        "Gravy",
+        "Leverpastej",
+        "Nut Spread",
+        "Rhubarb Pie",
+        "Swedish Pancakes",
+        "Toast Skagen",
+        "Tube Caviar"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "15 health over 10 seconds"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Whole Milk x2"
+          ]
+        },
+        {
+          "ingredients": [
+            "Fatberg Chunk x2"
+          ]
+        }
+      ]
+    },
+    "Cheese": {
+      "name": "Cheese",
+      "description": "Very tasty on its own. Or with bread. Smelly humans love it.",
+      "type": "Consumable",
+      "gridSize": "1\u00d71",
+      "sellingValue": 50,
+      "buyingValue": 100,
+      "imageUrl": "",
+      "sellers": [
+        "Rat Queen"
+      ],
+      "usedIn": [
+        "Cheese Sandwich",
+        "Cheese Tops",
+        "Cheeseburger",
+        "Cordon Bleu",
+        "Double Cheeseburger",
+        "Fondue",
+        "Mac'n'Cheese",
+        "Omelette",
+        "Pizza",
+        "Poutine",
+        "Raclette"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "15 health over 10 seconds"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Skimmed Milk x3"
+          ]
+        },
+        {
+          "ingredients": [
+            "Low Fat Milk x2"
+          ]
+        },
+        {
+          "ingredients": [
+            "Whole Milk x3"
+          ]
+        },
+        {
+          "ingredients": [
+            "Buttermilk x3"
+          ]
+        }
+      ]
+    },
+    "Egg": {
+      "name": "Egg",
+      "description": "An uncooked egg. Could be eaten raw or used in cooking.",
+      "type": "Consumable",
+      "gridSize": "1\u00d71",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/2/26/Egg.png?3e325a",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Buttermilk Pancakes",
+        "Chocolate Mudcake",
+        "Egg Toddy",
+        "Full English Breakfast",
+        "Mushroom Omelette",
+        "Omelette",
+        "Pyttipanna",
+        "Ramen",
+        "Spaghetti",
+        "Spanish Omelette"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "5 health over 10 seconds"
+      ]
+    },
+    "Flour": {
+      "name": "Flour",
+      "description": "Someone worked long and hard to separate the wheat from the chaff. Then crushed into a fine powder. Useful in baking.",
+      "type": "Consumable",
+      "gridSize": "2\u00d72",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Fried Blood Pudding",
+        "Bread",
+        "Buttermilk Pancakes",
+        "Cheese Tops",
+        "Chocolate Mudcake",
+        "Cordon Bleu",
+        "Dimmie",
+        "Dumpling",
+        "Hard Bread",
+        "Kidney Pie",
+        "Mochi",
+        "Pizza",
+        "P\u00f6lse",
+        "Rhubarb Pie",
+        "Spaghetti",
+        "Swedish Pancakes"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "5 health over 2.5 seconds"
+      ]
+    },
+    "Fish": {
+      "name": "Fish",
+      "description": "An uncooked of fish. May be cooked or eaten raw if prepared correctly.",
+      "type": "Consumable",
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/fb/Fish.png?110d20",
+      "sellers": [],
+      "usedIn": [
+        "Fish And Chips",
+        "Jansson's Temptation",
+        "Lutfisk",
+        "Maki",
+        "Nigiri",
+        "Pickled Herring Platter",
+        "Salted Fish",
+        "Sashimi",
+        "Surstromming",
+        "Toast Skagen",
+        "Unagi"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "10 health over 2.5 seconds"
+      ]
+    },
+    "Potato": {
+      "name": "Potato",
+      "description": "The root of all roots. Edible but better nutrient value when cooked.",
+      "type": "Consumable",
+      "gridSize": "1x1",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/c/c2/Potato.png?6222da",
+      "sellers": [],
+      "usedIn": [
+        "Fish And Chips",
+        "Jansson's Temptation",
+        "Lutfisk",
+        "Mashed Potatoes",
+        "Pickled Herring Platter",
+        "Poutine",
+        "Pyttipanna",
+        "Raclette",
+        "Spanish Omelette"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "5 health over 3 seconds"
+      ]
+    },
+    "Salt": {
+      "name": "Salt",
+      "description": "The white gold of millenia. Great to mix with liquid for broths, making foods tastier.",
+      "type": "Consumable",
+      "gridSize": "1x1",
+      "sellingValue": 5,
+      "buyingValue": 10,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/77/Salt.png?29c966",
+      "sellers": [],
+      "usedIn": [
+        "Beef Jerky",
+        "Broth",
+        "Buttermilk Pancakes",
+        "Chocolate Ball",
+        "Green Glob",
+        "Kidney Stone",
+        "Leverpastej",
+        "Omelette",
+        "Peanut Butter",
+        "Puffed Rice Cakes",
+        "Rice Porridge",
+        "Salted Fish",
+        "Spice Mix",
+        "Swedish Pancakes"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "1 health over 2 seconds"
+      ]
+    },
+    "Sugar": {
+      "name": "Sugar",
+      "description": "Makes things sweeter.",
+      "type": "Consumable",
+      "gridSize": "2x2",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/a/a9/Sugar.png",
+      "sellers": [],
+      "usedIn": [
+        "Banana Sulfs",
+        "Berry Jam",
+        "Fried Blood Pudding",
+        "Cactus Softdrink",
+        "Chocolate Ball",
+        "Chocolate Mudcake",
+        "Chocolate Syrup",
+        "Cotton Candy",
+        "Egg Toddy",
+        "French Toast",
+        "Julmust",
+        "Jello",
+        "Lackerol Cactus",
+        "Meringue",
+        "Mulled Wine",
+        "Power Bar",
+        "Rhubarb Pie",
+        "Rhubarb Sauce",
+        "Soda",
+        "Sweet Gum",
+        "Vacuum Cleaner",
+        "Rice Porridge"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "10 health over 10 seconds"
+      ]
+    },
+    "Rice": {
+      "name": "Rice",
+      "description": "Bag of rice. Hard to digest when uncooked. Will swell up in contact with water, please don't feed it to birds, it might swell in their stomachs and they can get sick!",
+      "type": "Consumable",
+      "gridSize": "2x2",
+      "sellingValue": 13,
+      "buyingValue": 26,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/da/Rice.png?c62a6c",
+      "sellers": [],
+      "usedIn": [
+        "Boba Tea",
+        "Cereal",
+        "Maki",
+        "Nigiri",
+        "Onigiri",
+        "Puffed Rice Cakes",
+        "Unagi",
+        "Rice Porridge"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "5 health over 5 seconds",
+        "-50% Movement speed for 5 seconds"
+      ]
+    },
+    "Beef Jerky": {
+      "name": "Beef Jerky",
+      "description": "Dried and seasoned protein, most commonly from mammal origin. Responsible for creating truck drivers all over the world.",
+      "type": "Consumable",
+      "gridSize": "1x1",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "",
+      "sellers": [],
+      "usedIn": [
+        "Poutine"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "10 health over 10 seconds"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Any same skin x2"
+          ]
+        },
+        {
+          "ingredients": [
+            "Black Pepper",
+            "Any skin"
+          ]
+        },
+        {
+          "ingredients": [
+            "Salt",
+            "Any skin"
+          ]
+        }
+      ]
+    },
+    "Coffee": {
+      "name": "Coffee",
+      "description": "Very aromatic.",
+      "type": "Consumable",
+      "gridSize": "1x1",
+      "sellingValue": 18,
+      "buyingValue": 36,
+      "imageUrl": "https://sulfur.wiki.gg/images/e/e9/Coffee.png?58e1ff",
+      "sellers": [],
+      "usedIn": [
+        "Chocolate Ball"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "20 health over 10 seconds",
+        "Removes Frozen",
+        "Removes Poisoned"
+      ]
+    },
+    "Berries": {
+      "name": "Berries",
+      "description": "Sweet and sour colorful tiny fruits.",
+      "type": "Consumable",
+      "gridSize": "1\u00d71",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/2/24/Berries.png?fbabb9",
+      "sellers": [
+        "Jaques De Fector"
+      ],
+      "usedIn": [
+        "Berry Jam",
+        "Berry Jam (Unsweetened)",
+        "Berry Milkshake",
+        "Power Bar",
+        "Sweet Gum"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "10 health over 10 seconds"
+      ]
+    },
+    "Cacao": {
+      "name": "Cacao",
+      "description": "This bitter powder is not very tasty on its own, but great for baking and sweet treats.",
+      "type": "Consumable",
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/6/60/Cacao.png?8437ea",
+      "sellers": [],
+      "usedIn": [
+        "Chocolate Ball",
+        "Chocolate Milkshake",
+        "Chocolate Mudcake",
+        "Chocolate Syrup",
+        "Power Bar"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "5 health over 10 seconds"
+      ]
+    },
+    "Herbs": {
+      "name": "Herbs",
+      "description": "Will help many dishes and treats become something extra.",
+      "type": "Consumable",
+      "gridSize": "1x1",
+      "sellingValue": 10,
+      "buyingValue": 20,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/79/Herbs.png?ba3ad3",
+      "sellers": [],
+      "usedIn": [
+        "Admiral White Extra Strong",
+        "Cuisses De Grenouille",
+        "Currywurst",
+        "Escargot",
+        "Health Potion",
+        "Leverpastej",
+        "Omelette",
+        "Pickled Herring Platter",
+        "Pizza",
+        "Spice Mix"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "3 health over 2.5 seconds"
+      ]
+    },
+    "Black Pepper": {
+      "name": "Black Pepper",
+      "description": "The black gold of millennia. Great to mix with liquid for broths, making food tastier.",
+      "type": "Consumable",
+      "gridSize": "1x1",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/2/22/Black_Pepper.png?5917f9",
+      "sellers": [],
+      "usedIn": [
+        "Spice Mix",
+        "Omelette",
+        "Beef Jerky",
+        "Leverpastej"
+      ],
+      "recipeId": "",
+      "specialProperties": [
+        "1 health over 10 seconds"
+      ]
+    },
+    "Heart": {
+      "name": "Heart",
+      "description": "The ticker. Used to keep everything going nice and steady.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 100,
+      "buyingValue": 200,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/d9/Heart.png?386bf0",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Dynamite",
+        "Haggis",
+        "Jar of Love"
+      ],
+      "recipeId": "",
+      "specialProperties": []
+    },
+    "Brain": {
+      "name": "Brain",
+      "description": "The mind is a terrible thing to waste.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 100,
+      "buyingValue": 200,
+      "imageUrl": "https://sulfur.wiki.gg/images/3/3f/Brain.png?2d09a8",
+      "sellers": [],
+      "usedIn": [
+        "French Hotdog",
+        "P\u00f6lse"
+      ],
+      "recipeId": "",
+      "specialProperties": []
+    },
+    "Bark": {
+      "name": "Bark",
+      "description": "Tree husk, brittle enough to be crumbled into sawdust.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 50,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/dc/Bark.png",
+      "sellers": [],
+      "usedIn": [
+        "Sawdust",
+        "Bark Bread"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": []
+    },
+    "Bark Bread": {
+      "name": "Bark Bread",
+      "description": "A loaf of bread made from bark instead of flour. Filling but not very nourishing.",
+      "type": "Consumable",
+      "gridSize": "2x1",
+      "sellingValue": 25,
+      "buyingValue": 50,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/ff/Bark_Bread.png",
+      "sellers": [],
+      "usedIn": [
+        "Bread Sandwich",
+        "Butter Sandwich",
+        "Cheese Sandwich"
+      ],
+      "specialProperties": "Healing: 10 health over 10 seconds",
+      "craftingRecipes": [
+        "Bark (1-8) + Any Milk/Water/Beverage \u2192 1-4 Bark Bread"
+      ]
+    },
+    "Beans": {
+      "name": "Beans",
+      "description": "The mummies of food, made to be conserved in prepper basements everywhere for eons, or until the world ends.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 60,
+      "buyingValue": 120,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/9f/Beans.png?109a6e",
+      "sellers": [],
+      "usedIn": [
+        "Full English Breakfast"
+      ],
+      "specialProperties": "Healing: 25 health over 10 seconds",
+      "craftingRecipes": []
+    },
+    "Berry Jam": {
+      "name": "Berry Jam",
+      "description": "Berries crushed and boiled with sugar. Sweet and fruity.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 45,
+      "buyingValue": 90,
+      "imageUrl": "https://sulfur.wiki.gg/images/a/a6/Berry_Jam.png",
+      "sellers": [
+        "Jaques De Fector"
+      ],
+      "usedIn": [
+        "Health Potion",
+        "Mulled Wine",
+        "Peanutbutter Jelly Sandwich",
+        "Berry Milkshake"
+      ],
+      "specialProperties": "Heals 15 health over 2.5 seconds",
+      "craftingRecipes": [
+        "Sugar + Berries + Berry Jam (Unsweetened) \u2192 Berry Jam"
+      ]
+    },
+    "Bleach": {
+      "name": "Bleach",
+      "description": "Drag onto an item to repair it. Classic album. Decent anime. Also removes stains.",
+      "type": "Consumable, Ingredient, Repair Item",
+      "gridSize": "1x2",
+      "sellingValue": 60,
+      "buyingValue": 120,
+      "imageUrl": "https://sulfur.wiki.gg/images/e/ea/Bleach.png",
+      "sellers": [],
+      "usedIn": [
+        "Lutfisk"
+      ],
+      "specialProperties": "Repairs items (Restores 70 durability)",
+      "craftingRecipes": []
+    },
+    "Blood": {
+      "name": "Blood",
+      "description": "A vial of fresh, scarlet blood. Thicker than water.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/b/b5/Blood.png?312c3d",
+      "sellers": [],
+      "usedIn": [
+        "Fried Blood Pudding",
+        "Health Potion",
+        "First Aid Kit"
+      ],
+      "specialProperties": "Heal: 5 health over 10 seconds",
+      "craftingRecipes": []
+    },
+    "Bone": {
+      "name": "Bone",
+      "description": "Important part of the structure of most animals.",
+      "type": "Ingredient",
+      "gridSize": "1x2",
+      "sellingValue": 18,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/2/2c/Bone.png",
+      "sellers": [],
+      "usedIn": [
+        "Broth",
+        "Meat Skewer"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": []
+    },
+    "Bottled Caviar": {
+      "name": "Bottled Caviar",
+      "description": "Food consisting of salt-cured roe, also known as fish eggs.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 60,
+      "buyingValue": 120,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/7a/Bottled_Caviar.png?105775",
+      "sellers": [],
+      "usedIn": [
+        "Maki",
+        "Onigiri",
+        "Tube Caviar"
+      ],
+      "specialProperties": "25 health over 10 seconds",
+      "craftingRecipes": []
+    },
+    "Bottled Water": {
+      "name": "Bottled Water",
+      "description": "A 0.5L PET Bottle of water. It's half-empty.",
+      "type": "Consumable, Ingredient, Cookable",
+      "gridSize": "1x2",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/1/16/Bottled_Water.png?8ffbdd",
+      "sellers": [],
+      "usedIn": [
+        "Bread",
+        "Broth",
+        "Cactus Softdrink",
+        "Chocolate Syrup",
+        "Green Tea",
+        "Julmust",
+        "Mashed Potatoes",
+        "Mushroom Soup",
+        "Porridge",
+        "Red Wine",
+        "Soda",
+        "Spaghetti",
+        "Stew"
+      ],
+      "specialProperties": "5 health over 5 seconds, removes fire and poison",
+      "craftingRecipes": [
+        "Cactus x3 \u2192 Bottled Water x2"
+      ]
+    },
+    "Broth": {
+      "name": "Broth",
+      "description": "A healthy, warm and soothing broth. Salty.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "2x1",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/9c/Broth.png",
+      "sellers": [],
+      "usedIn": [
+        "Cuisses De Grenouille",
+        "Dopp I Grytan",
+        "Escargot",
+        "Gravy",
+        "Hot Pot",
+        "Mushroom Soup",
+        "Ramen",
+        "Fondue",
+        "Sausage Soup",
+        "Stew",
+        "Tori Ramen"
+      ],
+      "specialProperties": "10 health over 10 seconds",
+      "craftingRecipes": [
+        "Bottled Water + Bone \u2192 Broth",
+        "Bottled Water + Kidney Stone \u2192 Broth",
+        "Bottled Water + Salt \u2192 Broth"
+      ]
+    },
+    "Buttermilk": {
+      "name": "Buttermilk",
+      "description": "A product from the leftovers of cheese production.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "1x2",
+      "sellingValue": 25,
+      "buyingValue": 50,
+      "imageUrl": "https://sulfur.wiki.gg/images/1/19/Buttermilk.png",
+      "sellers": [],
+      "usedIn": [
+        "Bread",
+        "Buttermilk Pancakes",
+        "Cheese",
+        "Gravy",
+        "Bark Bread",
+        "Jansson's Temptation",
+        "Rice Porridge"
+      ],
+      "specialProperties": "15 health over 10 seconds, +50% accuracy while moving (120 seconds)",
+      "craftingRecipes": [
+        "Butter + Whole Milk \u2192 3x Buttermilk",
+        "Butter + Skimmed Milk \u2192 3x Buttermilk",
+        "Butter + Low Fat Milk \u2192 3x Buttermilk"
+      ]
+    },
+    "Cactus": {
+      "name": "Cactus",
+      "description": "Gives 10 health over 3 seconds.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "2x1",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/a/a6/Cactus.png",
+      "sellers": [],
+      "usedIn": [
+        "Bottled Water",
+        "Cactus Softdrink",
+        "Grilled Cactus",
+        "Lackerol Cactus"
+      ],
+      "specialProperties": "10 health over 3 seconds",
+      "craftingRecipes": []
+    },
+    "Chicken Leg": {
+      "name": "Chicken Leg",
+      "description": "Must be cooked before eaten, or you might contract salmonella or helicobacter pylori.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 30,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/1/16/Chicken_Leg.png",
+      "sellers": [],
+      "usedIn": [
+        "Cordon Bleu",
+        "Nashville Hot Chicken",
+        "Nuggets",
+        "Tori Ramen",
+        "Ramen"
+      ],
+      "specialProperties": "Requires cooking to avoid foodborne illness",
+      "craftingRecipes": []
+    },
+    "Chocolate Bar": {
+      "name": "Chocolate Bar",
+      "description": "Gives 25 health over 10 seconds. Mmm... Delicious!",
+      "type": "Consumable, Ingredient",
+      "gridSize": "2x1",
+      "sellingValue": 90,
+      "buyingValue": 180,
+      "imageUrl": "https://sulfur.wiki.gg/images/c/c5/Chocolate_Bar.png",
+      "sellers": [
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Chocolate Mudcake",
+        "Chocolate Syrup"
+      ],
+      "specialProperties": "25 health over 10 seconds",
+      "craftingRecipes": []
+    },
+    "Chocolate Syrup": {
+      "name": "Chocolate Syrup",
+      "description": "A thick, sugary, chocolate liquid.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "1x2",
+      "sellingValue": 50,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/e/e8/Chocolate_Syrup.png",
+      "sellers": [],
+      "usedIn": [
+        "Chocolate Ball",
+        "Chocolate Milkshake",
+        "Chocolate Mudcake"
+      ],
+      "specialProperties": "10 health over 10 seconds",
+      "craftingRecipes": [
+        "Sugar + Cacao + Bottled Water \u2192 2x Chocolate Syrup",
+        "Sugar + Cacao + Solution \u2192 2x Chocolate Syrup",
+        "Chocolate Bar + Bottled Water \u2192 2x Chocolate Syrup",
+        "Chocolate Bar + Solution \u2192 2x Chocolate Syrup"
+      ]
+    },
+    "Christmas Spice": {
+      "name": "Christmas Spice",
+      "description": "Powdered christmas spirit used for making things jolly.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 5,
+      "buyingValue": 10,
+      "imageUrl": "https://sulfur.wiki.gg/images/0/0a/Christmas_Spice.png",
+      "sellers": [],
+      "usedIn": [
+        "Currywurst",
+        "Julmust",
+        "Mulled Wine"
+      ],
+      "specialProperties": "1 health over 2 seconds",
+      "craftingRecipes": []
+    },
+    "Cloth": {
+      "name": "Cloth",
+      "description": "Bits of cloth of varous sizes.",
+      "type": "Consumable, Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 10,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/5/51/Cloth.png",
+      "sellers": [],
+      "usedIn": [
+        "Admiral White Extra Strong",
+        "Dynamite",
+        "Molotov Cocktail",
+        "First Aid Kit"
+      ],
+      "specialProperties": "1 health over 1 seconds",
+      "craftingRecipes": []
+    },
+    "Craw Flesh": {
+      "name": "Craw Flesh",
+      "description": "Known to the Shav'Wa as dark poulet. Known to taste a bit like frog legs.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/4/49/Craw_Flesh.png",
+      "sellers": [
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Cheeseburger",
+        "Cordon Bleu",
+        "Dimmie",
+        "Double Cheeseburger",
+        "Hot Pot",
+        "Meat Skewer",
+        "Mystery Meat",
+        "Nuggets",
+        "Onigiri",
+        "Poutine",
+        "Ramen",
+        "Spaghetti Bolognese",
+        "Spicy Sausage",
+        "Stew"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": []
+    },
+    "Craw Skin": {
+      "name": "Craw Skin",
+      "description": "The oily feathers repel water and insulates.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 15,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/96/Craw_Skin.png",
+      "sellers": [
+        "Grossberg",
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Beef Jerky",
+        "Dynamite",
+        "Haggis",
+        "Hot Snacks"
+      ],
+      "specialProperties": "Water-repellent, provides insulation",
+      "craftingRecipes": []
+    },
+    "Dog Eye": {
+      "name": "Dog Eye",
+      "description": "Sounds a bit like the name for a flower, but upon closer examination it is certainly not.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 15,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/thumb/a/a4/Dog_Eye.png/200px-Dog_Eye.png",
+      "sellers": [],
+      "usedIn": [
+        "Buddy Sandwich"
+      ],
+      "specialProperties": "Can be given to Haukland Salesman (2 required) for Haukland Membership Card",
+      "craftingRecipes": []
+    },
+    "Dog Flesh": {
+      "name": "Dog Flesh",
+      "description": "A sizable part of man's best friend.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 23,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/f9/Dog_Flesh.png?528131",
+      "sellers": [],
+      "usedIn": [
+        "Cheeseburger",
+        "Cordon Bleu",
+        "Dimmie",
+        "Double Cheeseburger",
+        "French Hotdog",
+        "Hot Pot",
+        "Meat Skewer",
+        "Mystery Meat",
+        "Onigiri",
+        "Spaghetti Bolognese",
+        "Spicy Sausage",
+        "Stew"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Dog Skin": {
+      "name": "Dog Skin",
+      "description": "Would look great on a dog!",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/b/b8/Dog_Skin.png?b96441",
+      "sellers": [],
+      "usedIn": [
+        "Beef Jerky",
+        "Dynamite",
+        "Haggis",
+        "Hot Snacks"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "False Sulfcap": {
+      "name": "False Sulfcap",
+      "description": "This mushroom emits a faint glow and reeks of sulfsap. Easily mistaken for the Sulfcap, it carries a potent poison.",
+      "type": "Ingredient",
+      "gridSize": "1x2",
+      "sellingValue": 15,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/4/41/False_Sulfcap.png?ef15fc",
+      "sellers": [],
+      "usedIn": [
+        "Dynamite",
+        "Fried Mushroom",
+        "Mushroom Soup",
+        "Pineapple Grenade",
+        "Stick Grenade",
+        "Sulfur Grenade"
+      ],
+      "specialProperties": "Potent poison",
+      "craftingRecipes": null
+    },
+    "Fatberg Chunk": {
+      "name": "Fatberg Chunk",
+      "description": "A rock-like mass of waste formed in sewers by the combination of non-biodegradable solids and fat.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "2x2",
+      "sellingValue": 25,
+      "buyingValue": 50,
+      "imageUrl": "https://sulfur.wiki.gg/images/e/e4/Fatberg_Chunk.png",
+      "sellers": [
+        "Stiffleg"
+      ],
+      "usedIn": [
+        "Aspic",
+        "Butter",
+        "Cotton Swabs",
+        "Dimmie",
+        "Jello",
+        "Nuggets",
+        "Unagi"
+      ],
+      "specialProperties": "+1 Poisoned for 5 seconds",
+      "craftingRecipes": null
+    },
+    "Father's Shirt": {
+      "name": "Father's Shirt",
+      "description": "A black shirt with a white Roman collar. You have worn this shirt for as long as you can remember.",
+      "type": [
+        "Chestwear",
+        "Equipment",
+        "Ingredient"
+      ],
+      "gridSize": "2x2",
+      "sellingValue": 1,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/2/2a/Father%27s_Shirt.png?173653",
+      "sellers": [],
+      "usedIn": [
+        "Molotov Cocktail"
+      ],
+      "specialProperties": "Starter armor given to the Father every time they return from death",
+      "craftingRecipes": null
+    },
+    "Flat Sandfish": {
+      "name": "Flat Sandfish",
+      "description": "An uncooked fish. May be cooked or eaten raw if prepared correctly.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/3/3f/Flat_Sandfish.png?4bc905",
+      "sellers": [],
+      "usedIn": [
+        "Fish And Chips",
+        "Jansson's Temptation",
+        "Sashimi",
+        "Surstromming",
+        "Toast Skagen",
+        "Lutfisk"
+      ],
+      "specialProperties": "Gives 10 health over 2.5 seconds",
+      "craftingRecipes": null
+    },
+    "Frog Leg": {
+      "name": "Frog Leg",
+      "description": "Might be usable for potions or exotic Human dishes.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/9f/Frog_Leg.png?368ab4",
+      "sellers": [
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Cuisses De Grenouille",
+        "French Hotdog"
+      ],
+      "specialProperties": "3 health over 2.5 seconds",
+      "craftingRecipes": null
+    },
+    "Goblin Flesh": {
+      "name": "Goblin Flesh",
+      "description": "Surprisingly mushy...",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 25,
+      "buyingValue": 50,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/71/Goblin_Flesh.png?ee6447",
+      "sellers": [],
+      "usedIn": [
+        "Cheeseburger",
+        "Cordon Bleu",
+        "Dimmie",
+        "Double Cheeseburger",
+        "Hot Pot",
+        "Meat Skewer",
+        "Mystery Meat",
+        "Onigiri",
+        "Spaghetti Bolognese",
+        "Spicy Sausage",
+        "Stew"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Goblin Skin": {
+      "name": "Goblin Skin",
+      "description": "Fells like a wet suit...",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 15,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/b/b6/Goblin_Skin.png?a9a66b",
+      "sellers": [],
+      "usedIn": [
+        "Beef Jerky",
+        "Dynamite",
+        "Haggis",
+        "Hot Snacks"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Gravy": {
+      "name": "Gravy",
+      "description": "A white, brown, or gray standard sauce",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "2x1",
+      "sellingValue": 30,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/3/3d/Gravy.png?56f65e",
+      "sellers": [],
+      "usedIn": [
+        "Biscuits And Gravy",
+        "Poutine"
+      ],
+      "specialProperties": "Gives 20 health over 10 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Broth",
+            "Whole Milk"
+          ],
+          "result": "Gravy"
+        },
+        {
+          "ingredients": [
+            "Broth",
+            "Butter"
+          ],
+          "result": "Gravy"
+        }
+      ]
+    },
+    "Green Glob": {
+      "name": "Green Glob",
+      "description": "Smells funky.",
+      "type": [
+        "Item",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/f7/Green_Glob.png?ff625a",
+      "sellers": [
+        "Stiffleg"
+      ],
+      "usedIn": [
+        "Anti-Poison Gum",
+        "Jar of Poison",
+        "Surstromming"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Snail",
+            "Rock"
+          ],
+          "result": "Green Glob"
+        },
+        {
+          "ingredients": [
+            "Snail",
+            "Salt"
+          ],
+          "result": "Green Glob"
+        }
+      ]
+    },
+    "Green Tea": {
+      "name": "Green Tea",
+      "description": "Drinking this will make you feel confident wielding a sword.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 40,
+      "buyingValue": 80,
+      "imageUrl": "https://sulfur.wiki.gg/images/8/8f/Green_Tea.png?99ba15",
+      "sellers": [
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Boba Tea"
+      ],
+      "specialProperties": "+150% Melee damage for 60 seconds, Gives 10 health over 5 seconds, Removes Frozen status, Removes Poisoned status",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Matcha",
+            "Solution"
+          ],
+          "result": "Green Tea"
+        },
+        {
+          "ingredients": [
+            "Matcha",
+            "Bottled Water"
+          ],
+          "result": "Green Tea"
+        }
+      ]
+    },
+    "Green Tunic": {
+      "name": "Green Tunic",
+      "description": "A finely made tunic of spun wool. Does not give you Poison Resistance.",
+      "type": "Chestwear",
+      "gridSize": "3x2",
+      "sellingValue": 250,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/a/a7/Green_Tunic.png?fbab71",
+      "sellers": [
+        "Skrip"
+      ],
+      "usedIn": [
+        "Molotov Cocktail"
+      ],
+      "specialProperties": "No Poison Resistance, +2 armor, +1 charisma",
+      "craftingRecipes": null
+    },
+    "Hazelnut": {
+      "name": "Hazelnut",
+      "description": "Hard to crack. But tasty.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 30,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/3/31/Hazelnut.png",
+      "sellers": [
+        "Jaques De Fector"
+      ],
+      "usedIn": [
+        "Nut Mix",
+        "Nut Spread"
+      ],
+      "specialProperties": "Gives 2 health over 2.5 seconds",
+      "craftingRecipes": null
+    },
+    "Hellshrew Flesh": {
+      "name": "Hellshrew Flesh",
+      "description": "It feels very dense.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 35,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/71/Hellshrew_Flesh.png",
+      "sellers": [],
+      "usedIn": [
+        "Cheeseburger",
+        "Cordon Bleu",
+        "Dimmie",
+        "Double Cheeseburger",
+        "Hot Pot",
+        "Meat Skewer",
+        "Mystery Meat",
+        "Onigiri",
+        "Poutine",
+        "Ramen",
+        "Spaghetti Bolognese",
+        "Spicy Sausage",
+        "Stew"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Hellshrew Skin": {
+      "name": "Hellshrew Skin",
+      "description": "It's so dry it almost breaks when handled.",
+      "type": [
+        "Item",
+        "Ingredient",
+        "Organ",
+        "Skin"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 10,
+      "buyingValue": 20,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/75/Hellshrew_Skin.png?dbcec9",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Beef Jerky",
+        "Dynamite",
+        "Haggis",
+        "Hot Snacks"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Holy Toast": {
+      "name": "Holy Toast",
+      "description": "A toasted slice of bread is showing holy signs. Researchers call the phenomenon \"face pareidolia.\"",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 125,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/c/cc/Holy_Toast.png?4c31a7",
+      "sellers": [],
+      "usedIn": [
+        "Red Wine"
+      ],
+      "specialProperties": "Gives +1 coyote time for 90 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Bread",
+            "Holy Water"
+          ],
+          "result": "3x Holy Toast"
+        },
+        {
+          "ingredients": [
+            "Bread",
+            "Red Wine"
+          ],
+          "result": "3x Holy Toast"
+        }
+      ]
+    },
+    "Holy Water": {
+      "name": "Holy Water",
+      "description": "A small container of water that has been blessed by the clergy.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 250,
+      "buyingValue": 500,
+      "imageUrl": "https://sulfur.wiki.gg/images/2/25/Holy_Water.png?5e7fb9",
+      "sellers": [],
+      "usedIn": [
+        "Holy Toast"
+      ],
+      "specialProperties": "Gives +1 Coyote Time for 90 seconds, Removes Burning, Removes Voodoo",
+      "craftingRecipes": null
+    },
+    "Hot Snacks": {
+      "name": "Hot Snacks",
+      "description": "Hot and snacky.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/8/83/Hot_Snacks.png?c4cb81",
+      "sellers": [
+        "Stiffleg",
+        "Grossberg",
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Spice Mix"
+      ],
+      "specialProperties": "15 health over 2 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Any skin",
+            "Spice Mix"
+          ],
+          "result": "Hot Snacks"
+        }
+      ]
+    },
+    "Human Flesh": {
+      "name": "Human Flesh",
+      "description": "The mirror to someones soul.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 60,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/df/Human_Flesh.png?db53b3",
+      "sellers": [],
+      "usedIn": [
+        "Cheeseburger",
+        "Cordon Bleu",
+        "Dimmie",
+        "Double Cheeseburger",
+        "Hot Pot",
+        "Meat Skewer",
+        "Mystery Meat",
+        "Onigiri",
+        "Spaghetti Bolognese",
+        "Spicy Sausage",
+        "Stew"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Human Skin": {
+      "name": "Human Skin",
+      "description": "The biggest organ in the human body. Congratulations, skin!",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 30,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/93/Human_Skin.png?1de314",
+      "sellers": [
+        "Grossberg",
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Beef Jerky",
+        "Dynamite",
+        "Haggis",
+        "Hot Snacks"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Intestines": {
+      "name": "Intestines",
+      "description": "A network of tubes and chambers where food goes to die.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/91/Intestines.png",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "French Hotdog",
+        "P\u00f6lsa",
+        "P\u00f8lse",
+        "Spicy Sausage"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Jello": {
+      "name": "Jello",
+      "description": "A nine for presentation, a four for taste, and a one for nutrition.",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "2x1",
+      "sellingValue": 45,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/73/Jello.png?596e26",
+      "sellers": null,
+      "usedIn": [
+        "Aspic"
+      ],
+      "specialProperties": "15 health over 0.1 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            {
+              "name": "Fatberg Chunk",
+              "quantity": 1
+            },
+            {
+              "name": "Sugar",
+              "quantity": 1
+            }
+          ],
+          "output": {
+            "name": "Jello",
+            "quantity": 1
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "name": "Fatberg Chunk",
+              "quantity": 1
+            },
+            {
+              "name": "Sugar",
+              "quantity": 2
+            }
+          ],
+          "output": {
+            "name": "Jello",
+            "quantity": 2
+          }
+        }
+      ]
+    },
+    "Karl-Oskar": {
+      "name": "Karl-Oskar",
+      "description": "A large bolete mushroom. Can be used in cooking. Origin of name unknown.",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Mushroom"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 5,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/1/16/Karl-Oskar.png",
+      "sellers": null,
+      "usedIn": [
+        "Mushroom Soup",
+        "Full English Breakfast",
+        "Fried Mushroom",
+        "Hot Pot",
+        "Mushroom Skewer"
+      ],
+      "specialProperties": "5 health over 1.5 seconds",
+      "craftingRecipes": null
+    },
+    "Kidney": {
+      "name": "Kidney",
+      "description": "Filters your blood from all that bad stuff. Also makes piss!",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 50,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/9e/Kidney.png",
+      "sellers": [
+        "Rat Queen",
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Kidney Pie",
+        "Kidney Stone"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Kidney Stone": {
+      "name": "Kidney Stone",
+      "description": "Suprisingly hard. Full of salts and minerals.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1\u00d71",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/6/64/Kidney_Stone.png?361419",
+      "sellers": [
+        "Rat Queen",
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Broth",
+        "Leverpastej"
+      ],
+      "specialProperties": "5 health over 2.5 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Kidney",
+            "Rock"
+          ],
+          "yield": "3x Kidney Stone"
+        },
+        {
+          "ingredients": [
+            "Kidney",
+            "Salt"
+          ],
+          "yield": "5x Kidney Stone"
+        }
+      ]
+    },
+    "Leverpastej": {
+      "name": "Leverpastej",
+      "description": "A human classic liver p\u00e2t\u00e9 to put on sandwiches. Great with butter and pickles.",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "2x1",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/6/65/Leverpastej.png",
+      "sellers": [
+        "Grossberg",
+        "Stiffleg"
+      ],
+      "usedIn": [
+        "Liver P\u00e2t\u00e9 Sandwich"
+      ],
+      "specialProperties": "20 health over 5 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Liver x2"
+          ],
+          "output": "Leverpastej x2"
+        },
+        {
+          "ingredients": [
+            "Butter",
+            "Liver"
+          ],
+          "output": "Leverpastej x2"
+        },
+        {
+          "ingredients": [
+            "Kidney Stone",
+            "Liver"
+          ],
+          "output": "Leverpastej"
+        },
+        {
+          "ingredients": [
+            "Rock",
+            "Liver"
+          ],
+          "output": "Leverpastej"
+        },
+        {
+          "ingredients": [
+            "Salt",
+            "Liver"
+          ],
+          "output": "Leverpastej"
+        },
+        {
+          "ingredients": [
+            "Black Pepper",
+            "Liver"
+          ],
+          "output": "Leverpastej"
+        },
+        {
+          "ingredients": [
+            "Herbs",
+            "Liver"
+          ],
+          "output": "Leverpastej"
+        }
+      ]
+    },
+    "Liquor": {
+      "name": "Liquor",
+      "description": "40% distilled alcohol. Harms your health, makes you feel different.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x2",
+      "sellingValue": 30,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/4/4f/Liquor.png",
+      "sellers": null,
+      "usedIn": [
+        "Dynamite",
+        "Egg Toddy",
+        "Molotov Cocktail",
+        "R\u00f6dsopp Paste",
+        "Vacuum Cleaner"
+      ],
+      "specialProperties": [
+        "-5 health over 2.5 seconds",
+        "+5 Charisma for 60 seconds",
+        "Removes Frozen status",
+        "Removes Poisoned status"
+      ],
+      "craftingRecipes": null
+    },
+    "Liver": {
+      "name": "Liver",
+      "description": "Provided extremely important functions to it's original owner.",
+      "type": "Ingredient",
+      "gridSize": "2x1",
+      "sellingValue": 40,
+      "buyingValue": 80,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/f6/Liver.png?68f6b0",
+      "sellers": null,
+      "usedIn": [
+        "Dumpling",
+        "Haggis",
+        "Leverpastej",
+        "Liver P\u00e2t\u00e9 Sandwich",
+        "P\u00f6lsa"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Low Fat Milk": {
+      "name": "Low Fat Milk",
+      "description": "A daily treat of governmentally funded propaganda. Now with less fat!",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1\u00d72",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/e/ef/Low_Fat_Milk.png?be88f5",
+      "sellers": [
+        "Stiffleg",
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Bark Bread",
+        "Bread",
+        "Berry Milkshake",
+        "Buttermilk",
+        "Cheese",
+        "Chocolate Milkshake",
+        "Chocolate Mudcake",
+        "Gravy",
+        "Porridge",
+        "Rice Porridge"
+      ],
+      "specialProperties": [
+        "+50% accuracy when moving for 90 seconds",
+        "15 health over 6 seconds",
+        "Removes poisoned"
+      ],
+      "craftingRecipes": null
+    },
+    "Lung": {
+      "name": "Lung",
+      "description": "Used to give, and take, someones breath away.",
+      "type": "Ingredient",
+      "gridSize": "1x2",
+      "sellingValue": 30,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/0/0f/Lung.png",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Dynamite",
+        "Extra Lung",
+        "French Hotdog",
+        "Haggis",
+        "P\u00f6lsa",
+        "P\u00f8lse"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Matcha": {
+      "name": "Matcha",
+      "description": "Smells wonderfully. Can be used to make green tea, or green tea flavored treats.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1\u00d71",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/2/2e/Matcha.png?162549",
+      "sellers": [
+        "Stiffleg"
+      ],
+      "usedIn": [
+        "Green Tea",
+        "Green Tea Gum"
+      ],
+      "specialProperties": "5 health over 5 seconds",
+      "craftingRecipes": null
+    },
+    "Metal Scrap": {
+      "name": "Metal Scrap",
+      "description": "Various metal scraps, screws and bolts.",
+      "type": "Ingredient",
+      "gridSize": "1\u00d71",
+      "sellingValue": 50,
+      "buyingValue": 100,
+      "imageUrl": "https://sulfur.wiki.gg/images/0/04/Metal_Scrap.png",
+      "sellers": [
+        "Ralphie",
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Dynamite",
+        "Pineapple Grenade",
+        "Stick Grenade",
+        "Sulfur Grenade",
+        "Tube Caviar",
+        "Jar of Love"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": [
+        {
+          "product": "Robot Hydraul",
+          "requiredAmount": 3
+        },
+        {
+          "product": "Robot Joint Pneumatic",
+          "requiredAmount": 3
+        },
+        {
+          "product": "Robot Plate",
+          "requiredAmount": 3
+        },
+        {
+          "product": "Robot Septacoil",
+          "requiredAmount": 3
+        },
+        {
+          "product": "Robot Soul Capsule",
+          "requiredAmount": 3
+        }
+      ]
+    },
+    "Mineral Water": {
+      "name": "Mineral Water",
+      "description": "A 0.5L PET Bottle containing pure spring water with trace amounts of essential minerals. It's half-empty.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x2",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/5/5e/Mineral_Water.png?895ca9",
+      "sellers": null,
+      "usedIn": [
+        "Bread",
+        "Broth",
+        "Cactus Softdrink",
+        "Chocolate Syrup",
+        "Green Tea",
+        "Mashed Potatoes",
+        "Mushroom Soup",
+        "Porridge",
+        "Red Wine",
+        "Soda",
+        "Spaghetti",
+        "Stew"
+      ],
+      "specialProperties": [
+        "+50% Accuracy when moving for 180 seconds",
+        "+0.5 Fire resistance for 180 seconds",
+        "Removes Burning",
+        "Removes Poisoned"
+      ],
+      "craftingRecipes": null
+    },
+    "Mystery Meat": {
+      "name": "Mystery Meat",
+      "description": "An easy and simple way to eat several meats at once! A human classic!",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "1\u00d71",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/4/45/Mystery_Meat.png",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Aspic",
+        "Dimmie",
+        "French Hotdog",
+        "Hardshell Taco",
+        "Meat Skewer",
+        "Pineapple Grenade",
+        "P\u00f6lsa",
+        "P\u00f8lse",
+        "Poutine",
+        "Spaghetti Bolognese",
+        "Stew",
+        "Stick Grenade",
+        "Sulfur Grenade"
+      ],
+      "specialProperties": "15 health over 5 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Any Flesh x2"
+          ],
+          "output": "1x Mystery Meat"
+        },
+        {
+          "ingredients": [
+            "Any Flesh x4"
+          ],
+          "output": "3x Mystery Meat"
+        }
+      ]
+    },
+    "Nut Mix": {
+      "name": "Nut Mix",
+      "description": "A bag with mixed nuts. Healthy combo of fat and protein.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1\u00d71",
+      "sellingValue": 100,
+      "buyingValue": 200,
+      "imageUrl": "https://sulfur.wiki.gg/images/1/1c/Nut_Mix.png",
+      "sellers": [
+        "Jaques De Fector"
+      ],
+      "usedIn": [
+        "Nut Spread"
+      ],
+      "specialProperties": "+25 health over 5 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "2 of same nut type",
+            "1 different nut type"
+          ]
+        },
+        {
+          "ingredients": [
+            "1 nut",
+            "1 different nut",
+            "1 another different nut"
+          ]
+        },
+        {
+          "ingredients": [
+            "3 of same nut type",
+            "1 different nut type"
+          ],
+          "yield": "2 Nut Mix"
+        }
+      ]
+    },
+    "Oats": {
+      "name": "Oats",
+      "description": "Great for baking or making porridge.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x2",
+      "sellingValue": 30,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/3/34/Oats.png?7b8685",
+      "sellers": null,
+      "usedIn": [
+        "Cereal",
+        "Chocolate Ball",
+        "Haggis",
+        "Jar of Poison",
+        "Porridge",
+        "Power Bar",
+        "Rhubarb Pie"
+      ],
+      "specialProperties": "10 health over 3 seconds",
+      "craftingRecipes": null
+    },
+    "Pancreas": {
+      "name": "Pancreas",
+      "description": "In this little factory, beta cells work tirelessly to create insulin for the host. If you don't have diabetes that is.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 55,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/5/5b/Pancreas.png",
+      "sellers": null,
+      "usedIn": [
+        "French Hotdog",
+        "P\u00f6lsa",
+        "P\u00f8lse"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Paper": {
+      "name": "Paper",
+      "description": "...the humble A4.",
+      "type": [
+        "Item",
+        "Ingredient"
+      ],
+      "gridSize": "1\u00d71",
+      "sellingValue": 2,
+      "buyingValue": 4,
+      "imageUrl": "https://sulfur.wiki.gg/images/thumb/b/b2/Paper.png/160px-Paper.png",
+      "sellers": [
+        "Fex Shuen",
+        "Grossberg",
+        "Skrip",
+        "Rat Queen",
+        "Blond Magus",
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Admiral White Extra Strong",
+        "Dynamite",
+        "Molotov Cocktail",
+        "Jar of Love"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Peanut": {
+      "name": "Peanut",
+      "description": "Easy to crack. Tasty and nutritious.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 10,
+      "buyingValue": 20,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/f6/Peanut.png?57608c",
+      "sellers": [
+        "Stiffleg"
+      ],
+      "usedIn": [
+        "Nut Mix",
+        "Nut Spread",
+        "Peanut Butter"
+      ],
+      "specialProperties": "5 health over 5 seconds",
+      "craftingRecipes": null
+    },
+    "Peanut Butter": {
+      "name": "Peanut Butter",
+      "description": "Peanuts ground and worked into a thick paste. Added emulsification agents make it more spreadable out of the jar.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "2\u00d72",
+      "sellingValue": 125,
+      "buyingValue": 250,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/d5/Peanut_Butter.png?7d8248",
+      "sellers": [
+        "Stiffleg"
+      ],
+      "specialProperties": "Gives 40 health over 10 seconds",
+      "usedIn": [
+        "Peanutbutter Jelly Sandwich",
+        "Peanutbutter Sandwich"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            {
+              "item": "Rock",
+              "quantity": 1
+            },
+            {
+              "item": "Peanut",
+              "quantity": 2
+            }
+          ],
+          "output": {
+            "item": "Peanut Butter",
+            "quantity": 1
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "item": "Salt",
+              "quantity": 1
+            },
+            {
+              "item": "Peanut",
+              "quantity": 2
+            }
+          ],
+          "output": {
+            "item": "Peanut Butter",
+            "quantity": 1
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "item": "Peanut",
+              "quantity": 3
+            }
+          ],
+          "output": {
+            "item": "Peanut Butter",
+            "quantity": 1
+          }
+        }
+      ]
+    },
+    "Pine Nuts": {
+      "name": "Pine Nuts",
+      "description": "Hard to crack. But tasty.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1\u00d71",
+      "sellingValue": 10,
+      "buyingValue": 20,
+      "imageUrl": "https://sulfur.wiki.gg/images/1/14/Pine_Nuts.png?e2f7fd",
+      "sellers": [
+        "Stiffleg",
+        "Jaques De Fector"
+      ],
+      "specialProperties": "Heal 5 health over 5 seconds",
+      "usedIn": [
+        "Nut Mix",
+        "Nut Spread"
+      ],
+      "craftingRecipes": []
+    },
+    "Pizza": {
+      "name": "Pizza",
+      "description": "A large pizza. Will make you feel stuffed. It's better to slice it.",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "2x2",
+      "sellingValue": 200,
+      "buyingValue": 400,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/f4/Pizza.png?173ce0",
+      "sellers": [],
+      "specialProperties": "+150 health over 10 seconds, -10% Jump power for 15 seconds, -10% Movement speed for 15 seconds",
+      "usedIn": [
+        "Pizza Slice"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Flour",
+            "Bottled Water",
+            "Spicy Sausage",
+            "Herbs",
+            "Cheese"
+          ]
+        },
+        {
+          "ingredients": [
+            "Bread",
+            "Spicy Sausage",
+            "Herbs",
+            "Cheese"
+          ]
+        }
+      ]
+    },
+    "Plain White Tee": {
+      "name": "Plain White Tee",
+      "description": "It's just coffee.",
+      "type": "Equipment/Chestwear",
+      "gridSize": "2x3",
+      "sellingValue": 75,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/5/5d/Plain_White_Tee.png",
+      "sellers": [
+        "Skrip"
+      ],
+      "specialProperties": "2 armor value, 100 durability",
+      "usedIn": [
+        "R\u00f6dsopp Paste"
+      ],
+      "craftingRecipes": []
+    },
+    "Porridge": {
+      "name": "Porridge",
+      "description": "A foul smelling slop of Corpseflower Oats and Goblin Milk.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1\u00d72",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/5/5d/Porridge.png?c67880",
+      "sellers": [
+        "Skrip"
+      ],
+      "specialProperties": "Gives 15 health over 4 seconds",
+      "usedIn": [
+        "Rhubarb Porridge"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Bottled Water",
+            "Oats"
+          ],
+          "yield": "1x Porridge"
+        },
+        {
+          "ingredients": [
+            "Solution",
+            "Oats"
+          ],
+          "yield": "1x Porridge"
+        },
+        {
+          "ingredients": [
+            "Low Fat Milk",
+            "Oats"
+          ],
+          "yield": "1x Porridge"
+        },
+        {
+          "ingredients": [
+            "Whole Milk",
+            "Oats"
+          ],
+          "yield": "1x Porridge"
+        },
+        {
+          "ingredients": [
+            "Skimmed Milk",
+            "Oats"
+          ],
+          "yield": "2x Porridge"
+        }
+      ]
+    },
+    "Red Wine": {
+      "name": "Red Wine",
+      "description": "Red liquid made from trampled and fermented red grapes. Nice bouqet. Tastes a bit like Jesus.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x2",
+      "sellingValue": 100,
+      "buyingValue": 200,
+      "imageUrl": "https://sulfur.wiki.gg/images/9/91/Red_Wine.png",
+      "sellers": [
+        "Grossberg"
+      ],
+      "specialProperties": "Gives 30 health over 10 seconds, Removes Poisoned status",
+      "usedIn": [
+        "Dynamite",
+        "Fondue",
+        "Holy Toast",
+        "Mulled Wine"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Bottled Water",
+            "Holy Toast"
+          ],
+          "yield": "1x Red Wine"
+        }
+      ]
+    },
+    "Rhubarb": {
+      "name": "Rhubarb",
+      "description": "Astrologers proclaim the week of the rhubarb. All dwellings increase population.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "2x1",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/6/6e/Rhubarb.png?2dd560",
+      "sellers": [],
+      "specialProperties": "Gives 6 health over 10 seconds",
+      "usedIn": [
+        "Rhubarb Sauce",
+        "Rhubarb Porridge",
+        "Rhubarb Pie"
+      ],
+      "craftingRecipes": []
+    },
+    "Rhubarb Sauce": {
+      "name": "Rhubarb Sauce",
+      "description": "Destroyed rhubarb mixed with sugar, presented in a bowl.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "2x1",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/d2/Rhubarb_Sauce.png?c73eac",
+      "sellers": [],
+      "specialProperties": "Gives 20 health over 10 seconds",
+      "usedIn": [
+        "Rhubarb Porridge"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Rock",
+            "Rhubarb"
+          ],
+          "output": "Rhubarb Sauce"
+        },
+        {
+          "ingredients": [
+            "Sugar",
+            "Rhubarb"
+          ],
+          "output": "Rhubarb Sauce x2"
+        },
+        {
+          "ingredients": [
+            "Sugar",
+            "Rock",
+            "Rhubarb"
+          ],
+          "output": "Rhubarb Sauce x3"
+        }
+      ]
+    },
+    "Robot Hydraul": {
+      "name": "Robot Hydraul",
+      "description": "Gives mechanics a weighty snap and power needed for quick reactions.",
+      "type": "Ingredient",
+      "gridSize": "1\u00d71",
+      "sellingValue": 120,
+      "buyingValue": 240,
+      "imageUrl": "https://sulfur.wiki.gg/images/b/b6/Robot_Hydraul.png?83eb2c",
+      "sellers": [
+        "Ralphie"
+      ],
+      "specialProperties": null,
+      "usedIn": [
+        "Metal Scrap"
+      ],
+      "craftingRecipes": []
+    },
+    "Robot Septacoil": {
+      "name": "Robot Septacoil",
+      "description": "Gives robots that springy step, or that recoily force.",
+      "type": "Ingredient",
+      "gridSize": "1x2",
+      "sellingValue": 50,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/d7/Robot_Septacoil.png?69eb42",
+      "sellers": [],
+      "specialProperties": "Provides springy/recoil force to robots",
+      "usedIn": [
+        "Springcoil Boot"
+      ],
+      "craftingRecipes": []
+    },
+    "Rock": {
+      "name": "Rock",
+      "description": "If you put something between this and a hard place it might be physically altered, or at least pressured.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 5,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/0/0b/Rock.png?ffa447",
+      "sellers": [],
+      "specialProperties": null,
+      "usedIn": [
+        "Cotton Swabs",
+        "Green Glob",
+        "Leverpastej",
+        "Kidney Stone",
+        "Mashed Potatoes",
+        "Nut Spread",
+        "Peanut Butter",
+        "P\u00f6lsa",
+        "Rhubarb Sauce",
+        "R\u00f6dsopp Paste",
+        "Spice Mix"
+      ],
+      "craftingRecipes": []
+    },
+    "Rubber": {
+      "name": "Rubber",
+      "description": "A useful material made of natural polymer of isoprene and elastomer. Might be dialectically synonomous with human household objects.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 5,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/8/8e/Rubber.png",
+      "sellers": [
+        "Stiffleg"
+      ],
+      "specialProperties": null,
+      "usedIn": [
+        "Anti-Poison Gum",
+        "Energy Gum",
+        "Extra Lung",
+        "Green Tea Gum",
+        "Sweet Gum"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Used Rubber x2"
+          ],
+          "output": "Rubber x1"
+        }
+      ]
+    },
+    "R\u00f6dsopp": {
+      "name": "R\u00f6dsopp",
+      "description": "This mushroom stings to the touch, but emits a pleasant, metallic odor. It makes you feel slightly woozy, but can probably be used in cooking.",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Mushroom"
+      ],
+      "gridSize": "1\u00d71",
+      "sellingValue": 8,
+      "buyingValue": 15,
+      "imageUrl": "https://sulfur.wiki.gg/images/4/4d/R%C3%B6dsopp.png?2b76f4",
+      "sellers": [
+        "Jaques De Fector"
+      ],
+      "specialProperties": "Gives 5 health over 3 seconds",
+      "usedIn": [
+        "Mushroom Skewer",
+        "Mushroom Soup",
+        "Fried Mushroom",
+        "R\u00f6dsopp Paste",
+        "Health Potion"
+      ],
+      "craftingRecipes": []
+    },
+    "Salted Fish": {
+      "name": "Salted Fish",
+      "description": "Fish cured with dry salt. Preserved for later eating.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 45,
+      "buyingValue": 90,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/7b/Salted_Fish.png?695bc3",
+      "sellers": [],
+      "specialProperties": "Gives 20 health over 2.5 seconds",
+      "usedIn": [
+        "Surstromming",
+        "Fish And Chips"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Salt",
+            "Fish"
+          ],
+          "result": "Salted Fish"
+        }
+      ]
+    },
+    "Salted Sandfish": {
+      "name": "Salted Sandfish",
+      "description": "Salty and fishy.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 50,
+      "buyingValue": 100,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/f0/Salted_Sandfish.png",
+      "sellers": [],
+      "specialProperties": "Gives 20 health over 4 seconds",
+      "usedIn": [
+        "Fish And Chips",
+        "Surstromming"
+      ],
+      "craftingRecipes": []
+    },
+    "Sawdust": {
+      "name": "Sawdust",
+      "description": "Wood shredded into powderous dust.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 5,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/8/88/Sawdust.png",
+      "sellers": [],
+      "specialProperties": null,
+      "usedIn": [
+        "Chocolate Ball",
+        "Hard Bread",
+        "Power Bar"
+      ],
+      "craftingRecipes": [
+        {
+          "input": [
+            {
+              "item": "Bark",
+              "quantity": 2
+            }
+          ],
+          "output": [
+            {
+              "item": "Sawdust",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "input": [
+            {
+              "item": "Stick",
+              "quantity": 2
+            }
+          ],
+          "output": [
+            {
+              "item": "Sawdust",
+              "quantity": 3
+            }
+          ]
+        }
+      ]
+    },
+    "Seaweed": {
+      "name": "Seaweed",
+      "description": "Dried edible seaweed used in cooking, made from species of the red algae genus. It has a strong and distinctive flavor, and is often used to wrap around rice, like onigiri.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/1/13/Seaweed.png?1d0f60",
+      "sellers": [],
+      "specialProperties": "Gives 5 health over 10 seconds",
+      "usedIn": [
+        "Maki"
+      ],
+      "craftingRecipes": []
+    },
+    "Shav'Wa Flesh": {
+      "name": "Shav'Wa Flesh",
+      "description": "Smells like... sweet fish. Hard to describe.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 25,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/8/83/Shav%27Wa_Flesh.png",
+      "sellers": [],
+      "specialProperties": null,
+      "usedIn": [
+        "Cheeseburger",
+        "Cordon Bleu",
+        "Dimmie",
+        "Double Cheeseburger",
+        "Hot Pot",
+        "Meat Skewer",
+        "Mystery Meat",
+        "Onigiri",
+        "Poutine",
+        "Ramen",
+        "Spaghetti Bolognese",
+        "Spicy Sausage",
+        "Stew"
+      ],
+      "craftingRecipes": []
+    },
+    "Shav'Wa Skin": {
+      "name": "Shav'Wa Skin",
+      "description": "Scaley yet flexible.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 50,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/b/bd/Shav%27Wa_Skin.png?8cf32d",
+      "sellers": [],
+      "specialProperties": null,
+      "usedIn": [
+        "Beef Jerky",
+        "Dynamite",
+        "Haggis",
+        "Hot Snacks"
+      ],
+      "craftingRecipes": []
+    },
+    "Skimmed Milk": {
+      "name": "Skimmed Milk",
+      "description": "A daily treat of governmentally funded propaganda. Now with even less fat!",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x2",
+      "sellingValue": 20,
+      "buyingValue": 40,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/d2/Skimmed_Milk.png?ca4cfe",
+      "sellers": [],
+      "specialProperties": "+50% Accuracy when moving for 90 seconds, Gives 10 health over 5 seconds, Removes Frozen status",
+      "usedIn": [
+        "Bread",
+        "Bark Bread",
+        "Cheese",
+        "Chocolate Mudcake",
+        "Gravy",
+        "Chocolate Milkshake",
+        "Berry Milkshake",
+        "Buttermilk",
+        "Jansson's Temptation",
+        "Porridge",
+        "Rice Porridge"
+      ],
+      "craftingRecipes": []
+    },
+    "Snail": {
+      "name": "Snail",
+      "description": "Cold and slimey. Not very appetizing. Might contain lungworms.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 25,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/d/d2/Snail.png",
+      "sellers": [
+        "Qiosk"
+      ],
+      "usedIn": [
+        "Green Glob",
+        "Escargot"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Soda": {
+      "name": "Soda",
+      "description": "A sweet, carbonated beverage in an aluminium can. Lime flavor.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/c/c4/Soda.png?1008b8",
+      "sellers": [
+        "Stiffleg",
+        "Grossberg",
+        "Skrip"
+      ],
+      "usedIn": [
+        "Gonster",
+        "Health Potion",
+        "Julmust",
+        "Mochi",
+        "Power Bar",
+        "Sweet Gum"
+      ],
+      "specialProperties": [
+        "Gives 50% Accuracy when moving for 40 seconds",
+        "Removes Burning",
+        "Removes Poisoned"
+      ],
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Bottled Water",
+            "Sugar"
+          ],
+          "yield": 2
+        },
+        {
+          "ingredients": [
+            "Bottled Water",
+            "Solution"
+          ],
+          "yield": 2
+        }
+      ]
+    },
+    "Solution": {
+      "name": "Solution",
+      "description": "A liquid with many purposes. Might be the solution you need.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/8/85/Solution.png",
+      "sellers": null,
+      "usedIn": [
+        "Chocolate Syrup",
+        "Currywurst",
+        "Dynamite",
+        "Green Tea",
+        "Hot Sauce",
+        "Jar of Poison",
+        "Julmust",
+        "Pineapple Grenade",
+        "Porridge",
+        "Soda",
+        "Stick Grenade"
+      ],
+      "specialProperties": "Gives 1 health over 2.5 seconds",
+      "craftingRecipes": null
+    },
+    "Spaghetti": {
+      "name": "Spaghetti",
+      "description": "Packet containing noodles made of wheat flour and eggs",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "1\u00d72",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/0/08/Spaghetti.png?40ec51",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "mac'n'Cheese",
+        "Ramen",
+        "Spaghetti Bolognese",
+        "Tori Ramen"
+      ],
+      "specialProperties": "Gives 5 health over 5 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Bottled Water",
+            "Flour",
+            "Egg"
+          ],
+          "yield": 3
+        }
+      ]
+    },
+    "Spice Mix": {
+      "name": "Spice Mix",
+      "description": "An exotic mix of spices that can be used for many purposes.",
+      "type": [
+        "Item",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "1x1",
+      "sellingValue": 15,
+      "buyingValue": 30,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/7c/Spice_Mix.png?fa3334",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Energy Gum",
+        "Hot Sauce",
+        "Hot Snacks",
+        "Lussekatt",
+        "Nashville Hot Chicken",
+        "Omelette",
+        "Hardshell Taco"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Herbs",
+            "Black Pepper"
+          ]
+        },
+        {
+          "ingredients": [
+            "Salt",
+            "Black Pepper"
+          ]
+        },
+        {
+          "ingredients": [
+            "Black Pepper",
+            "Black Pepper"
+          ]
+        },
+        {
+          "ingredients": [
+            "Salt",
+            "Herbs",
+            "Black Pepper"
+          ]
+        }
+      ]
+    },
+    "Spicy Sausage": {
+      "name": "Spicy Sausage",
+      "description": "A spicy smoked sausage.",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Cookable"
+      ],
+      "gridSize": "2\u00d71",
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "imageUrl": "https://sulfur.wiki.gg/images/f/fb/Spicy_Sausage.png",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Currywurst",
+        "Full English Breakfast",
+        "Pizza",
+        "Pyttipanna",
+        "Sausage Omelette",
+        "Sausage On Stick",
+        "Sausage Soup"
+      ],
+      "specialProperties": "Gives 30 health over 5 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Intestines",
+            "Any Flesh"
+          ],
+          "yield": 2
+        }
+      ]
+    },
+    "Spleen": {
+      "name": "Spleen",
+      "description": "A must have for any blood user.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/3/37/Spleen.png?18927d",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "French Hotdog",
+        "P\u00f6lsa",
+        "P\u00f8lse"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Sports Drink": {
+      "name": "Sports Drink",
+      "description": "A 0.5L PET Bottle of finest sports drink filled to the brim with electrolytes, caffeine and essential minerals.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x2",
+      "sellingValue": 60,
+      "buyingValue": 120,
+      "imageUrl": "https://sulfur.wiki.gg/images/0/0e/Sports_Drink.png?77840d",
+      "sellers": [],
+      "usedIn": [
+        "Gonster"
+      ],
+      "specialProperties": [
+        "70% Accuracy when moving for 180 seconds",
+        "50% Movement speed for 30 seconds",
+        "-0.5 Weapon weight movement penalty for 180 seconds",
+        "-0.5 Fire resistance for 180 seconds",
+        "Removes Burning",
+        "Removes Poisoned"
+      ],
+      "craftingRecipes": []
+    },
+    "Stick": {
+      "name": "Stick",
+      "description": "Nothing compares to a really good stick.",
+      "type": "Ingredient",
+      "gridSize": "2x1",
+      "sellingValue": 2,
+      "buyingValue": 4,
+      "imageUrl": "https://sulfur.wiki.gg/images/a/aa/Stick.png?76f2ec",
+      "sellers": [],
+      "usedIn": [
+        "Cotton Candy",
+        "Stick Grenade",
+        "Fondue",
+        "Mushroom Skewer",
+        "Sausage On Stick",
+        "Tongue On Stick",
+        "Meat Skewer",
+        "Sawdust"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Stout": {
+      "name": "Stout",
+      "description": "A very rich dark beer, that leaves a mustache.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "1x2",
+      "sellingValue": 20,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/7/70/Stout.png",
+      "sellers": null,
+      "usedIn": [
+        "Gonster"
+      ],
+      "specialProperties": [
+        "Gives 15 health over 10 seconds",
+        "Removes Poisoned status",
+        "Removes Burning status"
+      ],
+      "craftingRecipes": null
+    },
+    "Swing-Ding": {
+      "name": "Swing-Ding",
+      "description": "Small mushrooms rich in nitrogen. Popular use in potions.",
+      "type": [
+        "Consumable",
+        "Ingredient",
+        "Mushroom"
+      ],
+      "gridSize": "1\u00d71",
+      "sellingValue": 5,
+      "buyingValue": 10,
+      "imageUrl": "https://sulfur.wiki.gg/images/8/8c/Swing-Ding.png",
+      "sellers": [
+        "Fex Shuen"
+      ],
+      "usedIn": [
+        "Hot Pot",
+        "Fried Mushroom",
+        "Mushroom Soup",
+        "Mushroom Omelette",
+        "Full English Breakfast",
+        "Mushroom Skewer"
+      ],
+      "specialProperties": "5 health over 1 second",
+      "craftingRecipes": null
+    },
+    "Thyroid": {
+      "name": "Thyroid",
+      "description": "An organ roughly the shape of a certain rap group logo. Apparently secretes hormones all over your body? Yuck.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 35,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/8/8a/Thyroid.png",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "P\u00f6lsa"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Tongue": {
+      "name": "Tongue",
+      "description": "The talky lick muscle. Makes things taste like stuff.",
+      "type": "Ingredient",
+      "gridSize": "1x1",
+      "sellingValue": 50,
+      "buyingValue": null,
+      "imageUrl": "https://sulfur.wiki.gg/images/c/c4/Tongue.png?62a500",
+      "sellers": null,
+      "usedIn": [
+        "Tongue On Stick"
+      ],
+      "specialProperties": null,
+      "craftingRecipes": null
+    },
+    "Tube Caviar": {
+      "name": "Tube Caviar",
+      "description": "Savory, intense, Fishy. Love it or hate it.",
+      "type": [
+        "Consumable",
+        "Ingredient"
+      ],
+      "gridSize": "2\u00d71",
+      "sellingValue": 120,
+      "buyingValue": 240,
+      "imageUrl": "https://sulfur.wiki.gg/images/4/42/Tube_Caviar.png?5557ee",
+      "sellers": [
+        "Grossberg"
+      ],
+      "usedIn": [
+        "Onigiri"
+      ],
+      "specialProperties": "30 health over 10 seconds",
+      "craftingRecipes": [
+        {
+          "ingredients": [
+            "Butter",
+            "Bottled Caviar"
+          ],
+          "yield": 3
+        },
+        {
+          "ingredients": [
+            "Metal Scrap",
+            "Bottled Caviar"
+          ],
+          "yield": 3
+        },
+        {
+          "ingredients": [
+            "2x Bottled Caviar"
+          ],
+          "yield": 3
+        }
+      ]
+    }
+  }
+}

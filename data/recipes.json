@@ -1,0 +1,7221 @@
+{
+  "metadata": {
+    "name": "Sulfur Complete Recipe Database",
+    "description": "Comprehensive automated scraping of all 97 recipes from sulfur.wiki.gg",
+    "scrapedAt": "2025-08-13T23:39:26.140369",
+    "totalRecipes": 97,
+    "source": "automated_web_scraper",
+    "baseUrl": "https://sulfur.wiki.gg",
+    "scrapingMethod": "WebFetch_systematic_extraction",
+    "completionStatus": "complete",
+    "categories": {
+      "cooked_consumables": 89,
+      "cooked_throwables": 6,
+      "cooked_equipment": 2
+    }
+  },
+  "recipes": {
+    "cooked_consumables": [
+      {
+        "name": "Admiral White Extra Strong",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/2/29/Admiral_White_Extra_Strong.png?670694",
+        "description": "Gives 400% Slow motion for 7 seconds. Gives 50% Movement speed for 7 seconds.",
+        "effects": [
+          {
+            "type": "Slow Motion",
+            "value": "+400%",
+            "duration": "7 seconds"
+          },
+          {
+            "type": "Movement Speed",
+            "value": "+50%",
+            "duration": "7 seconds"
+          }
+        ],
+        "economic": {
+          "sellingValue": 50,
+          "buyingValue": 100,
+          "vendors": [
+            "Blond Magus",
+            "Qiosk"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Herbs",
+                "quantity": 1
+              },
+              {
+                "item": "Paper",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Admiral White Extra Strong",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Herbs",
+                "quantity": 1
+              },
+              {
+                "item": "Cloth",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Admiral White Extra Strong",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Anti-Poison Gum",
+        "description": "Doesn't taste great but can be an antidote to toxins.",
+        "type": "Consumable",
+        "gridSize": "1\u00d71",
+        "imageUrl": "https://sulfur.wiki.gg/images/9/99/Anti-Poison_Gum.png",
+        "specialEffects": {
+          "poisonResistance": "+80 for 120 seconds"
+        },
+        "economicData": {
+          "sellingValue": 40,
+          "buyingValue": 80,
+          "vendors": [
+            "Blond Magus",
+            "Qiosk"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Rubber",
+                "quantity": 1
+              },
+              {
+                "name": "Green Glob",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Anti-Poison Gum",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Used Rubber",
+                "quantity": 1
+              },
+              {
+                "name": "Green Glob",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Anti-Poison Gum",
+              "quantity": 1
+            }
+          }
+        ],
+        "ingredientIn": [
+          "Jar of Poison"
+        ]
+      },
+      {
+        "name": "Aspic",
+        "description": "Random food trapped inside jelly for all eternity.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/12/Aspic.png?bac645",
+        "healing": {
+          "amount": 15,
+          "duration": 0.1,
+          "type": "health"
+        },
+        "economic": {
+          "sellingValue": 45,
+          "buyingValue": 90,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "name": "Jello",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Aspic",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "name": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Aspic",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "name": "Fatberg Chunk",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Aspic",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Mystery Meat",
+                "quantity": 2
+              },
+              {
+                "name": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Aspic",
+              "quantity": 3
+            }
+          }
+        ]
+      },
+      {
+        "name": "Banana Bread",
+        "description": "A loaf of freshly baked bread made of yeast, flour and water.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/3/35/Banana_Bread.png?ffd5cb",
+        "healing": {
+          "amount": 30,
+          "duration": 10,
+          "unit": "Health"
+        },
+        "economic": {
+          "sellingValue": 45,
+          "buyingValue": 90,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Bread",
+                "quantity": 1
+              },
+              {
+                "name": "Banana",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Banana Bread",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Bread",
+                "quantity": 1
+              },
+              {
+                "name": "Banana",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Banana Bread",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Bread",
+                "quantity": 2
+              },
+              {
+                "name": "Banana",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Banana Bread",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Bread",
+                "quantity": 2
+              },
+              {
+                "name": "Banana",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Banana Bread",
+              "quantity": 4
+            }
+          }
+        ]
+      },
+      {
+        "name": "Banana Sulfs",
+        "description": "The bacon of the banana candy world.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/f/fa/Banana_Sulfs.png",
+        "healing": {
+          "amount": 20,
+          "duration": 5,
+          "unit": "health"
+        },
+        "economic": {
+          "sellingValue": 10,
+          "buyingValue": 20,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Banana",
+                "quantity": 1
+              },
+              {
+                "name": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Banana Sulfs",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Banana",
+                "quantity": 2
+              },
+              {
+                "name": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Banana Sulfs",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Banana",
+                "quantity": 1
+              },
+              {
+                "name": "Sugar",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Banana Sulfs",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Banana",
+                "quantity": 2
+              },
+              {
+                "name": "Sugar",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Banana Sulfs",
+              "quantity": 5
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bark Bread",
+        "description": "A loaf of bread made from bark instead of flour. Filling but not very nourishing.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/f/ff/Bark_Bread.png?6e2ec3",
+        "healing": {
+          "amount": 10,
+          "duration": 10,
+          "unit": "health"
+        },
+        "economicData": {
+          "sellingValue": 25,
+          "buyingValue": 50,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Bark",
+                "quantity": "1-2"
+              },
+              {
+                "item": "Any Milk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Bark Bread",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bark",
+                "quantity": 3
+              },
+              {
+                "item": "Any Milk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Bark Bread",
+              "quantity": 2
+            }
+          }
+        ],
+        "ingredientIn": [
+          "Bread Sandwich",
+          "Butter Sandwich",
+          "Cheese Sandwich"
+        ],
+        "specialNotes": [
+          "Beverages include Sports Drink, Soda, or Cactus Softdrink"
+        ]
+      },
+      {
+        "name": "Beef Jerky",
+        "description": "Dried and seasoned protein, most commonly from mammal origin. Responsible for creating truck drivers all over the world.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/e/e4/Beef_Jerky.png?942c0f",
+        "healing": {
+          "amount": 10,
+          "duration": "10 seconds"
+        },
+        "economic": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Goblin Skin",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Beef Jerky",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Black Pepper",
+                "quantity": 1
+              },
+              {
+                "item": "Goblin Skin",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Beef Jerky",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Salt",
+                "quantity": 1
+              },
+              {
+                "item": "Goblin Skin",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Beef Jerky",
+              "quantity": 1
+            }
+          }
+        ],
+        "usedIn": [
+          "Poutine"
+        ]
+      },
+      {
+        "name": "Berry Jam",
+        "description": "Berries crushed and boiled with sugar. Sweet and fruity.",
+        "type": "Consumable",
+        "gridSize": "1\u00d71",
+        "imageUrl": "https://sulfur.wiki.gg/images/a/a6/Berry_Jam.png?364fa5",
+        "healing": {
+          "amount": 15,
+          "duration": 2.5
+        },
+        "economic": {
+          "sellingValue": 45,
+          "buyingValue": 90,
+          "vendor": "Jaques De Fector"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Sugar",
+                "quantity": 1
+              },
+              {
+                "name": "Berries",
+                "quantity": "1-3"
+              }
+            ],
+            "output": {
+              "name": "Berry Jam",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Sugar",
+                "quantity": 1
+              },
+              {
+                "name": "Berries",
+                "quantity": "4-6"
+              }
+            ],
+            "output": {
+              "name": "Berry Jam",
+              "quantity": 2
+            }
+          }
+        ],
+        "usedIn": [
+          "Health Potion",
+          "Mulled Wine",
+          "Peanutbutter Jelly Sandwich",
+          "Berry Milkshake"
+        ]
+      },
+      {
+        "name": "Berry Jam (Unsweetened)",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/6/6d/Berry_Jam_%28Unsweetened%29.png?1d7609",
+        "description": "Berries crushed and boiled. Fruity, but not as sweet as you would expect.",
+        "healing": {
+          "amount": 25,
+          "duration": 2.5
+        },
+        "economic": {
+          "sellingValue": 35,
+          "buyingValue": 70
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Berries",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Berry Jam (Unsweetened)",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Berries",
+                "quantity": 3
+              }
+            ],
+            "output": {
+              "item": "Berry Jam (Unsweetened)",
+              "quantity": 2
+            }
+          }
+        ],
+        "ingredientIn": [
+          "Berry Jam",
+          "Berry Milkshake",
+          "Peanutbutter Jelly Sandwich"
+        ]
+      },
+      {
+        "name": "Berry Milkshake",
+        "description": "A sweet beverage made of smoothly blended milk and ice cream. This one is berry flavored.",
+        "type": [
+          "Consumable",
+          "Cookable"
+        ],
+        "gridSize": "1x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/5/5a/Berry_Milkshake.png?57a02b",
+        "healing": {
+          "amount": 35,
+          "duration": 3,
+          "unit": "health",
+          "specialEffects": [
+            "Removes Fire"
+          ]
+        },
+        "economics": {
+          "sellingValue": 15,
+          "buyingValue": 30,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Berries",
+                "quantity": 1
+              },
+              {
+                "name": "Milk",
+                "quantity": 1,
+                "restrictions": [
+                  "Not Buttermilk",
+                  "Not Whole Milk"
+                ]
+              }
+            ],
+            "output": {
+              "name": "Berry Milkshake",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Berries",
+                "quantity": 1
+              },
+              {
+                "name": "Milk",
+                "quantity": 2,
+                "restrictions": [
+                  "Not Buttermilk",
+                  "Not Whole Milk"
+                ]
+              }
+            ],
+            "output": {
+              "name": "Berry Milkshake",
+              "quantity": 2
+            }
+          }
+        ]
+      },
+      {
+        "name": "Biscuits And Gravy",
+        "description": "White gravy with sausage squeezed tight between two loaves of bread. Exquisite.",
+        "type": "Consumable",
+        "gridSize": "2\u00d71",
+        "imageUrl": "https://sulfur.wiki.gg/images/2/22/Biscuits_And_Gravy.png?7fa79f",
+        "healing": {
+          "amount": 25,
+          "duration": 10,
+          "type": "health"
+        },
+        "economic": {
+          "sellingValue": 65,
+          "buyingValue": 130,
+          "vendor": "Stiffleg"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Gravy",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Biscuits And Gravy",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 2
+              },
+              {
+                "item": "Gravy",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Biscuits And Gravy",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Gravy",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Biscuits And Gravy",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 2
+              },
+              {
+                "item": "Gravy",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Biscuits And Gravy",
+              "quantity": 4
+            }
+          }
+        ]
+      },
+      {
+        "name": "Boba Tea",
+        "description": "The pumpkin spice latte of teas.",
+        "type": "Consumable",
+        "gridSize": "1\u00d72",
+        "imageUrl": "https://sulfur.wiki.gg/images/0/0a/Boba_Tea.png?a34233",
+        "healing": {
+          "amount": 15,
+          "duration": 10,
+          "unit": "health over seconds"
+        },
+        "specialEffects": [
+          "Removes Fire",
+          "Removes Poison"
+        ],
+        "economic": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "vendor": "Stiffleg"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Green Tea",
+                "quantity": 1
+              },
+              {
+                "name": "Rice",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Boba Tea",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Green Tea",
+                "quantity": 2
+              },
+              {
+                "name": "Rice",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Boba Tea",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Green Tea",
+                "quantity": 1
+              },
+              {
+                "name": "Rice",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Boba Tea",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Green Tea",
+                "quantity": 2
+              },
+              {
+                "name": "Rice",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Boba Tea",
+              "quantity": 4
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bottled Water",
+        "description": "A 0.5L PET Bottle of water. It's half-empty.",
+        "type": "Consumable",
+        "gridSize": "1x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/16/Bottled_Water.png?8ffbdd",
+        "healing": {
+          "amount": 5,
+          "duration": 5,
+          "unit": "health"
+        },
+        "specialEffects": [
+          "Removes Fire",
+          "Removes Poison"
+        ],
+        "economics": {
+          "sellingValue": 20,
+          "buyingValue": 40,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Cactus",
+                "quantity": 3
+              }
+            ],
+            "output": {
+              "name": "Bottled Water",
+              "quantity": 2
+            }
+          }
+        ],
+        "ingredientIn": [
+          "Bread",
+          "Broth",
+          "Cactus Softdrink",
+          "Chocolate Syrup",
+          "Green Tea",
+          "Julmust",
+          "Mashed Potatoes",
+          "Mushroom Soup",
+          "Porridge",
+          "Red Wine",
+          "Soda",
+          "Spaghetti",
+          "Stew"
+        ]
+      },
+      {
+        "name": "Bread",
+        "description": "A loaf of freshly baked bread made of yeast, flour and water.",
+        "type": "Consumable",
+        "gridSize": "2\u00d71",
+        "imageUrl": "https://sulfur.wiki.gg/images/e/e1/Bread.png?ffd5cb",
+        "healing": {
+          "amount": 15,
+          "duration": 10,
+          "unit": "health over seconds"
+        },
+        "economics": {
+          "sellingValue": 45,
+          "buyingValue": 90,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Flour",
+                "quantity": 1
+              },
+              {
+                "name": "Bottled Water",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Bread",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Flour",
+                "quantity": 1
+              },
+              {
+                "name": "Bottled Water",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Bread",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Flour",
+                "quantity": 2
+              },
+              {
+                "name": "Bottled Water",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Bread",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Flour",
+                "quantity": 2
+              },
+              {
+                "name": "Bottled Water",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Bread",
+              "quantity": 4
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Flour",
+                "quantity": 1
+              },
+              {
+                "name": "Milk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Bread",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bread Sandwich",
+        "description": "Not the best thing that happened from sliced bread.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/11/Bread_Sandwich.png?685623",
+        "healing": {
+          "amount": 15,
+          "duration": 5,
+          "unit": "health over seconds"
+        },
+        "economic": {
+          "sellingValue": 40,
+          "buyingValue": 80,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 3
+              }
+            ],
+            "output": {
+              "item": "Bread Sandwich",
+              "quantity": 4
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bark Bread",
+                "quantity": 3
+              }
+            ],
+            "output": {
+              "item": "Bread Sandwich",
+              "quantity": 4
+            }
+          }
+        ]
+      },
+      {
+        "name": "Broth",
+        "description": "A healthy, warm and soothing broth. Salty.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/9/9c/Broth.png?37f671",
+        "healing": {
+          "amount": 10,
+          "duration": 10,
+          "unit": "health"
+        },
+        "economic": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Bottled Water",
+                "quantity": 1
+              },
+              {
+                "name": "Bone",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Bottled Water",
+                "quantity": 1
+              },
+              {
+                "name": "Kidney Stone",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Bottled Water",
+                "quantity": 1
+              },
+              {
+                "name": "Salt",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "usedIn": [
+          "Cuisses De Grenouille",
+          "Dopp I Grytan",
+          "Escargot",
+          "Gravy",
+          "Hot Pot",
+          "Mushroom Soup",
+          "Ramen",
+          "Fondue",
+          "Sausage Soup",
+          "Stew",
+          "Tori Ramen"
+        ]
+      },
+      {
+        "name": "Buddy Sandwich",
+        "description": "\"Are you gonna eat that?\"",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/0/0a/Buddy_Sandwich.png?188fe2",
+        "healing": {
+          "amount": 15,
+          "duration": 5,
+          "unit": "health over seconds"
+        },
+        "economics": {
+          "sellingValue": 500,
+          "buyingValue": 1000,
+          "currency": "SulfCoin"
+        },
+        "recipe": {
+          "ingredients": [
+            {
+              "item": "Bread",
+              "quantity": 1
+            },
+            {
+              "item": "Dog Eye",
+              "quantity": 4
+            }
+          ],
+          "output": {
+            "item": "Buddy Sandwich",
+            "quantity": 1
+          }
+        }
+      },
+      {
+        "name": "Butter",
+        "description": "Cow's milk that has been churned into thick butter.",
+        "type": "Consumable",
+        "gridSize": "2\u00d71",
+        "imageUrl": "https://sulfur.wiki.gg/images/f/f1/Butter.png?2d78e6",
+        "healing": {
+          "amount": 15,
+          "duration": 10
+        },
+        "economic": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "vendor": "Grossberg"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Whole Milk",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Butter",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Fatberg Chunk",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "name": "Butter",
+              "quantity": 3
+            }
+          }
+        ],
+        "ingredientIn": [
+          "Butter Sandwich",
+          "Buttermilk",
+          "Buttermilk Pancakes",
+          "Cheese Sandwich",
+          "Chocolate Ball",
+          "Chocolate Mudcake",
+          "Cuisses De Grenouille",
+          "Escargot",
+          "Fried Mushroom",
+          "Gravy",
+          "Leverpastej",
+          "Nut Spread",
+          "Rhubarb Pie",
+          "Swedish Pancakes",
+          "Toast Skagen",
+          "Tube Caviar"
+        ]
+      },
+      {
+        "name": "Butter Sandwich",
+        "description": "Best thing that happened from sliced bread. Chewy and savory.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/b/b7/Butter_Sandwich.png",
+        "healing": {
+          "amount": 15,
+          "duration": 5
+        },
+        "economic": {
+          "sellingValue": 30,
+          "buyingValue": 60
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Bread",
+                "quantity": 1
+              },
+              {
+                "name": "Butter",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Butter Sandwich",
+              "quantity": 4
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Bark Bread",
+                "quantity": 1
+              },
+              {
+                "name": "Butter",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Butter Sandwich",
+              "quantity": 4
+            }
+          }
+        ],
+        "usedIn": [
+          "Cheese Sandwich"
+        ]
+      },
+      {
+        "name": "Buttermilk",
+        "description": "A product from the leftovers of cheese production.",
+        "type": "Consumable",
+        "gridSize": "1x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/19/Buttermilk.png?85204b",
+        "healingEffects": {
+          "health": 15,
+          "duration": 10
+        },
+        "specialEffects": {
+          "accuracy": {
+            "bonus": "+50%",
+            "duration": 120
+          }
+        },
+        "economicData": {
+          "sellingValue": 25,
+          "buyingValue": 50
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "name": "Butter",
+                "quantity": 1
+              },
+              {
+                "name": "Whole Milk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Buttermilk",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Butter",
+                "quantity": 1
+              },
+              {
+                "name": "Skimmed Milk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Buttermilk",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "name": "Butter",
+                "quantity": 1
+              },
+              {
+                "name": "Low Fat Milk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "name": "Buttermilk",
+              "quantity": 3
+            }
+          }
+        ],
+        "usedIn": [
+          "Bread",
+          "Buttermilk Pancakes",
+          "Cheese",
+          "Gravy",
+          "Bark Bread",
+          "Jansson's Temptation",
+          "Rice Porridge"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Buttermilk Pancakes",
+        "description": "A stack of thick and fluffy pancakes drizzled with syrup. These pancakes have a tendency to stick to the roof of your mouth.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/c/c5/Buttermilk_Pancakes.png",
+        "healing": {
+          "health": 30,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 110,
+          "buyingValue": 220,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Buttermilk",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Butter Variation",
+            "ingredients": [
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Buttermilk",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "variation": "Salt Variation",
+            "ingredients": [
+              {
+                "item": "Salt",
+                "quantity": 1
+              },
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Buttermilk",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          },
+          {
+            "variation": "Double Ingredient Variation",
+            "ingredients": [
+              {
+                "item": "Buttermilk",
+                "quantity": 2
+              },
+              {
+                "item": "Egg",
+                "quantity": 2
+              },
+              {
+                "item": "Flour",
+                "quantity": 2
+              }
+            ],
+            "output": 7
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 22,
+        "name": "Cactus Softdrink",
+        "description": "A stilldrink made with cactus and cane sugar",
+        "type": "Consumable",
+        "gridSize": "1x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/0/0b/Cactus_Softdrink.png",
+        "healing": {
+          "health": 15,
+          "duration": 10
+        },
+        "specialEffects": [
+          "Removes Burning",
+          "Removes Poisoned"
+        ],
+        "economicData": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Cactus",
+                "quantity": 1
+              },
+              {
+                "item": "Bottled Water",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": [
+          "Status Removal"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Candy Cane",
+        "description": "Striped candy with a pronouced bend, for display purposes",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/13/Candy_Cane.png",
+        "healing": {
+          "health": 20,
+          "duration": 0.1
+        },
+        "economicData": {
+          "sellingValue": null,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Herbs",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": [
+          "Very short healing duration"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Cereal",
+        "description": "The crunch is so satisfying.",
+        "type": "Consumable",
+        "gridSize": "2x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/9/91/Cereal.png",
+        "healing": {
+          "health": 20,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 55,
+          "buyingValue": null,
+          "vendors": [
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "variation": "Oats Only",
+            "ingredients": [
+              {
+                "item": "Oats",
+                "quantity": 2
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Rice and Oats",
+            "ingredients": [
+              {
+                "item": "Rice",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Rice and Double Oats",
+            "ingredients": [
+              {
+                "item": "Rice",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 2
+              }
+            ],
+            "output": 3
+          },
+          {
+            "variation": "Double Rice and Oats",
+            "ingredients": [
+              {
+                "item": "Rice",
+                "quantity": 2
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 25,
+        "name": "Cevapi",
+        "description": "Small meat turds put inside a bread cut like a Pac-person. Onions on the side.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/0/0b/Cevapi.png",
+        "healing": {
+          "health": 25,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 110,
+          "buyingValue": 220,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 1
+              },
+              {
+                "item": "Spice Mix",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 26,
+        "name": "Cheese",
+        "description": "Gives 15 health over 10 seconds. Very tasty on its own. Or with bread. Smelly humans love it.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/a/a5/Cheese.png",
+        "healing": {
+          "health": 15,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 50,
+          "buyingValue": 100,
+          "vendors": [
+            "Rat Queen"
+          ]
+        },
+        "recipes": [
+          {
+            "variation": "Skimmed Milk",
+            "ingredients": [
+              {
+                "item": "Skimmed Milk",
+                "quantity": 3
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Low Fat Milk",
+            "ingredients": [
+              {
+                "item": "Low Fat Milk",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Whole Milk",
+            "ingredients": [
+              {
+                "item": "Whole Milk",
+                "quantity": 3
+              }
+            ],
+            "output": 3
+          },
+          {
+            "variation": "Buttermilk",
+            "ingredients": [
+              {
+                "item": "Buttermilk",
+                "quantity": 3
+              }
+            ],
+            "output": 3
+          }
+        ],
+        "usedIn": [
+          "Cheese Sandwich",
+          "Cheese Tops",
+          "Cheeseburger",
+          "Cordon Bleu",
+          "Double Cheeseburger",
+          "Fondue",
+          "Mac'n'Cheese",
+          "Omelette",
+          "Pizza",
+          "Poutine",
+          "Raclette"
+        ],
+        "specialProperties": [
+          "Ingredient in many recipes"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheese Sandwich",
+        "description": "Best thing that happened from sliced bread. Chewy and savory.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/e/e7/Cheese_Sandwich.png",
+        "healing": {
+          "health": 20,
+          "duration": 5
+        },
+        "economicData": {
+          "sellingValue": 43,
+          "buyingValue": 85,
+          "vendors": [
+            "Rat Queen"
+          ]
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 2
+              }
+            ],
+            "output": 3
+          },
+          {
+            "variation": "Double Cheese",
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 2
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "variation": "With Butter",
+            "ingredients": [
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "variation": "Bark Bread Basic",
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Bark Bread",
+                "quantity": 2
+              }
+            ],
+            "output": 3
+          },
+          {
+            "variation": "Bark Bread Double Cheese",
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 2
+              },
+              {
+                "item": "Bark Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "variation": "Bark Bread with Butter",
+            "ingredients": [
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Bark Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 28,
+        "name": "Cheese Tops",
+        "description": "Hot and cheesy.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/4/40/Cheese_Tops.png",
+        "healing": {
+          "health": 25,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "vendors": [
+            "Grossberg"
+          ]
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "variation": "Double Cheese",
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 2
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          },
+          {
+            "variation": "Double Flour",
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 2
+              }
+            ],
+            "output": 5
+          },
+          {
+            "variation": "Double Both",
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 2
+              },
+              {
+                "item": "Flour",
+                "quantity": 2
+              }
+            ],
+            "output": 7
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 29,
+        "name": "Cheeseburger",
+        "description": "A sandwich consisting of fillings, usually a patty of ground meat, typically from animals, placed inside a sliced bun or bread roll",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/11/Cheeseburger.png",
+        "healing": {
+          "health": 45,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 125,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Double Cheese",
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 2
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Double Bread",
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": [
+          "Health increased from 35 to 45 in version 0.9.18"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Chocolate Ball",
+        "description": null,
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/7/70/Chocolate_Ball.png",
+        "healing": {
+          "health": 20,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 43,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Oats",
+                "quantity": 1
+              },
+              {
+                "item": "Cacao",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "variation": "With Butter",
+            "ingredients": [
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              },
+              {
+                "item": "Cacao",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": 6
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": [
+          "Page pending migration"
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Chocolate Milkshake",
+        "description": "A sweet beverage made of smoothly blended milk and ice cream. This one is chocolate flavored.",
+        "type": "Consumable",
+        "gridSize": "1x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/8/8c/Chocolate_Milkshake.png",
+        "healing": {
+          "health": 35,
+          "duration": 3
+        },
+        "economicData": {
+          "sellingValue": 30,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Cacao",
+                "quantity": 1
+              },
+              {
+                "item": "Milk (Any except Buttermilk & Whole Milk)",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": [
+          "Cannot use Buttermilk or Whole Milk in base recipes"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Chocolate Mudcake",
+        "description": "Has a rich chocolate taste. Usually a mix of cacao, sugar, eggs, flour and butter.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/4/48/Chocolate_Mudcake.png",
+        "healing": {
+          "health": 50,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 140,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Milk Recipe",
+            "ingredients": [
+              {
+                "item": "Any Milk (except Buttermilk)",
+                "quantity": 1
+              },
+              {
+                "item": "Cacao",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "variation": "Butter Recipe",
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Cacao",
+                "quantity": 1
+              },
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          },
+          {
+            "variation": "Chocolate Bar Recipe",
+            "ingredients": [
+              {
+                "item": "Chocolate Bar",
+                "quantity": 1
+              },
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          },
+          {
+            "variation": "Chocolate Syrup Recipe",
+            "ingredients": [
+              {
+                "item": "Chocolate Syrup",
+                "quantity": 1
+              },
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 33,
+        "name": "Chocolate Syrup",
+        "description": "A thick, sugary, chocolate liquid.",
+        "type": "Consumable",
+        "gridSize": "1x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/e/e8/Chocolate_Syrup.png",
+        "healing": {
+          "health": 10,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 50,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Water Recipe",
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Cacao",
+                "quantity": 1
+              },
+              {
+                "item": "Bottled Water",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Solution Recipe",
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Cacao",
+                "quantity": 1
+              },
+              {
+                "item": "Solution",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Chocolate Bar Water",
+            "ingredients": [
+              {
+                "item": "Chocolate Bar",
+                "quantity": 1
+              },
+              {
+                "item": "Bottled Water",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Chocolate Bar Solution",
+            "ingredients": [
+              {
+                "item": "Chocolate Bar",
+                "quantity": 1
+              },
+              {
+                "item": "Solution",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          }
+        ],
+        "usedIn": [
+          "Chocolate Ball",
+          "Chocolate Milkshake",
+          "Chocolate Mudcake"
+        ],
+        "specialProperties": []
+      },
+      {
+        "id": 34,
+        "name": "Cordon Bleu",
+        "description": "Insanely fancy western maki rolls with chicken.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/4/44/Cordon_Bleu.png",
+        "healing": {
+          "health": 25,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 175,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Any Flesh Recipe",
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Chicken Leg Recipe",
+            "ingredients": [
+              {
+                "item": "Chicken Leg",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 35,
+        "name": "Cotton Candy",
+        "description": "Sugar with sugar that processed to be fluffy. Like one-dimensional firework for the senses.",
+        "type": "Consumable",
+        "gridSize": "1x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/6/67/Cotton_Candy.png",
+        "healing": {
+          "health": 20,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 65,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 2
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Advanced Recipe",
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 3
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Stick Simple",
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Stick Extended",
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 36,
+        "name": "Cotton Swabs",
+        "description": "Practical when new. Horrible when used.",
+        "type": "Repair Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/b/b9/Cotton_Swabs.png",
+        "healing": {
+          "durabilityRestored": 40
+        },
+        "economicData": {
+          "sellingValue": 13,
+          "buyingValue": 25,
+          "vendors": [
+            "Fex Shuen",
+            "Rat Queen"
+          ]
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              },
+              {
+                "item": "Rock",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "variation": "Double Fatberg",
+            "ingredients": [
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 2
+              },
+              {
+                "item": "Rock",
+                "quantity": 1
+              }
+            ],
+            "output": 8
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": [
+          "Repair item",
+          "Restores durability instead of health"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Cuisses De Grenouille",
+        "description": "Famous dish, also known as frog legs.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/17/Cuisses_De_Grenouille.png",
+        "healing": {
+          "health": 35,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 120,
+          "buyingValue": 240,
+          "vendors": [
+            "Stiffleg",
+            "Qiosk"
+          ]
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Frog Leg",
+                "quantity": 2
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Broth Variation",
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 1
+              },
+              {
+                "item": "Frog Leg",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Butter Variation",
+            "ingredients": [
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Frog Leg",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Herbs Variation",
+            "ingredients": [
+              {
+                "item": "Herbs",
+                "quantity": 1
+              },
+              {
+                "item": "Frog Leg",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 38,
+        "name": "Currywurst",
+        "description": "Say auf Wiedersehen to your hunger with this sausage, fries and curry ketchup combo.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/6/6a/Currywurst.png",
+        "healing": {
+          "health": 45,
+          "duration": 5
+        },
+        "economicData": {
+          "sellingValue": 113,
+          "buyingValue": null,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Christmas Spice",
+            "ingredients": [
+              {
+                "item": "Christmas Spice",
+                "quantity": 1
+              },
+              {
+                "item": "Spicy Sausage",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Christmas Spice with Solution",
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Christmas Spice",
+                "quantity": 1
+              },
+              {
+                "item": "Spicy Sausage",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Herbs",
+            "ingredients": [
+              {
+                "item": "Herbs",
+                "quantity": 1
+              },
+              {
+                "item": "Spicy Sausage",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "variation": "Herbs with Solution",
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Herbs",
+                "quantity": 1
+              },
+              {
+                "item": "Spicy Sausage",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 39,
+        "name": "Dimmie",
+        "description": "A single dimmie, not enough to share with your mate.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/12/Dimmie.png",
+        "healing": {
+          "health": 20,
+          "duration": 15
+        },
+        "economicData": {
+          "sellingValue": 25,
+          "buyingValue": 50,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": "Any Flesh Recipe",
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              },
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "variation": "Mystery Meat Recipe",
+            "ingredients": [
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              },
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": []
+      },
+      {
+        "id": 40,
+        "name": "Dopp I Grytan",
+        "description": "Bread soaked in whatever was left when you cooked ham. What a concept.",
+        "type": "Consumable",
+        "gridSize": "2x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/d/db/Dopp_I_Grytan.png",
+        "healing": {
+          "health": 25,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 65,
+          "buyingValue": 130,
+          "vendors": [
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "variation": "Basic Recipe",
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "variation": "Double Bread",
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 2
+              }
+            ],
+            "output": 3
+          },
+          {
+            "variation": "Double Broth",
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 2
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "variation": "Double Both",
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 2
+              },
+              {
+                "item": "Bread",
+                "quantity": 2
+              }
+            ],
+            "output": 5
+          }
+        ],
+        "usedIn": [],
+        "specialProperties": [
+          "Requires 4x4 stove for full output - 3x3 stove only yields 1"
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Double Cheeseburger",
+        "description": "A sandwich consisting of fillings, usually a patty of ground meat, typically from animals, placed inside a sliced bun or bread roll",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "value": 300,
+        "imageUrl": "https://sulfur.wiki.gg/images/c/ce/Double_Cheeseburger.png",
+        "healing": {
+          "amount": 200,
+          "duration": 10
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Flesh",
+                "quantity": 2,
+                "notes": "Any same type"
+              }
+            ],
+            "output": {
+              "item": "Double Cheeseburger",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 2
+              },
+              {
+                "item": "Bread",
+                "quantity": 2
+              },
+              {
+                "item": "Flesh",
+                "quantity": 2,
+                "notes": "Any same type"
+              }
+            ],
+            "output": {
+              "item": "Double Cheeseburger",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 3
+              },
+              {
+                "item": "Bread",
+                "quantity": 2
+              },
+              {
+                "item": "Flesh",
+                "quantity": 2,
+                "notes": "Any same type"
+              }
+            ],
+            "output": {
+              "item": "Double Cheeseburger",
+              "quantity": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Dumpling",
+        "description": "A dumpling filled with some kind of pat\u00e9. It's punctured.",
+        "type": [
+          "Consumable",
+          "Cookable"
+        ],
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/2/28/Dumpling.png?1a822e",
+        "healing": {
+          "amount": 20,
+          "duration": 15
+        },
+        "economicData": {
+          "sellingValue": 25,
+          "buyingValue": 50,
+          "vendor": "Qiosk"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Liver",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dumpling",
+              "quantity": 4
+            }
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Egg Toddy",
+        "description": "Sugar, eggs, and booze. One of santas favorites.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "value": 90,
+        "imageUrl": "https://sulfur.wiki.gg/images/6/62/Egg_Toddy.png",
+        "effects": [
+          {
+            "type": "Charisma Boost",
+            "value": "+30",
+            "duration": 240
+          },
+          {
+            "type": "Health Regeneration",
+            "value": "10 health",
+            "duration": 10
+          },
+          {
+            "type": "Status Removal",
+            "effect": "Removes Poisoned"
+          }
+        ],
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Liquor",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Egg Toddy",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Liquor",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Egg Toddy",
+              "quantity": 4
+            }
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Energy Gum",
+        "description": "A gum that provides resistance to elemental damage",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "value": 40,
+        "imageUrl": "https://sulfur.wiki.gg/images/7/75/Energy_Gum.png?59af46",
+        "effects": [
+          {
+            "type": "Resistance",
+            "element": "Fire",
+            "value": "+50",
+            "duration": 90
+          },
+          {
+            "type": "Resistance",
+            "element": "Frost",
+            "value": "+50",
+            "duration": 90
+          },
+          {
+            "type": "Resistance",
+            "element": "Electric",
+            "value": "+50",
+            "duration": 90
+          }
+        ],
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Spice Mix",
+                "quantity": 1
+              },
+              {
+                "item": "Rubber",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Energy Gum",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Spice Mix",
+                "quantity": 1
+              },
+              {
+                "item": "Used Rubber",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Energy Gum",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Escargot",
+        "description": "Boiled snails, usually with herbs and garlic. Technically mollusks and therefore classified as seafood.",
+        "type": [
+          "Consumable",
+          "Cookable"
+        ],
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/7/78/Escargot.png?1a9efc",
+        "healing": {
+          "amount": 30,
+          "duration": 2.5
+        },
+        "economicData": {
+          "value": 150,
+          "vendors": [
+            "Stiffleg",
+            "Qiosk"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Snail",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Escargot",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Snail",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Escargot",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 1
+              },
+              {
+                "item": "Snail",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Escargot",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Herbs",
+                "quantity": 1
+              },
+              {
+                "item": "Snail",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Escargot",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "First Aid Kit",
+        "description": "A plastic box containing instruments needed to provide basic first aid, including gauze, scissors, painkillers, and disinfectant spray.",
+        "type": "Consumable",
+        "gridSize": "2x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/thumb/5/50/First_Aid_Kit.png/220px-First_Aid_Kit.png?f797b1",
+        "healing": {
+          "amount": 100,
+          "duration": 5
+        },
+        "economicData": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "currency": "SulfCoin"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Blood",
+                "quantity": 1
+              },
+              {
+                "item": "Cloth",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "First Aid Kit",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Fish And Chips",
+        "description": "Deep growing root, featuring animal from the deep. Both deep fried. That's deep man.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "value": 125,
+        "imageUrl": "https://sulfur.wiki.gg/images/9/95/Fish_And_Chips.png",
+        "healing": {
+          "amount": 50,
+          "duration": 5
+        },
+        "vendor": "Qiosk",
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fish And Chips",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Salted Fish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fish And Chips",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Flat Sandfish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fish And Chips",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Salted Sandfish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fish And Chips",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Fondue",
+        "description": "Melted cheese dish served in a communal pot. In some human tribes has become a tradition for every occasion.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/3/33/Fondue.png",
+        "healing": {
+          "amount": 50,
+          "duration": 4
+        },
+        "economicData": {
+          "sellingValue": 150,
+          "buyingValue": 300
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Fondue",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 3
+              }
+            ],
+            "output": {
+              "item": "Fondue",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Fondue",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fondue",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              },
+              {
+                "item": "Cheese",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fondue",
+              "quantity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "French Hotdog",
+        "description": "The gas station classic.",
+        "type": "Consumable",
+        "gridSize": "1x2",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/1f/French_Hotdog.png",
+        "healing": {
+          "amount": 30,
+          "duration": 2.5
+        },
+        "economicData": {
+          "sellingValue": 55,
+          "buyingValue": 110,
+          "vendor": "Grossberg"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Dog Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "French Hotdog",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "French Hotdog",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Intestines",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "French Hotdog",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Lung",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "French Hotdog",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Pancreas",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "French Hotdog",
+              "quantity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "French Toast",
+        "description": "Sliced bread soaked in beaten eggs then pan fried.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "value": 75,
+        "imageUrl": "https://sulfur.wiki.gg/images/a/ad/French_Toast.png?324996",
+        "healing": {
+          "amount": 15,
+          "duration": 5
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "French Toast",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "French Toast",
+              "quantity": 4
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Egg",
+                "quantity": 2
+              },
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "French Toast",
+              "quantity": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Fried Blood Pudding",
+        "description": "Fried, crispy, but juicy on the inside. Enjoyed by cattle farming humans in cold biomes.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/f/f5/Fried_Blood_Pudding.png",
+        "healing": {
+          "amount": 30,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 45,
+          "buyingValue": 90,
+          "vendor": "Grossberg"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Flour",
+                "quantity": 1
+              },
+              {
+                "item": "Blood",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fried Blood Pudding",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Blood",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fried Blood Pudding",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              },
+              {
+                "item": "Blood",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fried Blood Pudding",
+              "quantity": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Fried Mushroom",
+        "description": "Tender and melt on your tongue.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "value": 65,
+        "imageUrl": "https://sulfur.wiki.gg/images/4/4a/Fried_Mushroom.png",
+        "healing": {
+          "amount": 15,
+          "duration": 4
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Velvet Bell",
+                "quantity": 7
+              },
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              },
+              {
+                "item": "Butter",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fried Mushroom",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Velvet Bell",
+                "quantity": 7
+              },
+              {
+                "item": "Karl-Oskar",
+                "quantity": 1
+              },
+              {
+                "item": "Butter",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Fried Mushroom",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Full English Breakfast",
+        "description": "The more handsome and successful older brother of the half english breakfast.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/4/45/Full_English_Breakfast.png",
+        "healing": {
+          "amount": 35,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 275,
+          "buyingValue": 550
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Spicy Sausage",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Beans",
+                "quantity": 1
+              },
+              {
+                "item": "Mushroom",
+                "quantity": 1,
+                "notes": "Any 1x1"
+              }
+            ],
+            "output": {
+              "item": "Full English Breakfast",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Spicy Sausage",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 2
+              },
+              {
+                "item": "Beans",
+                "quantity": 1
+              },
+              {
+                "item": "Mushroom",
+                "quantity": 1,
+                "notes": "Any 1x1"
+              }
+            ],
+            "output": {
+              "item": "Full English Breakfast",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Spicy Sausage",
+                "quantity": 1
+              },
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Beans",
+                "quantity": 1
+              },
+              {
+                "item": "Mushroom",
+                "quantity": 2,
+                "notes": "Any 1x1"
+              }
+            ],
+            "output": {
+              "item": "Full English Breakfast",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Gravy",
+        "description": "A white, brown, or gray standard sauce.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "value": 30,
+        "imageUrl": "https://sulfur.wiki.gg/images/3/3d/Gravy.png?56f65e",
+        "healing": {
+          "amount": 20,
+          "duration": 10
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 1
+              },
+              {
+                "item": "Whole Milk",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Gravy",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Broth",
+                "quantity": 1
+              },
+              {
+                "item": "Butter",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Gravy",
+              "quantity": 1
+            }
+          }
+        ],
+        "usedIn": [
+          "Biscuits And Gravy",
+          "Poutine"
+        ]
+      },
+      {
+        "id": 55,
+        "name": "Green Tea",
+        "description": "Drinking this will make you feel confident wielding a sword.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/8/8f/Green_Tea.png",
+        "effects": [
+          {
+            "type": "Melee Damage Boost",
+            "value": "+150%",
+            "duration": 60
+          },
+          {
+            "type": "Health Regeneration",
+            "value": "10 health",
+            "duration": 5
+          },
+          {
+            "type": "Status Removal",
+            "effects": [
+              "Frozen",
+              "Poisoned"
+            ]
+          }
+        ],
+        "economicData": {
+          "sellingValue": 40,
+          "buyingValue": 80,
+          "vendor": "Qiosk"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Matcha",
+                "quantity": 1
+              },
+              {
+                "item": "Solution",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Green Tea",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Matcha",
+                "quantity": 1
+              },
+              {
+                "item": "Bottled Water",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Green Tea",
+              "quantity": 2
+            }
+          }
+        ],
+        "ingredientIn": [
+          "Boba Tea"
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Green Tea Gum",
+        "description": "A matcha flavoured gum, sweet and tingling for the senses. Chewing this will make you feel confident wielding a sword.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/f/f4/Green_Tea_Gum.png",
+        "effects": [
+          {
+            "type": "Health Regeneration",
+            "value": 10,
+            "duration": 5
+          },
+          {
+            "type": "Melee Damage Boost",
+            "value": 1.2,
+            "duration": 120
+          }
+        ],
+        "economicData": {
+          "sellingValue": 40,
+          "buyingValue": 80
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Matcha",
+                "quantity": 1
+              },
+              {
+                "item": "Rubber",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Green Tea Gum",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Matcha",
+                "quantity": 2
+              },
+              {
+                "item": "Rubber",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Green Tea Gum",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Matcha",
+                "quantity": 1
+              },
+              {
+                "item": "Rubber",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Green Tea Gum",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Matcha",
+                "quantity": 2
+              },
+              {
+                "item": "Rubber",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Green Tea Gum",
+              "quantity": 4
+            }
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "name": "Grilled Cactus",
+        "description": "Smokey, juicy, sweet.",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/b/b2/Grilled_Cactus.png",
+        "healing": {
+          "amount": 20,
+          "duration": 10
+        },
+        "economicData": {
+          "sellingValue": 40,
+          "buyingValue": 80,
+          "vendor": "Skrip"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Cactus",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Grilled Cactus",
+              "quantity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "name": "Haggis",
+        "description": "Traditional scottish eat-ception. What's not to like?",
+        "type": "Consumable",
+        "gridSize": "2x1",
+        "value": 15,
+        "imageUrl": "https://sulfur.wiki.gg/images/a/ae/Haggis.png?f35fe9",
+        "healing": {
+          "amount": 20,
+          "duration": 10
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Lung",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Haggis",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Lung",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Haggis",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Any skin",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Haggis",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Any skin",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Haggis",
+              "quantity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Hard Bread",
+        "description": "Flat and dry crispbread. Rich in fiber.",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/8/86/Hard_Bread.png",
+        "healing": {
+          "amount": 8,
+          "duration": 2.5
+        },
+        "economicData": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "vendor": "Stiffleg"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Flour",
+                "quantity": 1
+              },
+              {
+                "item": "Sawdust",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Hard Bread",
+              "quantity": 3
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Flour",
+                "quantity": 1
+              },
+              {
+                "item": "Sawdust",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Hard Bread",
+              "quantity": 4
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Flour",
+                "quantity": 2
+              },
+              {
+                "item": "Sawdust",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Hard Bread",
+              "quantity": 4
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Flour",
+                "quantity": 2
+              },
+              {
+                "item": "Sawdust",
+                "quantity": 3
+              }
+            ],
+            "output": {
+              "item": "Hard Bread",
+              "quantity": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "Hardshell Taco",
+        "description": "A beef taco in a hard shell",
+        "type": "Consumable",
+        "gridSize": "1x1",
+        "imageUrl": "https://sulfur.wiki.gg/images/0/0a/Hardshell_Taco.png",
+        "healing": {
+          "amount": 25,
+          "duration": 2.5
+        },
+        "economicData": {
+          "sellingValue": 30,
+          "buyingValue": 60,
+          "vendor": "Stiffleg"
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 1
+              },
+              {
+                "item": "Spice Mix",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Hardshell Taco",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "item": "Spice Mix",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Hardshell Taco",
+              "quantity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "Health Potion",
+        "description": "Gives 100 health over 5 seconds. Removes Burning. Removes Poisoned.",
+        "flavor_text": "A restorative potion of sacred herbs and electrolytes. Colored red with food dye.",
+        "type": "Consumable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/5/53/Health_Potion.png",
+        "healing": {
+          "health": 100,
+          "duration": 5
+        },
+        "special_effects": [
+          "Removes Burning status",
+          "Removes Poisoned status"
+        ],
+        "economic_data": {
+          "selling_value": 30,
+          "buying_value": 60
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "R\u00f6dsopp",
+                "quantity": 9
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Herbs",
+                "quantity": 4
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Herbs",
+                "quantity": 1
+              },
+              {
+                "item": "R\u00f6dsopp",
+                "quantity": 3
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Blood",
+                "quantity": 1
+              },
+              {
+                "item": "Berry Jam",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Blood",
+                "quantity": 1
+              },
+              {
+                "item": "R\u00f6dsopp",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Blood",
+                "quantity": 1
+              },
+              {
+                "item": "Soda",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Herbal Tea",
+        "description": "Plants dipped in hot water. Namaste.",
+        "type": "Consumable, Cookable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/2/2b/Herbal_Tea.png?4775dd",
+        "healing": {
+          "health": 10,
+          "duration": 5
+        },
+        "special_effects": [
+          "Sprint Bonus: +2 for 10 seconds",
+          "Removes Burning status",
+          "Removes Poisoned status"
+        ],
+        "economic_data": {
+          "selling_value": 35,
+          "buying_value": 70
+        },
+        "recipes": []
+      },
+      {
+        "id": 63,
+        "name": "Holy Toast",
+        "description": "A toasted slice of bread is showing holy signs. Researchers call the phenomenon 'face pareidolia.'",
+        "type": "Consumable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/c/cc/Holy_Toast.png",
+        "special_effects": [
+          "+1 coyote time for 90 seconds"
+        ],
+        "economic_data": {
+          "selling_value": 125
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Holy Water",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          }
+        ],
+        "ingredient_in": [
+          "Red Wine"
+        ]
+      },
+      {
+        "id": 64,
+        "name": "Hot Pot",
+        "description": "Cook while you eat? What a concept!",
+        "type": "Consumable",
+        "grid_size": "3x2",
+        "image_url": "https://sulfur.wiki.gg/images/4/48/Hot_Pot.png",
+        "healing": {
+          "health": 50,
+          "duration": 4
+        },
+        "economic_data": {
+          "selling_value": 150,
+          "buying_value": 300
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Velvet Bell",
+                "quantity": "1-2"
+              },
+              {
+                "item": "Swing-Ding",
+                "quantity": "1-2"
+              },
+              {
+                "item": "R\u00f6dsopp",
+                "quantity": "1-2"
+              },
+              {
+                "item": "Karl-Oskar",
+                "quantity": "1-2"
+              },
+              {
+                "item": "Broth",
+                "quantity": "1-2"
+              },
+              {
+                "item": "Various Flesh",
+                "quantity": "varies"
+              }
+            ],
+            "output": 2,
+            "note": "Multiple variations using combinations of mushrooms, broth, and various flesh types (Hellshrew, Dog, Human, Goblin, Craw, Shav'Wa)"
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "Hot Sauce",
+        "description": "A condiment made from spicy fruits and other ingredients",
+        "type": "Consumable, Cookable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/0/02/Hot_Sauce.png",
+        "healing": {
+          "health": 5,
+          "duration": 2.5
+        },
+        "special_effects": [
+          "+0.5 Frost resistance for 240 seconds"
+        ],
+        "economic_data": {
+          "selling_value": 90,
+          "buying_value": 180
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Spice Mix",
+                "quantity": 1
+              },
+              {
+                "item": "Solution",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ],
+        "used_in": [
+          "Nashville Hot Chicken"
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Jansson's Temptation",
+        "description": "One of the few named legendary traditional foods. Soulbound to Jansson.",
+        "type": "Consumable",
+        "grid_size": "1x3",
+        "image_url": "https://sulfur.wiki.gg/images/2/25/Jansson%27s_Temptation.png",
+        "healing": {
+          "health": 45,
+          "duration": 7
+        },
+        "economic_data": {
+          "selling_value": 100,
+          "buying_value": 200,
+          "vendors": [
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              },
+              {
+                "item": "Any Milk (except Whole Milk)",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Flat Sandfish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              },
+              {
+                "item": "Any Milk (except Whole Milk)",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Flat Sandfish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              },
+              {
+                "item": "Whole Milk",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato Salad",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato Salad",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 2
+              },
+              {
+                "item": "Potato Salad",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 2
+              },
+              {
+                "item": "Potato Salad",
+                "quantity": 2
+              }
+            ],
+            "output": 3
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "name": "Jello",
+        "description": "A nine for presentation, a four for taste, and a one for nutrition.",
+        "type": "Consumable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/7/73/Jello.png",
+        "healing": {
+          "health": 15,
+          "duration": 0.1
+        },
+        "economic_data": {
+          "selling_value": 45
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 2
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 2
+              },
+              {
+                "item": "Sugar",
+                "quantity": 2
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 4
+              },
+              {
+                "item": "Sugar",
+                "quantity": 4
+              }
+            ],
+            "output": 4
+          }
+        ],
+        "ingredient_in": [
+          "Aspic"
+        ]
+      },
+      {
+        "id": 68,
+        "name": "Julmust",
+        "description": "The last bastion of drinks to beat a certain massive company as the main carbonated drink for Christmas related activities",
+        "type": "Consumable",
+        "grid_size": "1x2",
+        "image_url": "https://sulfur.wiki.gg/images/9/9f/Julmust.png",
+        "healing": {
+          "health": 18,
+          "duration": 1
+        },
+        "special_effects": [
+          "+100% Crit chance down sight for 15 seconds"
+        ],
+        "economic_data": {
+          "selling_value": 45,
+          "vendors": [
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Any Water",
+                "quantity": "varies"
+              },
+              {
+                "item": "Sugar",
+                "quantity": "varies"
+              },
+              {
+                "item": "Christmas Spice",
+                "quantity": "varies"
+              }
+            ],
+            "output": "1-7",
+            "note": "Multiple variations with different quantities of water, sugar, Christmas Spice, solution, and soda"
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "name": "Kidney Pie",
+        "description": "Freshly baked and smells of ammonia and salts. Popular among elderly people with strong accents.",
+        "type": "Consumable, Cookable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/f/fc/Kidney_Pie.png",
+        "healing": {
+          "health": 35,
+          "duration": 2.5
+        },
+        "economic_data": {
+          "selling_value": 45,
+          "buying_value": 90,
+          "vendors": [
+            "Rat Queen"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Kidney",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Kidney",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Kidney",
+                "quantity": 2
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Kidney",
+                "quantity": 2
+              },
+              {
+                "item": "Flour",
+                "quantity": 2
+              }
+            ],
+            "output": 4
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "name": "Kidney Stone",
+        "description": "Suprisingly hard. Full of salts and minerals.",
+        "type": "Consumable, Cookable, Ingredient",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/6/64/Kidney_Stone.png",
+        "healing": {
+          "health": 5,
+          "duration": 2.5
+        },
+        "economic_data": {
+          "selling_value": 30,
+          "buying_value": 60,
+          "vendors": [
+            "Rat Queen",
+            "Qiosk"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Kidney",
+                "quantity": 1
+              },
+              {
+                "item": "Rock",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Kidney",
+                "quantity": 1
+              },
+              {
+                "item": "Salt",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          }
+        ],
+        "ingredient_in": [
+          "Broth",
+          "Leverpastej"
+        ]
+      },
+      {
+        "id": 71,
+        "name": "Lackerol Cactus",
+        "description": "Sweet pastilles that lack any resemblance to real-life natural flavors.",
+        "type": "Consumable, Cookable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/c/c0/Lackerol_Cactus.png",
+        "healing": {
+          "health": 10,
+          "duration": 10
+        },
+        "economic_data": {
+          "selling_value": 15,
+          "buying_value": 30,
+          "vendors": [
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Cactus",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "name": "Leverpastej",
+        "description": "A human classic liver p\u00e2t\u00e9 to put on sandwiches. Great with butter and pickles.",
+        "type": "Consumable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/6/65/Leverpastej.png",
+        "healing": {
+          "health": 20,
+          "duration": 5
+        },
+        "economic_data": {
+          "selling_value": 30,
+          "buying_value": 60,
+          "vendors": [
+            "Grossberg",
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Liver",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Butter",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": "1-2"
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Kidney Stone",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": "1-2"
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Rock",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": "1-2"
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Salt",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": "1-2"
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Black Pepper",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": "1-2"
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Herbs",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": "1-2"
+          }
+        ],
+        "used_in": [
+          "Liver P\u00e2t\u00e9 Sandwich"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "Liver P\u00e2t\u00e9 Sandwich",
+        "description": "If you're in the mood for liver - then you're in for a treat.",
+        "type": "Consumable, Cookable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/3/3e/Liver_P\u00e2t\u00e9_Sandwich.png",
+        "healing": {
+          "health": 20,
+          "duration": 5
+        },
+        "economic_data": {
+          "selling_value": 55,
+          "buying_value": 110
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Liver",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bread",
+                "quantity": 1
+              },
+              {
+                "item": "Leverpastej",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "name": "Lutfisk",
+        "description": "Hyper conserved double dipped multiple times forged in corrosive liquids to become the ultimate fish.",
+        "type": "Consumable",
+        "grid_size": "1x2",
+        "image_url": "https://sulfur.wiki.gg/images/b/ba/Lutfisk.png",
+        "healing": {
+          "health": 25,
+          "duration": 5
+        },
+        "economic_data": {
+          "selling_value": 45,
+          "buying_value": 90,
+          "vendors": [
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Bleach",
+                "quantity": 1
+              },
+              {
+                "item": "Fish",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bleach",
+                "quantity": 1
+              },
+              {
+                "item": "Flat Sandfish",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bleach",
+                "quantity": 1
+              },
+              {
+                "item": "Fish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bleach",
+                "quantity": 1
+              },
+              {
+                "item": "Flat Sandfish",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "name": "Mac'n'Cheese",
+        "description": "Pasta and a cheese sauce. Traditional dinner from a cardboard-box.",
+        "type": "Consumable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/3/3d/Mac%27n%27Cheese.png",
+        "healing": {
+          "health": 30,
+          "duration": 10
+        },
+        "economic_data": {
+          "selling_value": 45
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 1
+              },
+              {
+                "item": "Spaghetti",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Cheese",
+                "quantity": 2
+              },
+              {
+                "item": "Spaghetti",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "name": "Maki",
+        "description": "Made from white rice formed into rolls with seaweed and cut into cylindrical shapes.",
+        "type": "Consumable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/2/21/Maki.png",
+        "healing": {
+          "health": 30,
+          "duration": 10
+        },
+        "economic_data": {
+          "selling_value": 75,
+          "buying_value": 150
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 1
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 1
+              },
+              {
+                "item": "Rice",
+                "quantity": 2
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 2
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 1
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              },
+              {
+                "item": "Fish",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              },
+              {
+                "item": "Fish",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 1
+              },
+              {
+                "item": "Rice",
+                "quantity": 2
+              },
+              {
+                "item": "Fish",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 1
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              },
+              {
+                "item": "Fish",
+                "quantity": 2
+              }
+            ],
+            "output": 5
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              },
+              {
+                "item": "Fish",
+                "quantity": 2
+              }
+            ],
+            "output": 5
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 2
+              },
+              {
+                "item": "Fish",
+                "quantity": 1
+              }
+            ],
+            "output": 6
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              },
+              {
+                "item": "Fish",
+                "quantity": 2
+              }
+            ],
+            "output": 6
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Seaweed",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 2
+              },
+              {
+                "item": "Fish",
+                "quantity": 2
+              }
+            ],
+            "output": 7
+          }
+        ],
+        "note": "Fish can be substituted with Flat Sandfish or Bottled Caviar"
+      },
+      {
+        "id": 77,
+        "name": "Mashed Potatoes",
+        "description": "Tubers mashed up with delicious buttermilk.",
+        "type": "Consumable, Cookable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/d/d6/Mashed_Potatoes.png",
+        "healing": {
+          "health": 30,
+          "duration": 10
+        },
+        "economic_data": {
+          "selling_value": 50,
+          "buying_value": 100
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Potato",
+                "quantity": 2
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick Grenade",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Rock",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bottled Water",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Whole Milk",
+                "quantity": 1
+              },
+              {
+                "item": "Potato",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "name": "Meat Skewer",
+        "description": "Has a musky, sour smell. Seems edible.",
+        "type": "Consumable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/0/03/Meat_Skewer.png",
+        "healing": {
+          "health": 20,
+          "duration": 2
+        },
+        "economic_data": {
+          "selling_value": 40,
+          "buying_value": 80,
+          "vendors": [
+            "Grossberg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Human Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Shav'Wa Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Hellshrew Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Goblin Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bone",
+                "quantity": 1
+              },
+              {
+                "item": "Hellshrew Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bone",
+                "quantity": 1
+              },
+              {
+                "item": "Shav'Wa Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Craw Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bone",
+                "quantity": 1
+              },
+              {
+                "item": "Dog Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Dog Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bone",
+                "quantity": 1
+              },
+              {
+                "item": "Craw Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bone",
+                "quantity": 1
+              },
+              {
+                "item": "Human Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Bone",
+                "quantity": 1
+              },
+              {
+                "item": "Goblin Flesh",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Goblin Flesh",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "name": "Meringue",
+        "description": "Crunchy. Made from egg whites and sugar",
+        "type": "Consumable, Cookable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/1/1f/Meringue.png",
+        "healing": {
+          "health": 15,
+          "duration": 4
+        },
+        "economic_data": {
+          "selling_value": 20
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Sugar",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "name": "Mineral Water",
+        "description": "A 0.5L PET Bottle containing pure spring water with trace amounts of essential minerals. It's half-empty.",
+        "type": "Consumable",
+        "grid_size": "1x2",
+        "image_url": "https://sulfur.wiki.gg/images/5/5e/Mineral_Water.png",
+        "special_effects": [
+          "+50% Accuracy when moving for 180 seconds",
+          "+0.5 Fire resistance for 180 seconds",
+          "Removes Burning status",
+          "Removes Poisoned status"
+        ],
+        "economic_data": {
+          "selling_value": 20
+        },
+        "recipes": [],
+        "ingredient_in": [
+          "Bread",
+          "Broth",
+          "Cactus Softdrink",
+          "Chocolate Syrup",
+          "Green Tea",
+          "Mashed Potatoes",
+          "Mushroom Soup",
+          "Porridge",
+          "Red Wine",
+          "Soda",
+          "Spaghetti",
+          "Stew"
+        ]
+      },
+      {
+        "id": 81,
+        "name": "Mochi",
+        "description": "Sweet and chewy.",
+        "type": "Consumable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/4/45/Mochi.png",
+        "healing": {
+          "health": 25,
+          "duration": 5
+        },
+        "economic_data": {
+          "selling_value": 33
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Soda",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Soda",
+                "quantity": 1
+              },
+              {
+                "item": "Flour",
+                "quantity": 2
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Soda",
+                "quantity": 2
+              },
+              {
+                "item": "Flour",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Soda",
+                "quantity": 2
+              },
+              {
+                "item": "Flour",
+                "quantity": 2
+              }
+            ],
+            "output": 4
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "Mulled Wine",
+        "description": "Preferred drink of santas everywhere.",
+        "type": "Consumable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/1/1d/Mulled_Wine.png",
+        "healing": {
+          "health": 30,
+          "duration": 10
+        },
+        "special_effects": [
+          "Removes Frozen status",
+          "Removes Poisoned status"
+        ],
+        "economic_data": {
+          "selling_value": 100,
+          "buying_value": 200,
+          "vendors": [
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Christmas Spice",
+                "quantity": 1
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Christmas Spice",
+                "quantity": 2
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Christmas Spice",
+                "quantity": 1
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 2
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 2
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 2
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Berry Jam",
+                "quantity": 1
+              },
+              {
+                "item": "Christmas Spice",
+                "quantity": 1
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 1
+              },
+              {
+                "item": "Christmas Spice",
+                "quantity": 1
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": 2
+              },
+              {
+                "item": "Red Wine",
+                "quantity": 2
+              }
+            ],
+            "output": 5
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "name": "Mushroom Omelette",
+        "description": "Eggs and mushrooms. Ooh the texture! Great with salt.",
+        "type": "Consumable, Cookable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/b/b7/Mushroom_Omelette.png",
+        "healing": {
+          "health": 20,
+          "duration": 4
+        },
+        "economic_data": {
+          "selling_value": 35,
+          "buying_value": 70
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Velvet Bell",
+                "quantity": 3
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "Swing-Ding",
+                "quantity": 3
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Egg",
+                "quantity": 1
+              },
+              {
+                "item": "R\u00f6dsopp",
+                "quantity": 3
+              }
+            ],
+            "output": 1
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "name": "Mushroom Skewer",
+        "description": "Has a rich umami smell.",
+        "type": "Consumable, Cookable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/2/28/Mushroom_Skewer.png",
+        "healing": {
+          "health": 15,
+          "duration": 3
+        },
+        "economic_data": {
+          "selling_value": 50,
+          "buying_value": 100
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Any 1x1 Mushroom",
+                "quantity": 3
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Any 1x1 Mushroom",
+                "quantity": 1
+              },
+              {
+                "item": "Any Other 1x1 Mushroom",
+                "quantity": 2
+              }
+            ],
+            "output": 1
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "name": "Mushroom Soup",
+        "description": "Mmmm... umami!",
+        "type": "Consumable",
+        "grid_size": "1x2",
+        "image_url": "https://sulfur.wiki.gg/images/d/d7/Mushroom_Soup.png",
+        "healing": {
+          "health": 20,
+          "duration": 9
+        },
+        "economic_data": {
+          "selling_value": 25,
+          "buying_value": 50
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Any 1x1 Mushroom",
+                "quantity": 3
+              },
+              {
+                "item": "Water",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Any Mushroom",
+                "quantity": 1
+              },
+              {
+                "item": "Different Mushrooms",
+                "quantity": 2
+              },
+              {
+                "item": "Water",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Different Mushrooms",
+                "quantity": 3
+              },
+              {
+                "item": "Water",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Mushrooms",
+                "quantity": "3-5"
+              },
+              {
+                "item": "Broth",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Mushrooms",
+                "quantity": "6-14"
+              },
+              {
+                "item": "Broth",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          }
+        ],
+        "note": "Specific mushroom combinations include R\u00f6dsopp, Velvet Bell, False Sulfcap, Swing-Ding, Karl-Oskar"
+      },
+      {
+        "id": 86,
+        "name": "Mystery Meat",
+        "description": "An easy and simple way to eat several meats at once! A human classic!",
+        "type": "Consumable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/4/45/Mystery_Meat.png",
+        "healing": {
+          "health": 15,
+          "duration": 5
+        },
+        "economic_data": {
+          "selling_value": 30,
+          "buying_value": 60,
+          "vendors": [
+            "Grossberg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 2
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Any Flesh",
+                "quantity": 4
+              }
+            ],
+            "output": 3
+          }
+        ],
+        "used_in": [
+          "Aspic",
+          "Dimmie",
+          "French Hotdog",
+          "Hardshell Taco",
+          "Meat Skewer",
+          "Pineapple Grenade",
+          "P\u00f6lsa",
+          "P\u00f8lse",
+          "Poutine",
+          "Spaghetti Bolognese",
+          "Stew",
+          "Stick Grenade",
+          "Sulfur Grenade"
+        ]
+      },
+      {
+        "id": 87,
+        "name": "Nashville Hot Chicken",
+        "description": "Cayenne, fried and hot. Looks really good! Should try it sometime!",
+        "type": "Consumable",
+        "grid_size": "1x1",
+        "image_url": "https://sulfur.wiki.gg/images/d/d7/Nashville_Hot_Chicken.png",
+        "healing": {
+          "health": 25,
+          "duration": 10
+        },
+        "economic_data": {
+          "selling_value": 110,
+          "buying_value": 220,
+          "vendors": [
+            "Grossberg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Hot Snacks",
+                "quantity": 1
+              },
+              {
+                "item": "Chicken Leg",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Hot Snacks",
+                "quantity": 2
+              },
+              {
+                "item": "Chicken Leg",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Hot Sauce",
+                "quantity": 1
+              },
+              {
+                "item": "Chicken Leg",
+                "quantity": 1
+              }
+            ],
+            "output": 1
+          }
+        ],
+        "note": "Additional recipe variations available with different quantities producing 2-4 Nashville Hot Chicken items"
+      },
+      {
+        "id": 88,
+        "name": "Nigiri",
+        "description": "Sliced raw fish served on top of a mount or ball of vinegared rice",
+        "type": "Consumable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/2/26/Nigiri.png",
+        "healing": {
+          "health": 20,
+          "duration": 5
+        },
+        "economic_data": {
+          "selling_value": 105
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 1
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 1
+              },
+              {
+                "item": "Rice",
+                "quantity": 2
+              }
+            ],
+            "output": 4
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Fish",
+                "quantity": 2
+              },
+              {
+                "item": "Rice",
+                "quantity": 2
+              }
+            ],
+            "output": 6
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Sashimi",
+                "quantity": 1
+              },
+              {
+                "item": "Rice",
+                "quantity": 1
+              }
+            ],
+            "output": 6
+          }
+        ],
+        "note": "Fish can be substituted with Flat Sandfish or Snail"
+      },
+      {
+        "id": 89,
+        "name": "Nuggets",
+        "description": "Hot and cheesy",
+        "type": "Consumable",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/thumb/a/a5/Nuggets.png/200px-Nuggets.png",
+        "healing": {
+          "health": 25,
+          "duration": 10
+        },
+        "economic_data": {
+          "selling_value": 40
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Chicken Leg",
+                "quantity": 1
+              },
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Chicken Leg",
+                "quantity": 2
+              },
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Chicken Leg",
+                "quantity": 3
+              },
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Craw Flesh",
+                "quantity": 1
+              },
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": 2
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Craw Flesh",
+                "quantity": 2
+              },
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": 3
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Craw Flesh",
+                "quantity": 3
+              },
+              {
+                "item": "Fatberg Chunk",
+                "quantity": 1
+              }
+            ],
+            "output": 5
+          }
+        ]
+      }
+    ],
+    "cooked_throwables": [
+      {
+        "name": "Dynamite",
+        "type": "Throwable Weapon",
+        "description": "A highly explosive red stick with a fuse. Useful both in mining as well as general destruction.",
+        "gridSize": "1\u00d72",
+        "imageUrl": "https://sulfur.wiki.gg/images/8/8e/Dynamite.png",
+        "damage": "\u2265600",
+        "effects": [
+          "Explosion",
+          "Burning fuse"
+        ],
+        "economic": {
+          "sellingValue": 100,
+          "buyingValue": 200,
+          "vendors": [
+            "Ralphie",
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Red Wine",
+                "quantity": 1
+              },
+              {
+                "item": "Cloth",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Liquor",
+                "quantity": 1
+              },
+              {
+                "item": "Cloth",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Metal Scrap",
+                "quantity": 1
+              },
+              {
+                "item": "Cloth",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              },
+              {
+                "item": "Cloth",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Cloth",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              },
+              {
+                "item": "Any Skin",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Any Skin",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              },
+              {
+                "item": "Paper",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Paper",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              },
+              {
+                "item": "Lung",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Lung",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              },
+              {
+                "item": "Heart",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Heart",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              },
+              {
+                "item": "Bladder",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Bladder",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Dynamite",
+              "quantity": 1
+            }
+          }
+        ],
+        "specialProperties": {
+          "explosive": true,
+          "lethalWithoutExplosiveResistance": true,
+          "burningFuse": true
+        }
+      },
+      {
+        "name": "Jar of Love",
+        "type": "Throwable Weapon",
+        "description": "Charm enemies with their hearts' contents.",
+        "gridSize": "1\u00d72",
+        "imageUrl": "https://sulfur.wiki.gg/images/1/11/Jar_of_Love.png",
+        "damage": 0,
+        "effects": [
+          "Charm"
+        ],
+        "economic": {
+          "sellingValue": 50,
+          "buyingValue": 100,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Heart",
+                "quantity": 1
+              },
+              {
+                "item": "Paper",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Love",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Heart",
+                "quantity": 1
+              },
+              {
+                "item": "Metal Scrap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Love",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Heart",
+                "quantity": 1
+              },
+              {
+                "item": "Paper",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Jar of Love",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Heart",
+                "quantity": 1
+              },
+              {
+                "item": "Metal Scrap",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Jar of Love",
+              "quantity": 2
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Heart",
+                "quantity": 2
+              },
+              {
+                "item": "Paper",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Love",
+              "quantity": 2
+            }
+          }
+        ],
+        "specialProperties": {
+          "charmEffect": true,
+          "effectRadius": "Unknown"
+        }
+      },
+      {
+        "name": "Jar of Poison",
+        "type": "Throwable Weapon",
+        "description": "A mason jar that has been carefully filled with a number of nerve gas globules. Produces a deadly gas cloud on impact when thrown.",
+        "gridSize": "1\u00d72",
+        "imageUrl": "https://sulfur.wiki.gg/images/4/49/Jar_of_Poison.png",
+        "damage": 40,
+        "effects": [
+          "Poison Cloud"
+        ],
+        "economic": {
+          "sellingValue": 50,
+          "buyingValue": 100,
+          "vendors": [
+            "Stiffleg",
+            "Qiosk"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Oats",
+                "quantity": 1
+              },
+              {
+                "item": "Anti-Poison Gum",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Poison",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Oats",
+                "quantity": 1
+              },
+              {
+                "item": "Green Glob",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Poison",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Anti-Poison Gum",
+                "quantity": 1
+              },
+              {
+                "item": "Metal Scrap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Poison",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Shav'Wa Bladder",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Poison",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Snail",
+                "quantity": 1
+              },
+              {
+                "item": "Oats",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Poison",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Green Glob",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Jar of Poison",
+              "quantity": 2
+            }
+          }
+        ],
+        "specialProperties": {
+          "poisonCloud": true,
+          "nerveGasGlobules": true
+        }
+      },
+      {
+        "name": "Pineapple Grenade",
+        "type": "Throwable Weapon",
+        "description": "A defensive fragmentation grenade designed to produce a deadly smattering of shrapnel on explosion.",
+        "gridSize": "1\u00d72",
+        "imageUrl": "https://sulfur.wiki.gg/images/c/c0/Pineapple_Grenade.png",
+        "damage": "Unknown",
+        "effects": [
+          "Explosion",
+          "Shrapnel"
+        ],
+        "economic": {
+          "sellingValue": 100,
+          "buyingValue": 200,
+          "vendors": [
+            "Ralphie",
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Metal Scrap",
+                "quantity": 2
+              },
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Pineapple Grenade",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "item": "Metal Scrap",
+                "quantity": 1
+              },
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Pineapple Grenade",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Mystery Meat",
+                "quantity": 2
+              },
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Pineapple Grenade",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Metal Scrap",
+                "quantity": 2
+              }
+            ],
+            "output": {
+              "item": "Pineapple Grenade",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "item": "Metal Scrap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Pineapple Grenade",
+              "quantity": 1
+            }
+          }
+        ],
+        "specialProperties": {
+          "fragmentation": true,
+          "shrapnel": true,
+          "defensive": true
+        }
+      },
+      {
+        "name": "Stick Grenade",
+        "type": "Throwable Weapon",
+        "description": "Once thrown, it will wait a second then explode.",
+        "gridSize": "1\u00d72",
+        "imageUrl": "https://sulfur.wiki.gg/images/d/da/Stick_Grenade.png",
+        "damage": "Unknown",
+        "effects": [
+          "Explosion"
+        ],
+        "economic": {
+          "sellingValue": 100,
+          "buyingValue": 200,
+          "vendors": [
+            "Ralphie",
+            "Stiffleg"
+          ]
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Metal Scrap",
+                "quantity": 1
+              },
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Stick Grenade",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Stick Grenade",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Metal Scrap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Stick Grenade",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Stick",
+                "quantity": 1
+              },
+              {
+                "item": "Solution",
+                "quantity": 1
+              },
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Stick Grenade",
+              "quantity": 1
+            }
+          }
+        ],
+        "specialProperties": {
+          "delayedExplosion": true,
+          "historicalReference": "Based on German WW2 hand grenades",
+          "cookingUse": "Can be used to cook mashed potatoes"
+        }
+      },
+      {
+        "name": "Sulfur Grenade",
+        "type": "Throwable Weapon",
+        "description": "Improvised from tangled False Sulfcaps and bits of scrap metal, this thrown explosive sticks to surfaces before detonating.",
+        "gridSize": "1\u00d71",
+        "imageUrl": "https://sulfur.wiki.gg/images/7/7e/Sulfur_Grenade.png",
+        "damage": "Unknown",
+        "effects": [
+          "Explosion",
+          "Sticky"
+        ],
+        "economic": {
+          "sellingValue": 25,
+          "buyingValue": 50,
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "ingredients": [
+              {
+                "item": "Metal Scrap",
+                "quantity": 1
+              },
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Sulfur Grenade",
+              "quantity": 1
+            }
+          },
+          {
+            "ingredients": [
+              {
+                "item": "Mystery Meat",
+                "quantity": 1
+              },
+              {
+                "item": "False Sulfcap",
+                "quantity": 1
+              }
+            ],
+            "output": {
+              "item": "Sulfur Grenade",
+              "quantity": 1
+            }
+          }
+        ],
+        "specialProperties": {
+          "sticky": true,
+          "improvised": true,
+          "sticksToSurfaces": true
+        }
+      }
+    ],
+    "cooked_equipment": [
+      {
+        "name": "Extra Lung",
+        "description": "A makeshift rebreather fashioned out of someone's lung and a plastic straw.",
+        "recipe_type": "Equipment Crafting",
+        "grid_size": "2x1",
+        "image_url": "https://sulfur.wiki.gg/images/thumb/a/a7/Extra_Lung.png/114px-Extra_Lung.png?81502a",
+        "equipment_effects": {
+          "lung_capacity_bonus": "+20s Lung Capacity",
+          "type": "Passive Equipment"
+        },
+        "economic_data": {
+          "selling_value": 250,
+          "currency": "SulfCoins",
+          "vendors": []
+        },
+        "recipes": [
+          {
+            "variation": 1,
+            "ingredients": [
+              {
+                "name": "Lung",
+                "quantity": 1
+              },
+              {
+                "name": "Rubber",
+                "quantity": 1
+              }
+            ],
+            "output_quantity": 1
+          },
+          {
+            "variation": 2,
+            "ingredients": [
+              {
+                "name": "Lung",
+                "quantity": 1
+              },
+              {
+                "name": "Used Rubber",
+                "quantity": 1
+              }
+            ],
+            "output_quantity": 1
+          }
+        ],
+        "used_in": [],
+        "ingredient_in": [],
+        "special_properties": [
+          "Previously multiple Extra Lungs could stack for extended underwater breathing",
+          "Provides underwater breathing extension"
+        ]
+      },
+      {
+        "name": "Springcoil Boot",
+        "description": "A mountain climbing gadget that enhances jumping ability with a distinctive 'sproing' sound effect.",
+        "recipe_type": "Equipment Crafting",
+        "grid_size": "2x2",
+        "image_url": "https://sulfur.wiki.gg/images/0/0d/Springcoil_Boot.png?b213e4",
+        "equipment_effects": {
+          "armor": "+1",
+          "movement_speed": "+10%",
+          "jump_power": "+25%",
+          "durability": 250,
+          "type": "Footwear Equipment"
+        },
+        "economic_data": {
+          "selling_value": 500,
+          "buying_value": 1000,
+          "currency": "SulfCoins",
+          "vendors": [
+            "Marcus \"Stiffleg\"",
+            "Skrip"
+          ]
+        },
+        "recipes": [
+          {
+            "variation": 1,
+            "ingredients": [
+              {
+                "name": "Shoe",
+                "quantity": 1
+              },
+              {
+                "name": "Robot Septacoil",
+                "quantity": 1
+              }
+            ],
+            "output_quantity": 1
+          }
+        ],
+        "used_in": [],
+        "ingredient_in": [],
+        "special_properties": [
+          "Allows higher jumping",
+          "Originally marketed as mountain climbing gadget",
+          "Includes 'sproing' sound effect when jumping",
+          "Has a name tag reading 'Albiin'",
+          "Categorized as Equipment, Footwear, and Cookable"
+        ]
+      }
+    ]
+  }
+}

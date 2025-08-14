@@ -39,3 +39,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python virtual environment & scraping files
+scraper_env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.py
+
+# Scraper temporary files
+batch*.json
+complete_scraped_*.json
+sulphur_*_complete.json
+test_*.json
+remaining_ingredients.json
+recipe-list.json
+ingredient_list.txt
+webfetch-prompts.json
+automation_plan.json
+scraping-summary.md
+SCRAPER_DOCUMENTATION.md
