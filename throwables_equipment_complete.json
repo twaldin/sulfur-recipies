@@ -1,0 +1,457 @@
+[
+  {
+    "name": "Dynamite",
+    "type": "Throwable Weapon",
+    "description": "A highly explosive red stick with a fuse. Useful both in mining as well as general destruction.",
+    "gridSize": "1×2",
+    "imageUrl": "https://sulfur.wiki.gg/images/8/8e/Dynamite.png",
+    "damage": "≥600",
+    "effects": ["Explosion"],
+    "economic": {
+      "sellingValue": 100,
+      "buyingValue": 200,
+      "vendors": ["Ralphie", "Stiffleg"]
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"item": "Red Wine", "quantity": 1},
+          {"item": "Cloth", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Liquor", "quantity": 1},
+          {"item": "Cloth", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Metal Scrap", "quantity": 1},
+          {"item": "Cloth", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "False Sulfcap", "quantity": 1},
+          {"item": "Cloth", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Cloth", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "False Sulfcap", "quantity": 1},
+          {"item": "Any Skin", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Any Skin", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "False Sulfcap", "quantity": 1},
+          {"item": "Paper", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Paper", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "False Sulfcap", "quantity": 1},
+          {"item": "Lung", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Lung", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "False Sulfcap", "quantity": 1},
+          {"item": "Heart", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Heart", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "False Sulfcap", "quantity": 1},
+          {"item": "Bladder", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Bladder", "quantity": 1}
+        ],
+        "output": {"item": "Dynamite", "quantity": 1}
+      }
+    ],
+    "specialProperties": {
+      "explosive": true,
+      "lethalWithoutExplosiveResistance": true,
+      "burningFuse": true,
+      "fuseTimer": "Burns fuse when held, explodes when fuse runs out"
+    }
+  },
+  {
+    "name": "Pineapple Grenade",
+    "type": "Throwable Weapon",
+    "description": "A defensive fragmentation grenade designed to produce a deadly smattering of shrapnel on explosion. Use with extreme caution.",
+    "gridSize": "1×2",
+    "imageUrl": "https://sulfur.wiki.gg/images/c/c0/Pineapple_Grenade.png",
+    "damage": "Unknown",
+    "effects": ["Explosion", "Fragmentation", "Shrapnel"],
+    "economic": {
+      "sellingValue": 100,
+      "buyingValue": 200,
+      "vendors": ["Ralphie", "Stiffleg"]
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"item": "Metal Scrap", "quantity": 2},
+          {"item": "False Sulfcap", "quantity": 1}
+        ],
+        "output": {"item": "Pineapple Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Mystery Meat", "quantity": 1},
+          {"item": "Metal Scrap", "quantity": 1},
+          {"item": "False Sulfcap", "quantity": 1}
+        ],
+        "output": {"item": "Pineapple Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Mystery Meat", "quantity": 2},
+          {"item": "False Sulfcap", "quantity": 1}
+        ],
+        "output": {"item": "Pineapple Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Metal Scrap", "quantity": 2}
+        ],
+        "output": {"item": "Pineapple Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Mystery Meat", "quantity": 1},
+          {"item": "Metal Scrap", "quantity": 1}
+        ],
+        "output": {"item": "Pineapple Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Solution", "quantity": 1},
+          {"item": "Mystery Meat", "quantity": 2}
+        ],
+        "output": {"item": "Pineapple Grenade", "quantity": 1}
+      }
+    ],
+    "specialProperties": {
+      "fragmentation": true,
+      "shrapnel": true,
+      "defensive": true,
+      "historicalReference": "Named after the Mk 2 'Pineapple' Grenade"
+    }
+  },
+  {
+    "name": "Stick Grenade",
+    "type": "Throwable Weapon",
+    "description": "Once thrown, it will wait a second then explode.",
+    "gridSize": "1×2",
+    "imageUrl": "https://sulfur.wiki.gg/images/d/da/Stick_Grenade.png",
+    "damage": "Unknown",
+    "effects": ["Explosion"],
+    "economic": {
+      "sellingValue": 100,
+      "buyingValue": 200,
+      "vendors": ["Ralphie", "Stiffleg"]
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"item": "Stick", "quantity": 1},
+          {"item": "Metal Scrap", "quantity": 1},
+          {"item": "False Sulfcap", "quantity": 1}
+        ],
+        "output": {"item": "Stick Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Stick", "quantity": 1},
+          {"item": "Mystery Meat", "quantity": 1},
+          {"item": "False Sulfcap", "quantity": 1}
+        ],
+        "output": {"item": "Stick Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Stick", "quantity": 1},
+          {"item": "Solution", "quantity": 1},
+          {"item": "Metal Scrap", "quantity": 1}
+        ],
+        "output": {"item": "Stick Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Stick", "quantity": 1},
+          {"item": "Solution", "quantity": 1},
+          {"item": "Mystery Meat", "quantity": 1}
+        ],
+        "output": {"item": "Stick Grenade", "quantity": 1}
+      }
+    ],
+    "specialProperties": {
+      "delayedExplosion": true,
+      "historicalReference": "Based on German WW2 hand grenades",
+      "cookingUse": "Can be used to cook mashed potatoes with potato"
+    }
+  },
+  {
+    "name": "Sulfur Grenade",
+    "type": "Throwable Weapon",
+    "description": "Improvised from tangled False Sulfcaps and bits of scrap metal, this thrown explosive sticks to surfaces before detonating.",
+    "gridSize": "1×1",
+    "imageUrl": "https://sulfur.wiki.gg/images/7/7e/Sulfur_Grenade.png",
+    "damage": "Unknown",
+    "effects": ["Explosion", "Sticky"],
+    "economic": {
+      "sellingValue": 25,
+      "buyingValue": 50,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"item": "Metal Scrap", "quantity": 1},
+          {"item": "False Sulfcap", "quantity": 1}
+        ],
+        "output": {"item": "Sulfur Grenade", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Mystery Meat", "quantity": 1},
+          {"item": "False Sulfcap", "quantity": 1}
+        ],
+        "output": {"item": "Sulfur Grenade", "quantity": 1}
+      }
+    ],
+    "specialProperties": {
+      "sticky": true,
+      "improvised": true,
+      "sticksToSurfaces": true,
+      "abundantIngredients": "Easy to make due to abundance of Mystery Meat and False Sulfcap early game"
+    }
+  },
+  {
+    "name": "Molotov Cocktail",
+    "type": "Throwable Weapon",
+    "description": "A repurposed liquor bottle containing a sticky mixture of gasoline and styrofoam that erupts into a fireball when thrown.",
+    "gridSize": "1×2",
+    "imageUrl": "https://sulfur.wiki.gg/images/0/0e/Molotov_Cocktail.png",
+    "damage": 1,
+    "effects": ["Fire"],
+    "economic": {
+      "sellingValue": 25,
+      "buyingValue": 50,
+      "vendors": ["Stiffleg"]
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"item": "Liquor", "quantity": 1},
+          {"item": "Cloth", "quantity": 1}
+        ],
+        "output": {"item": "Molotov Cocktail", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Liquor", "quantity": 1},
+          {"item": "Paper", "quantity": 1}
+        ],
+        "output": {"item": "Molotov Cocktail", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Liquor", "quantity": 1},
+          {"item": "Father's Shirt", "quantity": 1}
+        ],
+        "output": {"item": "Molotov Cocktail", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"item": "Liquor", "quantity": 1},
+          {"item": "Green Tunic", "quantity": 1}
+        ],
+        "output": {"item": "Molotov Cocktail", "quantity": 1}
+      }
+    ],
+    "specialProperties": {
+      "incendiary": true,
+      "improvised": true,
+      "gasolineAndStyrofoam": "Contains mixture of gasoline and styrofoam"
+    }
+  },
+  {
+    "name": "Cryogenic Grenade",
+    "type": "Throwable Weapon",
+    "description": "An experimental hand grenade that emits a shocking blast of cold on detonation. Slows or freezes enemies caught in its blast range.",
+    "gridSize": "1×2",
+    "imageUrl": "https://sulfur.wiki.gg/images/0/08/Cryogenic_Grenade.png",
+    "damage": 0,
+    "effects": ["Frost"],
+    "economic": {
+      "sellingValue": 75,
+      "buyingValue": 150,
+      "vendors": []
+    },
+    "recipes": [],
+    "specialProperties": {
+      "experimental": true,
+      "freezing": true,
+      "slowsEnemies": "Slows or freezes enemies caught in blast range",
+      "noRecipe": "No crafting recipe available - must be found or purchased"
+    }
+  },
+  {
+    "name": "Extra Lung",
+    "description": "A makeshift rebreather fashioned out of someone's lung and a plastic straw.",
+    "recipe_type": "Equipment Crafting",
+    "grid_size": "2x1",
+    "image_url": "https://sulfur.wiki.gg/images/thumb/a/a7/Extra_Lung.png/114px-Extra_Lung.png",
+    "equipment_effects": {
+      "lung_capacity_bonus": "+20s Lung Capacity",
+      "type": "Passive Equipment"
+    },
+    "economic_data": {
+      "selling_value": 250,
+      "currency": "SulfCoins",
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "variation": 1,
+        "ingredients": [
+          {
+            "name": "Lung",
+            "quantity": 1
+          },
+          {
+            "name": "Rubber",
+            "quantity": 1
+          }
+        ],
+        "output_quantity": 1
+      },
+      {
+        "variation": 2,
+        "ingredients": [
+          {
+            "name": "Lung",
+            "quantity": 1
+          },
+          {
+            "name": "Used Rubber",
+            "quantity": 1
+          }
+        ],
+        "output_quantity": 1
+      }
+    ],
+    "used_in": [],
+    "ingredient_in": [],
+    "special_properties": [
+      "Increases underwater lung capacity by 20 seconds",
+      "Previously multiple Extra Lungs could stack for extended underwater breathing",
+      "Provides underwater breathing extension"
+    ]
+  },
+  {
+    "name": "Springcoil Boot",
+    "description": "Springs attached to the sole allows the wearer to jump higher. First marketed as a mountain climbing gadget, later recalled.",
+    "recipe_type": "Equipment Crafting",
+    "grid_size": "2x2",
+    "image_url": "https://sulfur.wiki.gg/images/0/0d/Springcoil_Boot.png",
+    "equipment_effects": {
+      "armor": "+1",
+      "movement_speed": "+10%",
+      "jump_power": "+25%",
+      "durability": 250,
+      "type": "Footwear Equipment"
+    },
+    "economic_data": {
+      "selling_value": 500,
+      "buying_value": 1000,
+      "currency": "SulfCoins",
+      "vendors": [
+        "Stiffleg",
+        "Skrip"
+      ]
+    },
+    "recipes": [
+      {
+        "variation": 1,
+        "ingredients": [
+          {
+            "name": "Shoe",
+            "quantity": 1
+          },
+          {
+            "name": "Robot Septacoil",
+            "quantity": 1
+          }
+        ],
+        "output_quantity": 1
+      }
+    ],
+    "used_in": [],
+    "ingredient_in": [],
+    "special_properties": [
+      "Allows higher jumping (+25%)",
+      "Increases movement speed (+10%)",
+      "Provides +1 armor",
+      "Originally marketed as mountain climbing gadget",
+      "Includes 'sproing' sound effect when jumping",
+      "Has a name tag reading 'Albiin'",
+      "Enables accessing elevated terrain without ladders"
+    ]
+  }
+]

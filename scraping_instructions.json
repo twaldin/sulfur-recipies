@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "created": "2025-08-14T03:16:14.227913",
+    "total_recipes": 118,
+    "total_ingredients": 119,
+    "recipe_batches": 12,
+    "ingredient_batches": 8,
+    "instructions": "Use WebFetch tool with each prompt to systematically scrape all data"
+  },
+  "recipe_scraping_tasks": [
+    {
+      "batch": "Batch 1",
+      "recipes": [
+        "Admiral White Extra Strong",
+        "Anti-Poison Gum",
+        "Aspic",
+        "Banana Bread",
+        "Banana Sulfs",
+        "Bark Bread",
+        "Beef Jerky",
+        "Berry Jam",
+        "Berry Jam (Unsweetened)",
+        "Berry Milkshake"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Admiral White Extra Strong\n- Anti-Poison Gum\n- Aspic\n- Banana Bread\n- Banana Sulfs\n- Bark Bread\n- Beef Jerky\n- Berry Jam\n- Berry Jam (Unsweetened)\n- Berry Milkshake\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 2",
+      "recipes": [
+        "Biscuits And Gravy",
+        "Boba Tea",
+        "Bottled Water",
+        "Bread",
+        "Bread Sandwich",
+        "Broth",
+        "Buddy Sandwich",
+        "Butter",
+        "Butter Sandwich",
+        "Buttermilk"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Biscuits And Gravy\n- Boba Tea\n- Bottled Water\n- Bread\n- Bread Sandwich\n- Broth\n- Buddy Sandwich\n- Butter\n- Butter Sandwich\n- Buttermilk\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 3",
+      "recipes": [
+        "Buttermilk Pancakes",
+        "Cactus Softdrink",
+        "Candy Cane",
+        "Cereal",
+        "Cevapi",
+        "Cheese",
+        "Cheese Sandwich",
+        "Cheese Tops",
+        "Cheeseburger",
+        "Chocolate Ball"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Buttermilk Pancakes\n- Cactus Softdrink\n- Candy Cane\n- Cereal\n- Cevapi\n- Cheese\n- Cheese Sandwich\n- Cheese Tops\n- Cheeseburger\n- Chocolate Ball\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 4",
+      "recipes": [
+        "Chocolate Milkshake",
+        "Chocolate Mudcake",
+        "Chocolate Syrup",
+        "Cordon Bleu",
+        "Cotton Candy",
+        "Cotton Swabs",
+        "Cuisses De Grenouille",
+        "Currywurst",
+        "Dimmie",
+        "Dopp I Grytan"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Chocolate Milkshake\n- Chocolate Mudcake\n- Chocolate Syrup\n- Cordon Bleu\n- Cotton Candy\n- Cotton Swabs\n- Cuisses De Grenouille\n- Currywurst\n- Dimmie\n- Dopp I Grytan\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 5",
+      "recipes": [
+        "Double Cheeseburger",
+        "Dumpling",
+        "Egg Toddy",
+        "Energy Gum",
+        "Escargot",
+        "First Aid Kit",
+        "Fish And Chips",
+        "Fondue",
+        "French Hotdog",
+        "French Toast"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Double Cheeseburger\n- Dumpling\n- Egg Toddy\n- Energy Gum\n- Escargot\n- First Aid Kit\n- Fish And Chips\n- Fondue\n- French Hotdog\n- French Toast\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 6",
+      "recipes": [
+        "Fried Blood Pudding",
+        "Fried Mushroom",
+        "Full English Breakfast",
+        "Gravy",
+        "Green Tea",
+        "Green Tea Gum",
+        "Grilled Cactus",
+        "Haggis",
+        "Hard Bread",
+        "Hardshell Taco"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Fried Blood Pudding\n- Fried Mushroom\n- Full English Breakfast\n- Gravy\n- Green Tea\n- Green Tea Gum\n- Grilled Cactus\n- Haggis\n- Hard Bread\n- Hardshell Taco\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 7",
+      "recipes": [
+        "Health Potion",
+        "Herbal Tea",
+        "Holy Toast",
+        "Hot Pot",
+        "Hot Sauce",
+        "Hot Snacks",
+        "Irish Coffee",
+        "Jar of Love",
+        "Kebab",
+        "Lemon Tea"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Health Potion\n- Herbal Tea\n- Holy Toast\n- Hot Pot\n- Hot Sauce\n- Hot Snacks\n- Irish Coffee\n- Jar of Love\n- Kebab\n- Lemon Tea\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 8",
+      "recipes": [
+        "Mac N' Cheese",
+        "Mashed Potatoes",
+        "Meat Pie",
+        "Meatball",
+        "Milk",
+        "Milkshake",
+        "Mushroom Soup",
+        "Omelette",
+        "Pancakes",
+        "Pea Soup"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Mac N' Cheese\n- Mashed Potatoes\n- Meat Pie\n- Meatball\n- Milk\n- Milkshake\n- Mushroom Soup\n- Omelette\n- Pancakes\n- Pea Soup\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 9",
+      "recipes": [
+        "Peanutbutter Jelly Sandwich",
+        "Peanutbutter Sandwich",
+        "Pizza",
+        "Pork Chop",
+        "Potato Soup",
+        "Pumpkin Pie",
+        "Pumpkin Soup",
+        "Quesadilla",
+        "Ramen",
+        "Rhubarb Pie"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Peanutbutter Jelly Sandwich\n- Peanutbutter Sandwich\n- Pizza\n- Pork Chop\n- Potato Soup\n- Pumpkin Pie\n- Pumpkin Soup\n- Quesadilla\n- Ramen\n- Rhubarb Pie\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 10",
+      "recipes": [
+        "Rice",
+        "Salad",
+        "Sandwich",
+        "Sausage Omelette",
+        "Sausage Soup",
+        "Scone",
+        "Smoothie",
+        "Soda",
+        "Soup",
+        "Spaghetti"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Rice\n- Salad\n- Sandwich\n- Sausage Omelette\n- Sausage Soup\n- Scone\n- Smoothie\n- Soda\n- Soup\n- Spaghetti\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 11",
+      "recipes": [
+        "Spaghetti Bolognese",
+        "Spanish Omelette",
+        "Steak",
+        "Stew",
+        "Swedish Pancakes",
+        "Taco",
+        "Tea",
+        "Tomato Soup",
+        "Tori Ramen",
+        "Waffles"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 10 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Spaghetti Bolognese\n- Spanish Omelette\n- Steak\n- Stew\n- Swedish Pancakes\n- Taco\n- Tea\n- Tomato Soup\n- Tori Ramen\n- Waffles\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    },
+    {
+      "batch": "Batch 12",
+      "recipes": [
+        "Dynamite",
+        "Flash Grenade",
+        "Gas Grenade",
+        "Grenade",
+        "Molotov Cocktail",
+        "Smoke Grenade",
+        "Extra Lung",
+        "Springcoil Boot"
+      ],
+      "prompt": "I need you to extract complete recipe data for these 8 Sulfur recipes. For each recipe, extract:\n\nRECIPES TO SCRAPE:\n- Dynamite\n- Flash Grenade\n- Gas Grenade\n- Grenade\n- Molotov Cocktail\n- Smoke Grenade\n- Extra Lung\n- Springcoil Boot\n\nFor each recipe, visit its wiki page and extract:\n1. Name, Description, Category (Consumable/Throwable/Equipment)\n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. All effects with values and durations\n4. Selling value, Buying value, Vendors list  \n5. ALL recipe variations with exact ingredients and quantities\n6. Complete ingredients list with quantities for each variation\n\nReturn structured JSON for each recipe with this exact format:\n{\n  \"name\": \"Recipe Name\",\n  \"type\": \"Consumable|Throwable|Equipment\",\n  \"gridSize\": \"1x1\",\n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"description\": \"Complete description text\",\n  \"effects\": [\n    {\"type\": \"Effect Name\", \"value\": \"+X%\", \"duration\": \"X seconds\"}\n  ],\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X,\n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"recipes\": [\n    {\n      \"ingredients\": [\n        {\"item\": \"Ingredient Name\", \"quantity\": X}\n      ],\n      \"output\": X\n    }\n  ]\n}\n\nBe systematic and thorough - get ALL data for each recipe."
+    }
+  ],
+  "ingredient_scraping_tasks": [
+    {
+      "batch": "Ingredient Batch 1",
+      "ingredients": [
+        "Anti-Poison Gum",
+        "Banana",
+        "Bark",
+        "Bark Bread",
+        "Beans",
+        "Beef Jerky",
+        "Berries",
+        "Berry Jam",
+        "Black Pepper",
+        "Bladder",
+        "Bleach",
+        "Blood",
+        "Bone",
+        "Bottled Caviar",
+        "Bottled Water"
+      ],
+      "prompt": "I need you to extract complete ingredient data for these 15 Sulfur ingredients. For each ingredient, extract:\n\nINGREDIENTS TO SCRAPE:\n- Anti-Poison Gum\n- Banana\n- Bark\n- Bark Bread\n- Beans\n- Beef Jerky\n- Berries\n- Berry Jam\n- Black Pepper\n- Bladder\n- Bleach\n- Blood\n- Bone\n- Bottled Caviar\n- Bottled Water\n\nFor each ingredient, visit its wiki page and extract:\n1. Name, Description, Type  \n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. Selling value, Buying value, Vendors list\n4. \"Used In\" recipes list\n5. Any special properties or crafting information\n\nReturn structured JSON for each ingredient with this exact format:\n{\n  \"name\": \"Ingredient Name\",\n  \"description\": \"Complete description text\",\n  \"type\": \"Ingredient category or type\",\n  \"gridSize\": \"1x1\", \n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X, \n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"usedIn\": [\"Recipe Name 1\", \"Recipe Name 2\"]\n}\n\nBe systematic and thorough - get ALL data for each ingredient."
+    },
+    {
+      "batch": "Ingredient Batch 2",
+      "ingredients": [
+        "Brain",
+        "Bread",
+        "Broth",
+        "Butter",
+        "Buttermilk",
+        "Cacao",
+        "Cactus",
+        "Cheese",
+        "Chicken Leg",
+        "Chocolate Bar",
+        "Chocolate Syrup",
+        "Christmas Spice",
+        "Cloth",
+        "Coffee",
+        "Craw Flesh"
+      ],
+      "prompt": "I need you to extract complete ingredient data for these 15 Sulfur ingredients. For each ingredient, extract:\n\nINGREDIENTS TO SCRAPE:\n- Brain\n- Bread\n- Broth\n- Butter\n- Buttermilk\n- Cacao\n- Cactus\n- Cheese\n- Chicken Leg\n- Chocolate Bar\n- Chocolate Syrup\n- Christmas Spice\n- Cloth\n- Coffee\n- Craw Flesh\n\nFor each ingredient, visit its wiki page and extract:\n1. Name, Description, Type  \n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. Selling value, Buying value, Vendors list\n4. \"Used In\" recipes list\n5. Any special properties or crafting information\n\nReturn structured JSON for each ingredient with this exact format:\n{\n  \"name\": \"Ingredient Name\",\n  \"description\": \"Complete description text\",\n  \"type\": \"Ingredient category or type\",\n  \"gridSize\": \"1x1\", \n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X, \n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"usedIn\": [\"Recipe Name 1\", \"Recipe Name 2\"]\n}\n\nBe systematic and thorough - get ALL data for each ingredient."
+    },
+    {
+      "batch": "Ingredient Batch 3",
+      "ingredients": [
+        "Craw Skin",
+        "Dog Eye",
+        "Dog Flesh",
+        "Dog Skin",
+        "Egg",
+        "False Sulfcap",
+        "Fatberg Chunk",
+        "Father's Shirt",
+        "Fish",
+        "Flat Sandfish",
+        "Flour",
+        "Frog Leg",
+        "Goblin Flesh",
+        "Goblin Skin",
+        "Gravy"
+      ],
+      "prompt": "I need you to extract complete ingredient data for these 15 Sulfur ingredients. For each ingredient, extract:\n\nINGREDIENTS TO SCRAPE:\n- Craw Skin\n- Dog Eye\n- Dog Flesh\n- Dog Skin\n- Egg\n- False Sulfcap\n- Fatberg Chunk\n- Father's Shirt\n- Fish\n- Flat Sandfish\n- Flour\n- Frog Leg\n- Goblin Flesh\n- Goblin Skin\n- Gravy\n\nFor each ingredient, visit its wiki page and extract:\n1. Name, Description, Type  \n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. Selling value, Buying value, Vendors list\n4. \"Used In\" recipes list\n5. Any special properties or crafting information\n\nReturn structured JSON for each ingredient with this exact format:\n{\n  \"name\": \"Ingredient Name\",\n  \"description\": \"Complete description text\",\n  \"type\": \"Ingredient category or type\",\n  \"gridSize\": \"1x1\", \n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X, \n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"usedIn\": [\"Recipe Name 1\", \"Recipe Name 2\"]\n}\n\nBe systematic and thorough - get ALL data for each ingredient."
+    },
+    {
+      "batch": "Ingredient Batch 4",
+      "ingredients": [
+        "Green Glob",
+        "Green Tea",
+        "Green Tunic",
+        "Hazelnut",
+        "Heart",
+        "Hellshrew Flesh",
+        "Hellshrew Skin",
+        "Herbs",
+        "Holy Toast",
+        "Holy Water",
+        "Hot Snacks",
+        "Human Flesh",
+        "Human Skin",
+        "Intestines",
+        "Jello"
+      ],
+      "prompt": "I need you to extract complete ingredient data for these 15 Sulfur ingredients. For each ingredient, extract:\n\nINGREDIENTS TO SCRAPE:\n- Green Glob\n- Green Tea\n- Green Tunic\n- Hazelnut\n- Heart\n- Hellshrew Flesh\n- Hellshrew Skin\n- Herbs\n- Holy Toast\n- Holy Water\n- Hot Snacks\n- Human Flesh\n- Human Skin\n- Intestines\n- Jello\n\nFor each ingredient, visit its wiki page and extract:\n1. Name, Description, Type  \n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. Selling value, Buying value, Vendors list\n4. \"Used In\" recipes list\n5. Any special properties or crafting information\n\nReturn structured JSON for each ingredient with this exact format:\n{\n  \"name\": \"Ingredient Name\",\n  \"description\": \"Complete description text\",\n  \"type\": \"Ingredient category or type\",\n  \"gridSize\": \"1x1\", \n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X, \n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"usedIn\": [\"Recipe Name 1\", \"Recipe Name 2\"]\n}\n\nBe systematic and thorough - get ALL data for each ingredient."
+    },
+    {
+      "batch": "Ingredient Batch 5",
+      "ingredients": [
+        "Karl-Oskar",
+        "Kidney",
+        "Kidney Stone",
+        "Leverpastej",
+        "Liquor",
+        "Liver",
+        "Low Fat Milk",
+        "Lung",
+        "Matcha",
+        "Metal Scrap",
+        "Mineral Water",
+        "Mystery Meat",
+        "Nut Mix",
+        "Oats",
+        "Pancreas"
+      ],
+      "prompt": "I need you to extract complete ingredient data for these 15 Sulfur ingredients. For each ingredient, extract:\n\nINGREDIENTS TO SCRAPE:\n- Karl-Oskar\n- Kidney\n- Kidney Stone\n- Leverpastej\n- Liquor\n- Liver\n- Low Fat Milk\n- Lung\n- Matcha\n- Metal Scrap\n- Mineral Water\n- Mystery Meat\n- Nut Mix\n- Oats\n- Pancreas\n\nFor each ingredient, visit its wiki page and extract:\n1. Name, Description, Type  \n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. Selling value, Buying value, Vendors list\n4. \"Used In\" recipes list\n5. Any special properties or crafting information\n\nReturn structured JSON for each ingredient with this exact format:\n{\n  \"name\": \"Ingredient Name\",\n  \"description\": \"Complete description text\",\n  \"type\": \"Ingredient category or type\",\n  \"gridSize\": \"1x1\", \n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X, \n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"usedIn\": [\"Recipe Name 1\", \"Recipe Name 2\"]\n}\n\nBe systematic and thorough - get ALL data for each ingredient."
+    },
+    {
+      "batch": "Ingredient Batch 6",
+      "ingredients": [
+        "Paper",
+        "Peanut",
+        "Peanut Butter",
+        "Pine Nuts",
+        "Pizza",
+        "Plain White Tee",
+        "Porridge",
+        "Potato",
+        "Red Wine",
+        "Rhubarb",
+        "Rhubarb Sauce",
+        "Rice",
+        "Robot Hydraul",
+        "Robot Septacoil",
+        "Rock"
+      ],
+      "prompt": "I need you to extract complete ingredient data for these 15 Sulfur ingredients. For each ingredient, extract:\n\nINGREDIENTS TO SCRAPE:\n- Paper\n- Peanut\n- Peanut Butter\n- Pine Nuts\n- Pizza\n- Plain White Tee\n- Porridge\n- Potato\n- Red Wine\n- Rhubarb\n- Rhubarb Sauce\n- Rice\n- Robot Hydraul\n- Robot Septacoil\n- Rock\n\nFor each ingredient, visit its wiki page and extract:\n1. Name, Description, Type  \n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. Selling value, Buying value, Vendors list\n4. \"Used In\" recipes list\n5. Any special properties or crafting information\n\nReturn structured JSON for each ingredient with this exact format:\n{\n  \"name\": \"Ingredient Name\",\n  \"description\": \"Complete description text\",\n  \"type\": \"Ingredient category or type\",\n  \"gridSize\": \"1x1\", \n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X, \n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"usedIn\": [\"Recipe Name 1\", \"Recipe Name 2\"]\n}\n\nBe systematic and thorough - get ALL data for each ingredient."
+    },
+    {
+      "batch": "Ingredient Batch 7",
+      "ingredients": [
+        "Rubber",
+        "R\u00f6dsopp",
+        "Salt",
+        "Salted Fish",
+        "Salted Sandfish",
+        "Sawdust",
+        "Seaweed",
+        "Shav'Wa Flesh",
+        "Shav'Wa Skin",
+        "Skimmed Milk",
+        "Snail",
+        "Soda",
+        "Solution",
+        "Spaghetti",
+        "Spice Mix"
+      ],
+      "prompt": "I need you to extract complete ingredient data for these 15 Sulfur ingredients. For each ingredient, extract:\n\nINGREDIENTS TO SCRAPE:\n- Rubber\n- R\u00f6dsopp\n- Salt\n- Salted Fish\n- Salted Sandfish\n- Sawdust\n- Seaweed\n- Shav'Wa Flesh\n- Shav'Wa Skin\n- Skimmed Milk\n- Snail\n- Soda\n- Solution\n- Spaghetti\n- Spice Mix\n\nFor each ingredient, visit its wiki page and extract:\n1. Name, Description, Type  \n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. Selling value, Buying value, Vendors list\n4. \"Used In\" recipes list\n5. Any special properties or crafting information\n\nReturn structured JSON for each ingredient with this exact format:\n{\n  \"name\": \"Ingredient Name\",\n  \"description\": \"Complete description text\",\n  \"type\": \"Ingredient category or type\",\n  \"gridSize\": \"1x1\", \n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X, \n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"usedIn\": [\"Recipe Name 1\", \"Recipe Name 2\"]\n}\n\nBe systematic and thorough - get ALL data for each ingredient."
+    },
+    {
+      "batch": "Ingredient Batch 8",
+      "ingredients": [
+        "Spicy Sausage",
+        "Spleen",
+        "Sports Drink",
+        "Stick",
+        "Stout",
+        "Sugar",
+        "Swing-Ding",
+        "Thyroid",
+        "Tongue",
+        "Tube Caviar",
+        "Used Rubber",
+        "Velvet Bell",
+        "Walnut",
+        "Whole Milk"
+      ],
+      "prompt": "I need you to extract complete ingredient data for these 14 Sulfur ingredients. For each ingredient, extract:\n\nINGREDIENTS TO SCRAPE:\n- Spicy Sausage\n- Spleen\n- Sports Drink\n- Stick\n- Stout\n- Sugar\n- Swing-Ding\n- Thyroid\n- Tongue\n- Tube Caviar\n- Used Rubber\n- Velvet Bell\n- Walnut\n- Whole Milk\n\nFor each ingredient, visit its wiki page and extract:\n1. Name, Description, Type  \n2. Grid size, Image URL (full sulfur.wiki.gg URL)\n3. Selling value, Buying value, Vendors list\n4. \"Used In\" recipes list\n5. Any special properties or crafting information\n\nReturn structured JSON for each ingredient with this exact format:\n{\n  \"name\": \"Ingredient Name\",\n  \"description\": \"Complete description text\",\n  \"type\": \"Ingredient category or type\",\n  \"gridSize\": \"1x1\", \n  \"imageUrl\": \"https://sulfur.wiki.gg/images/...\",\n  \"economic\": {\n    \"sellingValue\": X,\n    \"buyingValue\": X, \n    \"vendors\": [\"Vendor Name\"]\n  },\n  \"usedIn\": [\"Recipe Name 1\", \"Recipe Name 2\"]\n}\n\nBe systematic and thorough - get ALL data for each ingredient."
+    }
+  ],
+  "data_assembly_instructions": {
+    "recipes_output_file": "data/recipes_complete.json",
+    "ingredients_output_file": "data/ingredients_complete.json",
+    "final_format": {
+      "recipes": {
+        "metadata": {
+          "name": "Sulfur Complete Recipe Database",
+          "scrapedAt": "timestamp",
+          "totalRecipes": "count",
+          "source": "webfetch_systematic_scraping"
+        },
+        "recipes": {
+          "cooked_consumables": [],
+          "cooked_throwables": [],
+          "cooked_equipment": []
+        }
+      },
+      "ingredients": {
+        "metadata": {
+          "name": "Sulfur Complete Ingredient Database",
+          "scrapedAt": "timestamp",
+          "totalIngredients": "count",
+          "source": "webfetch_systematic_scraping"
+        },
+        "ingredients": {}
+      }
+    }
+  }
+}

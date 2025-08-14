@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "name": "Critical Missing Recipes - Sulfur Wiki",
+    "description": "High-priority recipes confirmed absent from the current dataset",
+    "scrapedAt": "2025-08-14",
+    "totalRecipes": 9,
+    "source": "WebFetch_targeted_scraping",
+    "baseUrl": "https://sulfur.wiki.gg",
+    "scrapingMethod": "manual_WebFetch_extraction",
+    "completionStatus": "complete_available_recipes",
+    "notes": "Pancakes and Waffles entries not found - discovered Buttermilk Pancakes and Swedish Pancakes instead. Taco entry not found - discovered Hardshell Taco instead."
+  },
+  "recipes": [
+    {
+      "name": "Pizza",
+      "type": "Consumable", 
+      "gridSize": "2x2",
+      "imageUrl": "https://sulfur.wiki.gg/images/f/f4/Pizza.png?173ce0",
+      "description": "A large pizza. Will make you feel stuffed. It's better to slice it.",
+      "effects": [
+        {"type": "Healing", "value": "+150 health", "duration": "10 seconds"},
+        {"type": "Jump Power", "value": "-10%", "duration": "15 seconds"},
+        {"type": "Movement Speed", "value": "-10%", "duration": "15 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 200,
+        "buyingValue": 400,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Flour", "quantity": 1},
+            {"item": "Bottled Water", "quantity": 1},
+            {"item": "Spicy Sausage", "quantity": 1},
+            {"item": "Herbs", "quantity": 1},
+            {"item": "Cheese", "quantity": 1}
+          ],
+          "output": 1
+        },
+        {
+          "ingredients": [
+            {"item": "Bread", "quantity": 1},
+            {"item": "Spicy Sausage", "quantity": 1},
+            {"item": "Herbs", "quantity": 1},
+            {"item": "Cheese", "quantity": 1}
+          ],
+          "output": 1
+        }
+      ]
+    },
+    {
+      "name": "Ramen",
+      "type": "Consumable", 
+      "gridSize": "2x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/f/f8/Ramen.png?c50742",
+      "description": "A warm, rich broth with chewy noodles.",
+      "effects": [
+        {"type": "Health Regeneration", "value": "+40", "duration": "4 seconds"},
+        {"type": "Frost Resistance", "value": "+0.5", "duration": "60 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 75,
+        "buyingValue": null,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Spaghetti", "quantity": 1},
+            {"item": "Broth", "quantity": 1}
+          ],
+          "output": 1
+        },
+        {
+          "ingredients": [
+            {"item": "Chicken Leg", "quantity": 1},
+            {"item": "Spaghetti", "quantity": 1},
+            {"item": "Broth", "quantity": 1}
+          ],
+          "output": 1
+        },
+        {
+          "ingredients": [
+            {"item": "Egg", "quantity": 1},
+            {"item": "Spaghetti", "quantity": 1},
+            {"item": "Broth", "quantity": 1}
+          ],
+          "output": 2
+        },
+        {
+          "ingredients": [
+            {"item": "Chicken Leg", "quantity": 2},
+            {"item": "Spaghetti", "quantity": 1},
+            {"item": "Broth", "quantity": 2}
+          ],
+          "output": 2
+        }
+      ]
+    },
+    {
+      "name": "Tori Ramen",
+      "type": "Consumable", 
+      "gridSize": "2x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/2/22/Tori_Ramen.png?e03af8",
+      "description": "A warm, rich broth with chewy noodles.",
+      "effects": [
+        {"type": "Health Regeneration", "value": "+40", "duration": "4 seconds"},
+        {"type": "Frost Resistance", "value": "+0.5", "duration": "60 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 75,
+        "buyingValue": 150,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Spaghetti", "quantity": 2},
+            {"item": "Broth", "quantity": 1},
+            {"item": "Chicken Leg", "quantity": 1}
+          ],
+          "output": 2
+        },
+        {
+          "ingredients": [
+            {"item": "Egg", "quantity": 1},
+            {"item": "Spaghetti", "quantity": 1},
+            {"item": "Broth", "quantity": 1},
+            {"item": "Chicken Leg", "quantity": 1}
+          ],
+          "output": 2
+        },
+        {
+          "ingredients": [
+            {"item": "Egg", "quantity": 1},
+            {"item": "Spaghetti", "quantity": 1},
+            {"item": "Broth", "quantity": 1},
+            {"item": "Craw Flesh", "quantity": 1}
+          ],
+          "output": 4
+        }
+      ]
+    },
+    {
+      "name": "Stew",
+      "type": "Consumable", 
+      "gridSize": "2x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/3/31/Stew.png?ea6648",
+      "description": "A healthy warm and soothing stew. Has a rich smell.",
+      "effects": [
+        {"type": "Health Restoration", "value": "+20", "duration": "3 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 33,
+        "buyingValue": null,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Bottled Water", "quantity": 1},
+            {"item": "Goblin Flesh", "quantity": 1}
+          ],
+          "output": 1
+        },
+        {
+          "ingredients": [
+            {"item": "Bottled Water", "quantity": 1},
+            {"item": "Mystery Meat", "quantity": 1}
+          ],
+          "output": 1
+        },
+        {
+          "ingredients": [
+            {"item": "Broth", "quantity": 1},
+            {"item": "Goblin Flesh", "quantity": 1}
+          ],
+          "output": 2
+        },
+        {
+          "ingredients": [
+            {"item": "Broth", "quantity": 1},
+            {"item": "Mystery Meat", "quantity": 1}
+          ],
+          "output": 3
+        }
+      ]
+    },
+    {
+      "name": "Peanutbutter Jelly Sandwich",
+      "type": "Consumable", 
+      "gridSize": "1x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/9/99/Peanutbutter_Jelly_Sandwich.png?5cc763",
+      "description": "Gives 35 health over 5 seconds. Best thing that happened.",
+      "effects": [
+        {"type": "Health Restoration", "value": "+35", "duration": "5 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 65,
+        "buyingValue": 130,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Peanut Butter", "quantity": 1},
+            {"item": "Bread", "quantity": 1},
+            {"item": "Berry Jam (Unsweetened)", "quantity": 1}
+          ],
+          "output": 2
+        },
+        {
+          "ingredients": [
+            {"item": "Peanut Butter", "quantity": 1},
+            {"item": "Bread", "quantity": 1},
+            {"item": "Berry Jam", "quantity": 1}
+          ],
+          "output": 3
+        }
+      ]
+    },
+    {
+      "name": "Sausage Soup",
+      "type": "Consumable", 
+      "gridSize": "2x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/3/3b/Sausage_Soup.png?a9aa1a",
+      "description": "When you absolutely, positively got to eat sausages with a spoon, accept no substitutes.",
+      "effects": [
+        {"type": "Health Regeneration", "value": "+30", "duration": "4 seconds"},
+        {"type": "Frost Resistance", "value": "+0.5", "duration": "60 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 68,
+        "buyingValue": 136,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Spicy Sausage", "quantity": 1},
+            {"item": "Broth", "quantity": 1}
+          ],
+          "output": 2
+        }
+      ]
+    },
+    {
+      "name": "Rhubarb Pie",
+      "type": "Consumable", 
+      "gridSize": "2x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/2/21/Rhubarb_Pie.png?6617a2",
+      "description": "Decimated rhubarb, resting in peace under a cover of delicious sugary dough.",
+      "effects": [
+        {"type": "Health Restoration", "value": "+30", "duration": "10 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 40,
+        "buyingValue": 80,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Flour", "quantity": 1},
+            {"item": "Sugar", "quantity": 1},
+            {"item": "Rhubarb", "quantity": 1}
+          ],
+          "output": 3
+        },
+        {
+          "ingredients": [
+            {"item": "Oats", "quantity": 1},
+            {"item": "Sugar", "quantity": 1},
+            {"item": "Rhubarb", "quantity": 1}
+          ],
+          "output": 3
+        },
+        {
+          "ingredients": [
+            {"item": "Oats", "quantity": 1},
+            {"item": "Flour", "quantity": 1},
+            {"item": "Sugar", "quantity": 1},
+            {"item": "Rhubarb", "quantity": 1}
+          ],
+          "output": 4
+        },
+        {
+          "ingredients": [
+            {"item": "Butter", "quantity": 1},
+            {"item": "Flour", "quantity": 1},
+            {"item": "Sugar", "quantity": 1},
+            {"item": "Rhubarb", "quantity": 1}
+          ],
+          "output": 4
+        }
+      ]
+    },
+    {
+      "name": "Buttermilk Pancakes",
+      "type": "Consumable", 
+      "gridSize": "2x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/c/c5/Buttermilk_Pancakes.png?4f62d2",
+      "description": "A stack of thick and fluffy pancakes drizzled with syrup. These pancakes have a tendency to stick to the roof of your mouth.",
+      "effects": [
+        {"type": "Heal", "value": "30 health", "duration": "10 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 110,
+        "buyingValue": 220,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Buttermilk", "quantity": 1},
+            {"item": "Egg", "quantity": 1},
+            {"item": "Flour", "quantity": 1}
+          ],
+          "output": 2
+        },
+        {
+          "ingredients": [
+            {"item": "Butter", "quantity": 1},
+            {"item": "Buttermilk", "quantity": 1},
+            {"item": "Egg", "quantity": 1},
+            {"item": "Flour", "quantity": 1}
+          ],
+          "output": 4
+        },
+        {
+          "ingredients": [
+            {"item": "Salt", "quantity": 1},
+            {"item": "Butter", "quantity": 1},
+            {"item": "Buttermilk", "quantity": 1},
+            {"item": "Egg", "quantity": 1},
+            {"item": "Flour", "quantity": 1}
+          ],
+          "output": 5
+        }
+      ]
+    },
+    {
+      "name": "Swedish Pancakes",
+      "type": "Consumable", 
+      "gridSize": "2x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/d/d7/Swedish_Pancakes.png?a049ad",
+      "description": "Gives 30 health over 3 seconds. Flat as a pancake? That's flattery to a Swedish Pancake. Thin and crispy.",
+      "effects": [
+        {"type": "Health Restoration", "value": "+30", "duration": "3 seconds"}
+      ],
+      "economic": {
+        "sellingValue": 110,
+        "buyingValue": 220,
+        "vendors": []
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Whole Milk", "quantity": 1},
+            {"item": "Flour", "quantity": 1},
+            {"item": "Egg", "quantity": 1}
+          ],
+          "output": 3
+        },
+        {
+          "ingredients": [
+            {"item": "Whole Milk", "quantity": 1},
+            {"item": "Flour", "quantity": 1},
+            {"item": "Egg", "quantity": 1},
+            {"item": "Butter", "quantity": 1}
+          ],
+          "output": 4
+        },
+        {
+          "ingredients": [
+            {"item": "Whole Milk", "quantity": 2},
+            {"item": "Flour", "quantity": 1},
+            {"item": "Egg", "quantity": 2}
+          ],
+          "output": 5
+        },
+        {
+          "ingredients": [
+            {"item": "Whole Milk", "quantity": 1},
+            {"item": "Salt", "quantity": 1},
+            {"item": "Flour", "quantity": 1},
+            {"item": "Egg", "quantity": 1},
+            {"item": "Butter", "quantity": 1}
+          ],
+          "output": 5
+        }
+      ]
+    },
+    {
+      "name": "Hardshell Taco",
+      "type": "Consumable", 
+      "gridSize": "1x1",
+      "imageUrl": "https://sulfur.wiki.gg/images/0/0a/Hardshell_Taco.png?651563",
+      "description": "Gives 25 health over 2.5 seconds. A beef taco in a hard shell.",
+      "effects": [
+        {"type": "Heal", "value": "25", "duration": "2.5"}
+      ],
+      "economic": {
+        "sellingValue": 30,
+        "buyingValue": 60,
+        "vendors": ["Stiffleg"]
+      },
+      "recipes": [
+        {
+          "ingredients": [
+            {"item": "Any Flesh", "quantity": 1},
+            {"item": "Spice Mix", "quantity": 1}
+          ],
+          "output": 2
+        },
+        {
+          "ingredients": [
+            {"item": "Mystery Meat", "quantity": 1},
+            {"item": "Spice Mix", "quantity": 1}
+          ],
+          "output": 2
+        }
+      ]
+    }
+  ]
+}

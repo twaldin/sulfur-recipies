@@ -1,0 +1,610 @@
+[
+  {
+    "name": "Cevapi",
+    "type": "Consumable",
+    "gridSize": "2x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/0/0b/Cevapi.png?c83c9c",
+    "description": "Small meat turds put inside a bread cut like a Pac-person. Onions on the side.",
+    "effects": [
+      {
+        "type": "Heal",
+        "value": 25,
+        "duration": 10
+      }
+    ],
+    "economic": {
+      "sellingValue": 110,
+      "buyingValue": 220,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Any Flesh", "quantity": 1},
+          {"name": "Spice Mix", "quantity": 1},
+          {"name": "Bread", "quantity": 1}
+        ],
+        "yield": {"item": "Cevapi", "quantity": 2}
+      }
+    ]
+  },
+  {
+    "name": "Chocolate Mudcake",
+    "type": "Consumable",
+    "gridSize": "1x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/4/48/Chocolate_Mudcake.png",
+    "description": "Has a rich chocolate taste. Usually a mix of cacao, sugar, eggs, flour and butter.",
+    "effects": [
+      {
+        "type": "Health Restoration",
+        "value": 50,
+        "duration": 10
+      }
+    ],
+    "economic": {
+      "sellingValue": 140,
+      "buyingValue": null,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Milk", "quantity": 1, "requirements": "Any Milk, except Buttermilk"},
+          {"name": "Cacao", "quantity": 1},
+          {"name": "Sugar", "quantity": 1},
+          {"name": "Egg", "quantity": 1},
+          {"name": "Flour", "quantity": 1}
+        ],
+        "output": {"name": "Chocolate Mudcake", "quantity": 3}
+      },
+      {
+        "ingredients": [
+          {"name": "Sugar", "quantity": 1},
+          {"name": "Cacao", "quantity": 1},
+          {"name": "Butter", "quantity": 1},
+          {"name": "Egg", "quantity": 1},
+          {"name": "Flour", "quantity": 1}
+        ],
+        "output": {"name": "Chocolate Mudcake", "quantity": 5}
+      },
+      {
+        "ingredients": [
+          {"name": "Chocolate Bar", "quantity": 1},
+          {"name": "Butter", "quantity": 1},
+          {"name": "Egg", "quantity": 1},
+          {"name": "Flour", "quantity": 1}
+        ],
+        "output": {"name": "Chocolate Mudcake", "quantity": 5}
+      }
+    ]
+  },
+  {
+    "name": "Cordon Bleu",
+    "type": "Consumable",
+    "gridSize": "1x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/4/44/Cordon_Bleu.png?39f4b2",
+    "description": "Insanely fancy western maki rolls with chicken.",
+    "effects": [
+      {
+        "type": "Health Regeneration",
+        "value": 25,
+        "duration": 10
+      }
+    ],
+    "economic": {
+      "sellingValue": 175,
+      "buyingValue": null,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Any Flesh", "quantity": 1},
+          {"name": "Cheese", "quantity": 1},
+          {"name": "Flour", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Chicken Leg", "quantity": 1},
+          {"name": "Cheese", "quantity": 1},
+          {"name": "Flour", "quantity": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Currywurst",
+    "type": "Consumable",
+    "gridSize": "2x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/6/6a/Currywurst.png",
+    "description": "Say auf Wiedersehen to your hunger with this sausage, fries and curry ketchup combo.",
+    "effects": [
+      {
+        "type": "Health Restoration",
+        "value": 45,
+        "duration": 5
+      }
+    ],
+    "economic": {
+      "sellingValue": 113,
+      "buyingValue": null,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Christmas Spice", "quantity": 1},
+          {"name": "Spicy Sausage", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Solution", "quantity": 1},
+          {"name": "Christmas Spice", "quantity": 1},
+          {"name": "Spicy Sausage", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Herbs", "quantity": 1},
+          {"name": "Spicy Sausage", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Solution", "quantity": 1},
+          {"name": "Herbs", "quantity": 1},
+          {"name": "Spicy Sausage", "quantity": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Double Cheeseburger",
+    "type": "Consumable",
+    "gridSize": "1x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/c/ce/Double_Cheeseburger.png?adf784",
+    "description": "A sandwich consisting of fillings, usually a patty of ground meat, typically from animals, placed inside a sliced bun or bread roll",
+    "effects": [
+      {
+        "type": "Health Restoration",
+        "value": 200,
+        "duration": 10
+      }
+    ],
+    "economic": {
+      "sellingValue": 300,
+      "buyingValue": null,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Cheese", "quantity": 1},
+          {"name": "Bread", "quantity": 1},
+          {"name": "Flesh", "quantity": 2, "requirements": "Must be same type of flesh"}
+        ],
+        "yield": 1
+      },
+      {
+        "ingredients": [
+          {"name": "Cheese", "quantity": 2},
+          {"name": "Bread", "quantity": 2},
+          {"name": "Flesh", "quantity": 2, "requirements": "Must be same type of flesh"}
+        ],
+        "yield": 2
+      }
+    ]
+  },
+  {
+    "name": "Dumpling",
+    "type": "Consumable",
+    "gridSize": "1×1",
+    "imageUrl": "https://sulfur.wiki.gg/images/2/28/Dumpling.png?1a822e",
+    "description": "A dumpling filled with some kind of paté. It's punctured.",
+    "effects": [
+      {
+        "type": "Heal",
+        "value": 20,
+        "duration": "15 seconds"
+      }
+    ],
+    "economic": {
+      "sellingValue": 25,
+      "buyingValue": 50,
+      "vendors": ["Qiosk"]
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Liver", "quantity": 1},
+          {"name": "Flour", "quantity": 1}
+        ],
+        "output": {"name": "Dumpling", "quantity": 4}
+      }
+    ]
+  },
+  {
+    "name": "Energy Gum",
+    "type": "Consumable",
+    "gridSize": "1x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/7/75/Energy_Gum.png?59af46",
+    "description": "Gives resistance to multiple elemental types",
+    "effects": [
+      {
+        "type": "Fire Resistance",
+        "value": 50,
+        "duration": 90
+      },
+      {
+        "type": "Frost Resistance", 
+        "value": 50,
+        "duration": 90
+      },
+      {
+        "type": "Electric Resistance",
+        "value": 50, 
+        "duration": 90
+      }
+    ],
+    "economic": {
+      "sellingValue": 40,
+      "buyingValue": null,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Spice Mix", "quantity": 1},
+          {"name": "Rubber", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Spice Mix", "quantity": 1},
+          {"name": "Used Rubber", "quantity": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "First Aid Kit",
+    "type": "Consumable",
+    "gridSize": "2x2",
+    "imageUrl": "https://sulfur.wiki.gg/images/5/50/First_Aid_Kit.png?f797b1",
+    "description": "A plastic box containing insttuments needed to provide basic first aid, including gauze, scissors, painkillers, and disinfectant spray.",
+    "effects": [
+      {
+        "type": "Health Restoration",
+        "value": 100,
+        "duration": 5
+      }
+    ],
+    "economic": {
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Blood", "quantity": 1},
+          {"name": "Cloth", "quantity": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fish And Chips",
+    "type": "Consumable",
+    "gridSize": "2x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/9/95/Fish_And_Chips.png?fed773",
+    "description": "Deep growing root, featuring animal from the deep. Both deep fried. That's deep man.",
+    "effects": [
+      {
+        "type": "Health Restoration",
+        "value": 50,
+        "duration": 5
+      }
+    ],
+    "economic": {
+      "sellingValue": 125,
+      "buyingValue": null,
+      "vendors": ["Qiosk"]
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Fish", "quantity": 1},
+          {"name": "Potato", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Salted Fish", "quantity": 1},
+          {"name": "Potato", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Flat Sandfish", "quantity": 1},
+          {"name": "Potato", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Salted Sandfish", "quantity": 1},
+          {"name": "Potato", "quantity": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "French Toast",
+    "type": "Consumable",
+    "gridSize": "1x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/a/ad/French_Toast.png?324996",
+    "description": "Sliced bread soaked in beaten eggs then pan fried.",
+    "effects": [
+      {
+        "type": "Health Restoration",
+        "value": 15,
+        "duration": 5
+      }
+    ],
+    "economic": {
+      "sellingValue": 75,
+      "buyingValue": null,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Bread", "quantity": 1},
+          {"name": "Sugar", "quantity": 1}
+        ],
+        "output": {"name": "French Toast", "quantity": 2}
+      },
+      {
+        "ingredients": [
+          {"name": "Egg", "quantity": 1},
+          {"name": "Bread", "quantity": 1},
+          {"name": "Sugar", "quantity": 1}
+        ],
+        "output": {"name": "French Toast", "quantity": 2}
+      },
+      {
+        "ingredients": [
+          {"name": "Egg", "quantity": 2},
+          {"name": "Bread", "quantity": 1},
+          {"name": "Sugar", "quantity": 1}
+        ],
+        "output": {"name": "French Toast", "quantity": 5}
+      }
+    ]
+  },
+  {
+    "name": "Green Tea",
+    "type": "Consumable",
+    "gridSize": "1×1",
+    "imageUrl": "https://sulfur.wiki.gg/images/8/8f/Green_Tea.png?99ba15",
+    "description": "Drinking this will make you feel confident wielding a sword.",
+    "effects": [
+      {
+        "type": "Melee Damage",
+        "value": "+150%",
+        "duration": 60
+      },
+      {
+        "type": "Health Regeneration", 
+        "value": 10,
+        "duration": 5
+      },
+      {
+        "type": "Status Removal",
+        "value": ["Frozen", "Poisoned"]
+      }
+    ],
+    "economic": {
+      "sellingValue": 40,
+      "buyingValue": 80,
+      "vendors": ["Qiosk"]
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Matcha", "quantity": 1},
+          {"name": "Solution", "quantity": 1}
+        ],
+        "yield": {"name": "Green Tea", "quantity": 1}
+      },
+      {
+        "ingredients": [
+          {"name": "Matcha", "quantity": 1},
+          {"name": "Bottled Water", "quantity": 1}
+        ],
+        "yield": {"name": "Green Tea", "quantity": 2}
+      }
+    ]
+  },
+  {
+    "name": "Green Tea Gum",
+    "type": "Consumable",
+    "gridSize": "1×1",
+    "imageUrl": "https://sulfur.wiki.gg/images/f/f4/Green_Tea_Gum.png?f060a4",
+    "description": "A matcha flavoured gum, sweet and tingling for the senses. Chewing this will make you feel confident wielding a sword.",
+    "effects": [
+      {
+        "type": "Health",
+        "value": 10,
+        "duration": "5 seconds"
+      },
+      {
+        "type": "Melee Damage",
+        "value": 1.2,
+        "duration": "120 seconds"
+      }
+    ],
+    "economic": {
+      "sellingValue": 40,
+      "buyingValue": 80,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Matcha", "quantity": 1},
+          {"name": "Rubber", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Matcha", "quantity": 2},
+          {"name": "Rubber", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Matcha", "quantity": 1},
+          {"name": "Rubber", "quantity": 2}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Matcha", "quantity": 2},
+          {"name": "Rubber", "quantity": 2}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Health Potion",
+    "type": ["Consumable", "Cookable"],
+    "gridSize": "1x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/5/53/Health_Potion.png",
+    "description": "A restorative potion of sacred herbs and electrolytes. Colored red with food dye.",
+    "effects": [
+      {
+        "type": "Health Restoration",
+        "value": 100,
+        "duration": 5
+      },
+      {
+        "type": "Status Removal",
+        "statuses": ["Burning", "Poisoned"]
+      }
+    ],
+    "economic": {
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Rödsopp", "quantity": 9}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Herbs", "quantity": 4}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Herbs", "quantity": 1},
+          {"name": "Rödsopp", "quantity": 3}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Blood", "quantity": 2}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Blood", "quantity": 1},
+          {"name": "Berry Jam", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Blood", "quantity": 1},
+          {"name": "Rödsopp", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Blood", "quantity": 1},
+          {"name": "Soda", "quantity": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hot Pot",
+    "type": "Consumable",
+    "gridSize": "3x2",
+    "imageUrl": "https://sulfur.wiki.gg/images/4/48/Hot_Pot.png?ea413d",
+    "description": "Cook while you eat? What a concept!",
+    "effects": [
+      {
+        "type": "Heal",
+        "value": 50,
+        "duration": 4
+      }
+    ],
+    "economic": {
+      "sellingValue": 150,
+      "buyingValue": 300,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Velvet Bell", "quantity": 1},
+          {"name": "Swing-Ding", "quantity": 2},
+          {"name": "Rödsopp", "quantity": 1},
+          {"name": "Karl-Oskar", "quantity": 1},
+          {"name": "Hellshrew Flesh", "quantity": 1},
+          {"name": "Broth", "quantity": 1}
+        ],
+        "yield": 2
+      }
+    ]
+  },
+  {
+    "name": "Mac'n'Cheese",
+    "type": "Consumable",
+    "gridSize": "2x1",
+    "imageUrl": "https://sulfur.wiki.gg/images/3/3d/Mac%27n%27Cheese.png?f7c37a",
+    "description": "Pasta and a cheese sauce. Traditional dinner from a cardboard-box.",
+    "effects": [
+      {
+        "type": "Health Regeneration",
+        "value": 30,
+        "duration": 10
+      }
+    ],
+    "economic": {
+      "sellingValue": 45,
+      "buyingValue": null,
+      "vendors": []
+    },
+    "recipes": [
+      {
+        "ingredients": [
+          {"name": "Cheese", "quantity": 1},
+          {"name": "Spaghetti", "quantity": 1}
+        ]
+      },
+      {
+        "ingredients": [
+          {"name": "Cheese", "quantity": 2},
+          {"name": "Spaghetti", "quantity": 1}
+        ]
+      }
+    ]
+  }
+]

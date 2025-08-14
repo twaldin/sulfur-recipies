@@ -1,20 +1,26 @@
 "use client"
 
 import React, { useState, useMemo } from "react"
-import { Search, ChevronDown, ChevronUp, SlidersHorizontal, InfoIcon, ChevronLeftIcon, ChevronRightIcon, ChevronDownIcon as ExpandIcon, ChevronUpIcon as CollapseIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { transformScrapedRecipes, transformScrapedIngredients, anyItemCategories, getIngredientImageUrl } from "@/lib/data-adapter"
 import { Recipe } from "@/types/recipe"
 import scrapedRecipesData from "@/data/recipes.json"
 import scrapedIngredientsData from "@/data/ingredients.json"
+import {
+  ChevronUpIcon,
+  ChevronDownIcon,
+  SearchIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  ChevronDownIcon as ExpandIcon,
+  ChevronUpIcon as CollapseIcon,
+} from "lucide-react"
 
 type SortField = "name" | "type" | "health" | "duration" | "difficulty" | "hps"
 type SortDirection = "asc" | "desc"
@@ -58,7 +64,6 @@ export default function Home() {
   const [healthSortMode, setHealthSortMode] = useState<HealthSortMode>("hp_desc")
   const [currentPage, setCurrentPage] = useState(1)
   const [expandedRows, setExpandedRows] = useState<Set<string>>(new Set())
-  const [filtersExpanded, setFiltersExpanded] = useState(false)
   const itemsPerPage = 10
 
   const filterButtons = ["Consumables", "Throwables", "Equipment"]
@@ -195,6 +200,10 @@ export default function Home() {
     setCurrentPage(1)
   }
 
+  const clearIngredientFilters = () => {
+    setActiveIngredientFilters([])
+    setCurrentPage(1)
+  }
 
   const toggleEffectFilter = (effect: string) => {
     setActiveEffectFilters((prev) => 
@@ -203,6 +212,10 @@ export default function Home() {
     setCurrentPage(1)
   }
 
+  const clearEffectFilters = () => {
+    setActiveEffectFilters([])
+    setCurrentPage(1)
+  }
 
   // Clickable filter functions
   const handleTypeClick = (type: string) => {
@@ -250,10 +263,10 @@ export default function Home() {
 
   const getSortIcon = (field: SortField) => {
     if (field === "health" && sortField === "health") {
-      return healthSortMode.includes("asc") ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />
+      return healthSortMode.includes("asc") ? <ChevronUpIcon className="w-4 h-4" /> : <ChevronDownIcon className="w-4 h-4" />
     }
     if (sortField !== field) return null
-    return sortDirection === "asc" ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />
+    return sortDirection === "asc" ? <ChevronUpIcon className="w-4 h-4" /> : <ChevronDownIcon className="w-4 h-4" />
   }
 
   const getHealthSortLabel = () => {
@@ -263,6 +276,39 @@ export default function Home() {
       case "dmg_desc": return "DMG"
       case "dmg_asc": return "DMG"
     }
+  }
+
+  const getTypeBadge = (type: string) => {
+    const variants: { [key: string]: "default" | "secondary" | "outline" } = {
+      "cooked_consumables": "default",
+      "cooked_throwables": "destructive" as "default",
+      "cooked_equipment": "secondary",
+    }
+    
+    const displayNames: { [key: string]: string } = {
+      "cooked_consumables": "Consumable",
+      "cooked_throwables": "Throwable", 
+      "cooked_equipment": "Equipment"
+    }
+
+    const filterMap: { [key: string]: string } = {
+      'cooked_consumables': 'Consumables',
+      'cooked_throwables': 'Throwables', 
+      'cooked_equipment': 'Equipment'
+    }
+
+    return (
+      <Badge 
+        variant={variants[type] || "outline"}
+        className="cursor-pointer hover:opacity-80"
+        onClick={(e) => {
+          e.stopPropagation()
+          handleTypeClick(type)
+        }}
+      >
+        {displayNames[type] || type}
+      </Badge>
+    )
   }
 
 
@@ -590,58 +636,33 @@ export default function Home() {
   const startIndex = (currentPage - 1) * itemsPerPage
   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage)
 
-  const clearAllFilters = () => {
-    setSearchQuery("")
-    setActiveFilters([])
-    setActiveIngredientFilters([])
-    setActiveEffectFilters([])
-    setIngredientSearchQuery("")
-    setEffectSearchQuery("")
-    setCurrentPage(1)
-  }
-
-  const activeFiltersCount = activeFilters.length + activeIngredientFilters.length + activeEffectFilters.length
-
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <div className="container mx-auto px-4 py-6">
+    <div className="min-h-screen bg-background p-6">
+      <div className="max-w-7xl mx-auto space-y-6">
         {/* Header Section */}
-        <Card className="border-b mb-6">
+        <Card className="border-b">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
             <div>
               <h1 className="text-3xl font-bold tracking-tight">Sulphur Recipes</h1>
               <p className="text-muted-foreground mt-1">Complete database of cooking recipes from automated scraping</p>
             </div>
-            <div className="flex items-center gap-2">
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button variant="outline" size="icon" className="h-9 w-9 bg-transparent">
-                    <InfoIcon className="h-4 w-4" />
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-80">
-                  <div className="space-y-2">
-                    <h4 className="font-medium">Recipe Database Help</h4>
-                    <p className="text-sm text-muted-foreground">
-                      Search recipes by name, ingredients, or effects. Click ingredient buttons to filter recipes that use specific ingredients. 
-                      Expand recipe rows to see all variations and ingredient images.
-                    </p>
-                  </div>
-                </PopoverContent>
-              </Popover>
-              <ThemeToggle />
-            </div>
+            <ThemeToggle />
           </CardHeader>
         </Card>
 
+
         {/* Tab Navigation */}
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full mb-4">
-          <TabsList className="grid w-full grid-cols-3 lg:w-[400px]">
-            <TabsTrigger value="recipes">
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+          <TabsList className="flex w-full justify-start h-auto p-1">
+            <TabsTrigger value="recipes" className="px-4 py-2 flex-shrink-0">
               Recipes ({groupedRecipes.length})
             </TabsTrigger>
-            <TabsTrigger value="analyze">Analyze</TabsTrigger>
-            <TabsTrigger value="about">About</TabsTrigger>
+            <TabsTrigger value="analyze" className="px-4 py-2 flex-shrink-0">
+              Analyze
+            </TabsTrigger>
+            <TabsTrigger value="about" className="px-4 py-2 flex-shrink-0">
+              About
+            </TabsTrigger>
           </TabsList>
 
           <TabsContent value="recipes" className="space-y-4">
@@ -651,7 +672,7 @@ export default function Home() {
                 <div className="space-y-4">
                   {/* Search Bar */}
                   <div className="relative">
-                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
+                    <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
                     <Input
                       placeholder="Search recipes, ingredients, effects, or descriptions..."
                       value={searchQuery}
@@ -675,132 +696,233 @@ export default function Home() {
                     ))}
                   </div>
 
-                  {/* Advanced Filters */}
-                  <div className="border-t pt-4">
-                    <Collapsible open={filtersExpanded} onOpenChange={setFiltersExpanded}>
-                      <div className="flex items-center justify-between">
-                        <CollapsibleTrigger asChild>
-                          <button className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
-                            <SlidersHorizontal className="h-4 w-4" />
-                            <span>Advanced Filters</span>
-                            {activeFiltersCount > 0 && (
-                              <Badge variant="secondary" className="text-xs">
-                                {activeFiltersCount}
-                              </Badge>
-                            )}
-                            {filtersExpanded ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />}
-                          </button>
-                        </CollapsibleTrigger>
-
-                        {activeFiltersCount > 0 && (
+                  {/* Ingredient Filter Buttons */}
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-medium text-muted-foreground">Filter by Ingredients:</span>
+                      {activeIngredientFilters.length > 0 && (
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={clearIngredientFilters}
+                          className="h-6 px-2 text-xs"
+                        >
+                          Clear all
+                        </Button>
+                      )}
+                    </div>
+                    
+                    {/* Ingredient Search */}
+                    <div className="space-y-2">
+                      <div className="relative">
+                        <Input
+                          placeholder="Search ingredients..."
+                          value={ingredientSearchQuery}
+                          onChange={(e) => setIngredientSearchQuery(e.target.value)}
+                          className="h-8 text-sm pr-8"
+                        />
+                        {ingredientSearchQuery && (
                           <Button
                             variant="ghost"
                             size="sm"
-                            onClick={clearAllFilters}
-                            className="text-xs text-muted-foreground hover:text-foreground"
+                            onClick={() => setIngredientSearchQuery("")}
+                            className="absolute right-1 top-1/2 -translate-y-1/2 h-6 w-6 p-0"
                           >
-                            Clear All
+                            ×
                           </Button>
                         )}
                       </div>
-
-                      <CollapsibleContent className="space-y-4 mt-4 pt-4 border-t border-border">
-                        {/* Ingredient Filters */}
-                        <div>
-                          <h3 className="text-sm font-medium text-foreground mb-2">Filter by Ingredients:</h3>
-                          <div className="space-y-2">
-                            <div className="relative">
-                              <Input
-                                placeholder="Search ingredients..."
-                                value={ingredientSearchQuery}
-                                onChange={(e) => setIngredientSearchQuery(e.target.value)}
-                                className="h-8 text-sm"
-                              />
-                            </div>
-                            <div className="flex flex-wrap gap-1">
-                              {popularIngredients.map((ingredient) => {
-                                const ingredientData = ingredients[ingredient]
-                                const isActive = activeIngredientFilters.includes(ingredient)
-                                
-                                return (
-                                  <Button
-                                    key={ingredient}
-                                    variant={isActive ? "default" : "outline"}
-                                    size="sm"
-                                    onClick={() => toggleIngredientFilter(ingredient)}
-                                    className="transition-all duration-200 flex items-center gap-1 text-xs h-8"
-                                  >
-                                    {ingredientData?.image && (
-                                      <img
-                                        src={ingredientData.image}
-                                        alt={ingredient}
-                                        className="w-4 h-4 object-contain rounded border-0"
-                                        onError={(e) => {
-                                          e.currentTarget.style.display = 'none'
-                                        }}
-                                      />
-                                    )}
-                                    <span>{ingredient}</span>
-                                  </Button>
-                                )
-                              })}
-                              {filteredIngredientList.length > 12 && (
-                                <Button
-                                  variant="ghost"
-                                  size="sm"
-                                  onClick={() => setShowAllIngredients(!showAllIngredients)}
-                                  className="text-xs"
-                                >
-                                  {showAllIngredients ? "Show less" : `Show ${filteredIngredientList.length - 12} more`}
-                                </Button>
-                              )}
-                            </div>
-                          </div>
+                      {activeIngredientFilters.length > 0 && (
+                        <div className="text-[11px] text-muted-foreground bg-muted/50 rounded px-2 py-1">
+                          💡 Only showing ingredients that can be combined with: <span className="font-medium">{activeIngredientFilters.join(", ")}</span>
                         </div>
-
-                        {/* Effect Filters */}
-                        <div>
-                          <h3 className="text-sm font-medium text-foreground mb-2">Filter by Effects:</h3>
-                          <div className="space-y-2">
-                            <div className="relative">
-                              <Input
-                                placeholder="Search effects..."
-                                value={effectSearchQuery}
-                                onChange={(e) => setEffectSearchQuery(e.target.value)}
-                                className="h-8 text-sm"
-                              />
-                            </div>
-                            <div className="flex flex-wrap gap-1">
-                              {popularEffects.map((effect) => {
-                                const isActive = activeEffectFilters.includes(effect)
-                                
-                                return (
-                                  <Button
-                                    key={effect}
-                                    variant={isActive ? "default" : "outline"}
-                                    size="sm"
-                                    onClick={() => toggleEffectFilter(effect)}
-                                    className="transition-all duration-200 text-xs h-8"
-                                  >
-                                    {effect}
-                                  </Button>
-                                )
-                              })}
-                              {filteredEffectList.length > 12 && (
-                                <Button
-                                  variant="ghost"
-                                  size="sm"
-                                  onClick={() => setShowAllEffects(!showAllEffects)}
-                                  className="text-xs"
-                                >
-                                  {showAllEffects ? "Show less" : `Show ${filteredEffectList.length - 12} more`}
-                                </Button>
-                              )}
-                            </div>
-                          </div>
+                      )}
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {popularIngredients.length === 0 && ingredientSearchQuery && (
+                        <div className="text-sm text-muted-foreground">
+                          No ingredients found matching &quot;{ingredientSearchQuery}&quot;
                         </div>
-                      </CollapsibleContent>
-                    </Collapsible>
+                      )}
+                      {popularIngredients.length === 0 && !ingredientSearchQuery && activeIngredientFilters.length > 0 && (
+                        <div className="text-sm text-muted-foreground">
+                          No additional ingredients can be combined with the selected filters.
+                          Try removing some filters to see more options.
+                        </div>
+                      )}
+                      {popularIngredients.map((ingredient) => {
+                        const ingredientData = ingredients[ingredient]
+                        const isActive = activeIngredientFilters.includes(ingredient)
+                        
+                        // Calculate how many items would be valid if this ingredient is added
+                        const potentialFilters = isActive 
+                          ? activeIngredientFilters.filter(i => i !== ingredient)
+                          : [...activeIngredientFilters, ingredient]
+                        
+                        const validItemCount = groupedRecipes.filter(group => {
+                          // Check if this item contains the ingredient
+                          const hasIngredient = group.recipes.some(recipe => 
+                            Object.keys(recipe.ingredients).includes(ingredient)
+                          )
+                          if (!hasIngredient) return false
+                          
+                          // Check if this item satisfies all potential filters
+                          if (potentialFilters.length === 0) return true
+                          return potentialFilters.every(ing => 
+                            group.recipes.some(recipe =>
+                              Object.keys(recipe.ingredients).includes(ing)
+                            )
+                          )
+                        }).length
+                        
+                        return (
+                          <Button
+                            key={ingredient}
+                            variant={isActive ? "default" : validItemCount > 0 ? "outline" : "ghost"}
+                            size="sm"
+                            onClick={() => toggleIngredientFilter(ingredient)}
+                            disabled={!isActive && validItemCount === 0}
+                            className={`transition-all duration-200 flex items-center gap-1 ${
+                              isActive ? "" : validItemCount > 0 ? "hover:bg-muted" : "opacity-50"
+                            }`}
+                          >
+                            {ingredientData?.image && (
+                              <img
+                                src={ingredientData.image}
+                                alt={ingredient}
+                                className="w-4 h-4 object-contain rounded border-0"
+                                onError={(e) => {
+                                  e.currentTarget.style.display = 'none'
+                                }}
+                              />
+                            )}
+                            <span className="text-xs">{ingredient}</span>
+                            <Badge 
+                              variant={validItemCount > 0 ? "secondary" : "outline"} 
+                              className={`ml-1 px-1 py-0 text-[10px] h-4 ${
+                                validItemCount === 0 ? "opacity-50" : ""
+                              }`}
+                            >
+                              {validItemCount}
+                            </Badge>
+                          </Button>
+                        )
+                      })}
+                      {filteredIngredientList.length > 12 && (
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => setShowAllIngredients(!showAllIngredients)}
+                          className="text-xs"
+                        >
+                          {showAllIngredients ? "Show less" : `Show ${filteredIngredientList.length - 12} more`}
+                        </Button>
+                      )}
+                    </div>
+                    {activeIngredientFilters.length > 0 && (
+                      <div className="space-y-1">
+                        <div className="text-xs text-muted-foreground">
+                          Showing recipes with: <span className="font-medium">{activeIngredientFilters.join(" + ")}</span>
+                        </div>
+                        <div className="text-xs text-muted-foreground">
+                          {filteredData.length} recipes found • {filteredIngredientList.length} compatible ingredients
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Effect Filter Buttons */}
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-medium text-muted-foreground">Filter by Effects:</span>
+                      {activeEffectFilters.length > 0 && (
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={clearEffectFilters}
+                          className="h-6 px-2 text-xs"
+                        >
+                          Clear all
+                        </Button>
+                      )}
+                    </div>
+                    
+                    {/* Effect Search */}
+                    <div className="space-y-2">
+                      <div className="relative">
+                        <Input
+                          placeholder="Search effects..."
+                          value={effectSearchQuery}
+                          onChange={(e) => setEffectSearchQuery(e.target.value)}
+                          className="h-8 text-sm pr-8"
+                        />
+                        {effectSearchQuery && (
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => setEffectSearchQuery("")}
+                            className="absolute right-1 top-1/2 -translate-y-1/2 h-6 w-6 p-0"
+                          >
+                            ×
+                          </Button>
+                        )}
+                      </div>
+                      {activeEffectFilters.length > 0 && (
+                        <div className="text-[11px] text-muted-foreground bg-muted/50 rounded px-2 py-1">
+                          💡 Only showing effects from filtered recipes
+                        </div>
+                      )}
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {popularEffects.length === 0 && effectSearchQuery && (
+                        <div className="text-sm text-muted-foreground">
+                          No effects found matching &quot;{effectSearchQuery}&quot;
+                        </div>
+                      )}
+                      {popularEffects.map((effect) => {
+                        const isActive = activeEffectFilters.includes(effect)
+                        
+                        const effectItemCount = groupedRecipes.filter(group => 
+                          group.recipes.some(r => 
+                            r.specialEffects?.some(e => e.effect === effect)
+                          )
+                        ).length
+                        
+                        return (
+                          <Button
+                            key={effect}
+                            variant={isActive ? "default" : "outline"}
+                            size="sm"
+                            onClick={() => toggleEffectFilter(effect)}
+                            className={`transition-all duration-200 flex items-center gap-1 ${
+                              isActive ? "" : "hover:bg-muted"
+                            }`}
+                          >
+                            <span className="text-xs">{effect}</span>
+                            <Badge variant="secondary" className="ml-1 px-1 py-0 text-[10px] h-4">
+                              {effectItemCount}
+                            </Badge>
+                          </Button>
+                        )
+                      })}
+                      {filteredEffectList.length > 12 && (
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => setShowAllEffects(!showAllEffects)}
+                          className="text-xs"
+                        >
+                          {showAllEffects ? "Show less" : `Show ${filteredEffectList.length - 12} more`}
+                        </Button>
+                      )}
+                    </div>
+                    {activeEffectFilters.length > 0 && (
+                      <div className="space-y-1">
+                        <div className="text-xs text-muted-foreground">
+                          Showing recipes with effects: <span className="font-medium">{activeEffectFilters.join(" + ")}</span>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
               </CardContent>
@@ -1028,16 +1150,8 @@ export default function Home() {
                 </div>
               </CardContent>
             </Card>
-
-            {filteredData.length === 0 && (
-              <div className="text-center py-8">
-                <p className="text-muted-foreground mb-4">No recipes found matching your criteria</p>
-                <Button onClick={clearAllFilters} variant="outline">
-                  Clear Filters
-                </Button>
-              </div>
-            )}
           </TabsContent>
+
 
           <TabsContent value="analyze" className="mt-6">
             <div className="space-y-4">
@@ -1095,10 +1209,6 @@ export default function Home() {
             </Card>
           </TabsContent>
         </Tabs>
-
-        <div className="mt-4 text-sm text-muted-foreground text-center">
-          Showing {filteredData.length} of {groupedRecipes.length} recipes
-        </div>
       </div>
     </div>
   )

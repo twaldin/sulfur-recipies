@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "batchName": "Food Essentials Batch",
+    "scrapedAt": "2025-08-14T03:29:48.578976",
+    "totalRecipes": 10,
+    "description": "Essential food recipes commonly referenced in other recipes",
+    "source": "manual_webfetch_scraping"
+  },
+  "recipes": [
+    {
+      "id": "buttermilk-pancakes",
+      "name": "Buttermilk Pancakes",
+      "category": "Consumables",
+      "health": 30,
+      "duration": 10,
+      "description": "A stack of thick and fluffy pancakes drizzled with syrup. These pancakes have a tendency to stick to the roof of your mouth.",
+      "specialEffects": [],
+      "sellingValue": 110,
+      "buyingValue": 220,
+      "gridSize": "2x1",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Buttermilk": 1,
+            "Egg": 1,
+            "Flour": 1
+          },
+          "output": 2
+        },
+        {
+          "ingredients": {
+            "Butter": 1,
+            "Buttermilk": 1,
+            "Egg": 1,
+            "Flour": 1
+          },
+          "output": 4
+        },
+        {
+          "ingredients": {
+            "Salt": 1,
+            "Butter": 1,
+            "Buttermilk": 1,
+            "Egg": 1,
+            "Flour": 1
+          },
+          "output": 5
+        },
+        {
+          "ingredients": {
+            "Buttermilk": 2,
+            "Egg": 2,
+            "Flour": 2
+          },
+          "output": 7
+        }
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "cactus-softdrink",
+      "name": "Cactus Softdrink",
+      "category": "Consumables",
+      "health": 15,
+      "duration": 10,
+      "description": "A stilldrink made with cactus and cane sugar.",
+      "specialEffects": [
+        {
+          "effect": "Removes Burning",
+          "value": "instant",
+          "duration": 0
+        },
+        {
+          "effect": "Removes Poisoned",
+          "value": "instant",
+          "duration": 0
+        }
+      ],
+      "sellingValue": 30,
+      "buyingValue": 60,
+      "gridSize": "1x2",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Cactus": 1,
+            "Bottled Water": 1,
+            "Sugar": 1
+          },
+          "output": 2
+        }
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "candy-cane",
+      "name": "Candy Cane",
+      "category": "Consumables",
+      "health": 20,
+      "duration": 0.1,
+      "description": "Striped candy with a pronouced bend, for display purposes",
+      "specialEffects": [],
+      "sellingValue": null,
+      "buyingValue": null,
+      "gridSize": "",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Solution": 1,
+            "Sugar": 1,
+            "Herbs": 1
+          },
+          "output": 1
+        }
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "cereal",
+      "name": "Cereal",
+      "category": "Consumables",
+      "health": 20,
+      "duration": 10,
+      "description": "The crunch is so satisfying.",
+      "specialEffects": [],
+      "sellingValue": 55,
+      "buyingValue": null,
+      "gridSize": "2x2",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Oats": 2
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Rice": 1,
+            "Oats": 1
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Rice": 1,
+            "Oats": 2
+          },
+          "output": 2
+        },
+        {
+          "ingredients": {
+            "Rice": 2,
+            "Oats": 1
+          },
+          "output": 3
+        },
+        {
+          "ingredients": {
+            "Rice": 2,
+            "Oats": 2
+          },
+          "output": 3
+        }
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+      "category": "Consumables",
+      "health": 15,
+      "duration": 10,
+      "description": "Very tasty on its own. Or with bread. Smelly humans love it.",
+      "specialEffects": [],
+      "sellingValue": 50,
+      "buyingValue": 100,
+      "gridSize": "1x1",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Skimmed Milk": 3
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Low Fat Milk": 2
+          },
+          "output": 2
+        },
+        {
+          "ingredients": {
+            "Whole Milk": 3
+          },
+          "output": 3
+        },
+        {
+          "ingredients": {
+            "Buttermilk": 3
+          },
+          "output": 3
+        }
+      ],
+      "usedIn": [
+        "Cheese Sandwich",
+        "Cheese Tops",
+        "Cheeseburger",
+        "Cordon Bleu",
+        "Double Cheeseburger",
+        "Fondue",
+        "Mac'n'Cheese",
+        "Omelette",
+        "Pizza",
+        "Poutine",
+        "Raclette"
+      ]
+    },
+    {
+      "id": "cheese-sandwich",
+      "name": "Cheese Sandwich",
+      "category": "Consumables",
+      "health": 20,
+      "duration": 5,
+      "description": "Best thing that happened from sliced bread. Chewy and savory.",
+      "specialEffects": [],
+      "sellingValue": 43,
+      "buyingValue": 85,
+      "gridSize": "1x1",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Cheese": 1,
+            "Bread": 2
+          },
+          "output": 3
+        },
+        {
+          "ingredients": {
+            "Cheese": 2,
+            "Bread": 1
+          },
+          "output": 4
+        },
+        {
+          "ingredients": {
+            "Butter": 1,
+            "Cheese": 1,
+            "Bread": 1
+          },
+          "output": 4
+        },
+        {
+          "ingredients": {
+            "Cheese": 1,
+            "Bark Bread": 2
+          },
+          "output": 3
+        },
+        {
+          "ingredients": {
+            "Cheese": 2,
+            "Bark Bread": 1
+          },
+          "output": 4
+        },
+        {
+          "ingredients": {
+            "Butter": 1,
+            "Cheese": 1,
+            "Bark Bread": 1
+          },
+          "output": 4
+        }
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "cheeseburger",
+      "name": "Cheeseburger",
+      "category": "Consumables",
+      "health": 45,
+      "duration": 10,
+      "description": "A sandwich consisting of fillings, usually a patty of ground meat, typically from animals, placed inside a sliced bun or bread roll",
+      "specialEffects": [],
+      "sellingValue": 125,
+      "buyingValue": null,
+      "gridSize": "1x1",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Any Flesh": 1,
+            "Cheese": 1,
+            "Bread": 1
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Any Flesh": 1,
+            "Cheese": 2,
+            "Bread": 1
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Any Flesh": 1,
+            "Cheese": 1,
+            "Bread": 2
+          },
+          "output": 1
+        }
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "chocolate-ball",
+      "name": "Chocolate Ball",
+      "category": "Consumables",
+      "health": 20,
+      "duration": 10,
+      "description": "Gives 20 health over 10 seconds",
+      "specialEffects": [],
+      "sellingValue": 43,
+      "buyingValue": null,
+      "gridSize": "1x1",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Oats": 1,
+            "Cacao": 1,
+            "Sugar": 1
+          },
+          "output": 4
+        },
+        {
+          "ingredients": {
+            "Butter": 1,
+            "Oats": 1,
+            "Cacao": 1,
+            "Sugar": 1
+          },
+          "output": 4
+        },
+        {
+          "ingredients": {
+            "Butter": 1,
+            "Sawdust": 1,
+            "Cacao": 1,
+            "Sugar": 1
+          },
+          "output": 4
+        },
+        {
+          "ingredients": {
+            "Oats": 1,
+            "Chocolate Syrup": 1,
+            "Sugar": 1
+          },
+          "output": 4
+        },
+        {
+          "ingredients": {
+            "Coffee": 1,
+            "Butter": 1,
+            "Oats": 1,
+            "Cacao": 1,
+            "Sugar": 1
+          },
+          "output": 6
+        },
+        {
+          "ingredients": {
+            "Salt": 1,
+            "Coffee": 1,
+            "Butter": 1,
+            "Oats": 1,
+            "Cacao": 1,
+            "Sugar": 1
+          },
+          "output": 7
+        }
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "chocolate-milkshake",
+      "name": "Chocolate Milkshake",
+      "category": "Consumables",
+      "health": 35,
+      "duration": 3,
+      "description": "A sweet beverage made of smoothly blended milk and ice cream. This one is chocolate flavored.",
+      "specialEffects": [],
+      "sellingValue": 30,
+      "buyingValue": null,
+      "gridSize": "1x2",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Sugar": 1,
+            "Cacao": 1,
+            "Skimmed Milk": 1
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Sugar": 1,
+            "Cacao": 1,
+            "Low Fat Milk": 1
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Sugar": 1,
+            "Chocolate Syrup": 1,
+            "Skimmed Milk": 1
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Sugar": 1,
+            "Chocolate Syrup": 1,
+            "Low Fat Milk": 1
+          },
+          "output": 1
+        }
+      ],
+      "usedIn": []
+    },
+    {
+      "id": "cotton-candy",
+      "name": "Cotton Candy",
+      "category": "Consumables",
+      "health": 20,
+      "duration": 10,
+      "description": "Sugar with sugar that processed to be fluffy. Like one-dimensional firework for the senses.",
+      "specialEffects": [],
+      "sellingValue": 65,
+      "buyingValue": null,
+      "gridSize": "1x2",
+      "imageUrl": "",
+      "recipeVariations": [
+        {
+          "ingredients": {
+            "Sugar": 2
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Sugar": 3
+          },
+          "output": 2
+        },
+        {
+          "ingredients": {
+            "Stick": 1,
+            "Sugar": 1
+          },
+          "output": 1
+        },
+        {
+          "ingredients": {
+            "Stick": 1,
+            "Sugar": 2
+          },
+          "output": 2
+        }
+      ],
+      "usedIn": []
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+[
+  {
+    "name": "Admiral White Extra Strong",
+    "category": "Consumable"
+  },
+  {
+    "name": "Anti-Poison Gum",
+    "category": "Consumable"
+  },
+  {
+    "name": "Aspic",
+    "category": "Consumable"
+  },
+  {
+    "name": "Banana Bread",
+    "category": "Consumable"
+  },
+  {
+    "name": "Banana Sulfs",
+    "category": "Consumable"
+  },
+  {
+    "name": "Bark Bread",
+    "category": "Consumable"
+  },
+  {
+    "name": "Beef Jerky",
+    "category": "Consumable"
+  },
+  {
+    "name": "Berry Jam",
+    "category": "Consumable"
+  },
+  {
+    "name": "Berry Jam (Unsweetened)",
+    "category": "Consumable"
+  },
+  {
+    "name": "Berry Milkshake",
+    "category": "Consumable"
+  },
+  {
+    "name": "Biscuits And Gravy",
+    "category": "Consumable"
+  },
+  {
+    "name": "Boba Tea",
+    "category": "Consumable"
+  },
+  {
+    "name": "Bottled Water",
+    "category": "Consumable"
+  },
+  {
+    "name": "Bread",
+    "category": "Consumable"
+  },
+  {
+    "name": "Bread Sandwich",
+    "category": "Consumable"
+  },
+  {
+    "name": "Broth",
+    "category": "Consumable"
+  },
+  {
+    "name": "Buddy Sandwich",
+    "category": "Consumable"
+  },
+  {
+    "name": "Butter",
+    "category": "Consumable"
+  },
+  {
+    "name": "Butter Sandwich",
+    "category": "Consumable"
+  },
+  {
+    "name": "Buttermilk",
+    "category": "Consumable"
+  },
+  {
+    "name": "Buttermilk Pancakes",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cactus Softdrink",
+    "category": "Consumable"
+  },
+  {
+    "name": "Candy Cane",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cereal",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cevapi",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cheese",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cheese Sandwich",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cheese Tops",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cheeseburger",
+    "category": "Consumable"
+  },
+  {
+    "name": "Chocolate Ball",
+    "category": "Consumable"
+  },
+  {
+    "name": "Chocolate Milkshake",
+    "category": "Consumable"
+  },
+  {
+    "name": "Chocolate Mudcake",
+    "category": "Consumable"
+  },
+  {
+    "name": "Chocolate Syrup",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cordon Bleu",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cotton Candy",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cotton Swabs",
+    "category": "Consumable"
+  },
+  {
+    "name": "Cuisses De Grenouille",
+    "category": "Consumable"
+  },
+  {
+    "name": "Currywurst",
+    "category": "Consumable"
+  },
+  {
+    "name": "Dimmie",
+    "category": "Consumable"
+  },
+  {
+    "name": "Dopp I Grytan",
+    "category": "Consumable"
+  },
+  {
+    "name": "Double Cheeseburger",
+    "category": "Consumable"
+  },
+  {
+    "name": "Dumpling",
+    "category": "Consumable"
+  },
+  {
+    "name": "Egg Toddy",
+    "category": "Consumable"
+  },
+  {
+    "name": "Energy Gum",
+    "category": "Consumable"
+  },
+  {
+    "name": "Escargot",
+    "category": "Consumable"
+  },
+  {
+    "name": "First Aid Kit",
+    "category": "Consumable"
+  },
+  {
+    "name": "Fish And Chips",
+    "category": "Consumable"
+  },
+  {
+    "name": "Fondue",
+    "category": "Consumable"
+  },
+  {
+    "name": "French Hotdog",
+    "category": "Consumable"
+  },
+  {
+    "name": "French Toast",
+    "category": "Consumable"
+  },
+  {
+    "name": "Fried Blood Pudding",
+    "category": "Consumable"
+  },
+  {
+    "name": "Fried Mushroom",
+    "category": "Consumable"
+  },
+  {
+    "name": "Full English Breakfast",
+    "category": "Consumable"
+  },
+  {
+    "name": "Gravy",
+    "category": "Consumable"
+  },
+  {
+    "name": "Green Tea",
+    "category": "Consumable"
+  },
+  {
+    "name": "Green Tea Gum",
+    "category": "Consumable"
+  },
+  {
+    "name": "Grilled Cactus",
+    "category": "Consumable"
+  },
+  {
+    "name": "Haggis",
+    "category": "Consumable"
+  },
+  {
+    "name": "Hard Bread",
+    "category": "Consumable"
+  },
+  {
+    "name": "Hardshell Taco",
+    "category": "Consumable"
+  },
+  {
+    "name": "Health Potion",
+    "category": "Consumable"
+  },
+  {
+    "name": "Herbal Tea",
+    "category": "Consumable"
+  },
+  {
+    "name": "Holy Toast",
+    "category": "Consumable"
+  },
+  {
+    "name": "Hot Pot",
+    "category": "Consumable"
+  },
+  {
+    "name": "Hot Sauce",
+    "category": "Consumable"
+  },
+  {
+    "name": "Hot Snacks",
+    "category": "Consumable"
+  },
+  {
+    "name": "Irish Coffee",
+    "category": "Consumable"
+  },
+  {
+    "name": "Jar of Love",
+    "category": "Consumable"
+  },
+  {
+    "name": "Kebab",
+    "category": "Consumable"
+  },
+  {
+    "name": "Lemon Tea",
+    "category": "Consumable"
+  },
+  {
+    "name": "Mac N' Cheese",
+    "category": "Consumable"
+  },
+  {
+    "name": "Mashed Potatoes",
+    "category": "Consumable"
+  },
+  {
+    "name": "Meat Pie",
+    "category": "Consumable"
+  },
+  {
+    "name": "Meatball",
+    "category": "Consumable"
+  },
+  {
+    "name": "Milk",
+    "category": "Consumable"
+  },
+  {
+    "name": "Milkshake",
+    "category": "Consumable"
+  },
+  {
+    "name": "Mushroom Soup",
+    "category": "Consumable"
+  },
+  {
+    "name": "Omelette",
+    "category": "Consumable"
+  },
+  {
+    "name": "Pancakes",
+    "category": "Consumable"
+  },
+  {
+    "name": "Pea Soup",
+    "category": "Consumable"
+  },
+  {
+    "name": "Peanutbutter Jelly Sandwich",
+    "category": "Consumable"
+  },
+  {
+    "name": "Peanutbutter Sandwich",
+    "category": "Consumable"
+  },
+  {
+    "name": "Pizza",
+    "category": "Consumable"
+  },
+  {
+    "name": "Pork Chop",
+    "category": "Consumable"
+  },
+  {
+    "name": "Potato Soup",
+    "category": "Consumable"
+  },
+  {
+    "name": "Pumpkin Pie",
+    "category": "Consumable"
+  },
+  {
+    "name": "Pumpkin Soup",
+    "category": "Consumable"
+  },
+  {
+    "name": "Quesadilla",
+    "category": "Consumable"
+  },
+  {
+    "name": "Ramen",
+    "category": "Consumable"
+  },
+  {
+    "name": "Rhubarb Pie",
+    "category": "Consumable"
+  },
+  {
+    "name": "Rice",
+    "category": "Consumable"
+  },
+  {
+    "name": "Salad",
+    "category": "Consumable"
+  },
+  {
+    "name": "Sandwich",
+    "category": "Consumable"
+  },
+  {
+    "name": "Sausage Omelette",
+    "category": "Consumable"
+  },
+  {
+    "name": "Sausage Soup",
+    "category": "Consumable"
+  },
+  {
+    "name": "Scone",
+    "category": "Consumable"
+  },
+  {
+    "name": "Smoothie",
+    "category": "Consumable"
+  },
+  {
+    "name": "Soda",
+    "category": "Consumable"
+  },
+  {
+    "name": "Soup",
+    "category": "Consumable"
+  },
+  {
+    "name": "Spaghetti",
+    "category": "Consumable"
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "category": "Consumable"
+  },
+  {
+    "name": "Spanish Omelette",
+    "category": "Consumable"
+  },
+  {
+    "name": "Steak",
+    "category": "Consumable"
+  },
+  {
+    "name": "Stew",
+    "category": "Consumable"
+  },
+  {
+    "name": "Swedish Pancakes",
+    "category": "Consumable"
+  },
+  {
+    "name": "Taco",
+    "category": "Consumable"
+  },
+  {
+    "name": "Tea",
+    "category": "Consumable"
+  },
+  {
+    "name": "Tomato Soup",
+    "category": "Consumable"
+  },
+  {
+    "name": "Tori Ramen",
+    "category": "Consumable"
+  },
+  {
+    "name": "Waffles",
+    "category": "Consumable"
+  },
+  {
+    "name": "Dynamite",
+    "category": "Throwable"
+  },
+  {
+    "name": "Flash Grenade",
+    "category": "Throwable"
+  },
+  {
+    "name": "Gas Grenade",
+    "category": "Throwable"
+  },
+  {
+    "name": "Grenade",
+    "category": "Throwable"
+  },
+  {
+    "name": "Molotov Cocktail",
+    "category": "Throwable"
+  },
+  {
+    "name": "Smoke Grenade",
+    "category": "Throwable"
+  },
+  {
+    "name": "Extra Lung",
+    "category": "Equipment"
+  },
+  {
+    "name": "Springcoil Boot",
+    "category": "Equipment"
+  }
+]
